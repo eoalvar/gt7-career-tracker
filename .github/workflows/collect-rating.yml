@@ -1,0 +1,49 @@
+name: Collect GT7 Career Rating
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 */3 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: collect-gt7-career-rating
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Validate Python source
+        run: python -m compileall -q src
+
+      - name: Collect DR and SR
+        env:
+          GT7_PSN_ID: crazy_rooster74
+        run: python src/collect_rating.py
+
+      - name: Commit updated career data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/career.db data/latest_rating.json
+          if git diff --cached --quiet; then
+            echo "No rating changes to commit."
+          else
+            git commit -m "Update GT7 career rating history"
+            git push
+          fi
