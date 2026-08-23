@@ -1,7 +1,7 @@
 # GT7 Sport Career Report
 
 PSN: **crazy_rooster74**  
-Updated: 2026-08-23T15:40:52.443882+00:00  
+Updated: 2026-08-23T17:31:05.296738+00:00  
 DR: **B** — 21079 points — 55% toward next DR  
 SR: **6**
 
@@ -9,13 +9,13 @@ SR: **6**
 
 | Dimension | DR-adjusted | Global |
 |---|---:|---:|
-| Qualifying | **85.4** | 85.4 |
-| Race Performance | **55.4** | 55.4 |
-| Racecraft | **34.1** | 34.1 |
-| Results | **44.8** | 44.8 |
-| Overall Career | **58.6** | 58.6 |
+| Qualifying | **78.0** | 84.5 |
+| Race Performance | **57.2** | 52.5 |
+| Racecraft | **36.9** | 30.3 |
+| Results | **36.6** | 43.9 |
+| Overall Career | **56.3** | 56.4 |
 
-> DR-adjusted is the primary benchmark. It compares performance with drivers near the current competitive level; Global compares with the full calibrated reference. DR peers used: n/a. Calibration sample: 213 valid profiles.
+> DR-adjusted is the primary benchmark. It compares performance with drivers near the current competitive level; Global compares with the full calibrated reference. DR peers used: 250. Calibration sample: 1019 valid profiles.
 
 ## Sport career
 
@@ -30,7 +30,7 @@ Races: **371** · Wins: **13** · Poles: **17** · Fastest laps: **7** · Clean 
 
 ## Qualifying performance
 
-Best rank: **1393** · Median rank: **18831** · Average rank: **26243.57** · Worst rank: **122020** · Rank standard deviation: **23833.73**
+Best rank: **1393** · Median rank: **18831** · Average rank: **26245.6** · Worst rank: **122020** · Rank standard deviation: **23831.8**
 
 ## Trends
 
