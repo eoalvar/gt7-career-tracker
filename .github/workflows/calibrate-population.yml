@@ -20,7 +20,7 @@ concurrency:
 jobs:
   calibrate:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 40
 
     steps:
       - name: Checkout repository
@@ -45,7 +45,7 @@ jobs:
       - name: Build empirical population calibration
         env:
           GT7_PSN_ID: crazy_rooster74
-          GT7_CALIBRATION_SAMPLE: "160"
+          GT7_CALIBRATION_SAMPLE: "600"
           GT7_CALIBRATION_MIN_RACES: "20"
         run: python src/calibrate_population_resilient.py
 
