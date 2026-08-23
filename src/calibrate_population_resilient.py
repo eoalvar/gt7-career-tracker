@@ -23,7 +23,6 @@ TARGET_VALID_REFERENCE = int(os.getenv("GT7_CALIBRATION_TARGET_VALID", "2000"))
 MIN_VALID_TO_PUBLISH = int(os.getenv("GT7_CALIBRATION_MIN_VALID", "100"))
 CACHE_PATH = Path("data/population_profiles.json")
 RATING_PATH = Path("data/latest_rating.json")
-DR_MIN_PEERS = 30
 DR_WEIGHT_SCALE = float(os.getenv("GT7_DR_WEIGHT_SCALE", "5000"))
 RACECRAFT_GRID_WINDOW = 1.5
 RACECRAFT_MIN_EFFECTIVE_PEERS = 20
@@ -103,13 +102,12 @@ def sample_summary(sample):
     return {key:{"min":min(r[key] for r in sample),"median":sorted(r[key] for r in sample)[len(sample)//2],"max":max(r[key] for r in sample)} for key in ("average_grid","average_finish","positions_gained_avg","win_rate","top5_rate")}
 
 
-def dr_weight(row,user_dr,user_pts):
-    if row.get("driver_rating")!=user_dr:return 0.0
+def dr_weight(row,user_pts):
     pts=row.get("dr_points")
-    if not isinstance(pts,(int,float)) or not isinstance(user_pts,(int,float)):return 1.0
-    # Exponential kernel: no hard peer cutoff. At 5k DR-point distance a peer
-    # contributes ~36.8%; at 10k ~13.5%. New observations therefore change the
-    # benchmark smoothly rather than entering/leaving a top-N set abruptly.
+    if not isinstance(pts,(int,float)) or not isinstance(user_pts,(int,float)):return 0.0
+    # DR points are themselves continuous across grade boundaries (C/B/A/A+).
+    # Weight every rated profile by absolute point distance, with no letter filter.
+    # At 5k points distance a peer contributes ~36.8%; at 10k ~13.5%.
     return math.exp(-abs(float(pts)-float(user_pts))/DR_WEIGHT_SCALE)
 
 
@@ -137,18 +135,22 @@ def weighted_racecraft(user,rows,weight_fn):
 
 
 def adjusted_percentiles(user,sample,rating):
-    user_dr=int(rating["driver_rating"]); user_pts=rating.get("dr_points"); same=[r for r in sample if r.get("driver_rating")==user_dr]
-    if len(same)<DR_MIN_PEERS:
-        # Sparse DR fallback remains discrete only until the same-DR population is large enough.
-        same=[r for r in sample if isinstance(r.get("driver_rating"),(int,float)) and abs(int(r["driver_rating"])-user_dr)<=1]
-    weight_fn=lambda r: dr_weight(r,user_dr,user_pts) if r.get("driver_rating")==user_dr else 0.15
+    user_dr=int(rating["driver_rating"]); user_pts=rating.get("dr_points")
+    rated=[r for r in sample if isinstance(r.get("dr_points"),(int,float))]
+    weight_fn=lambda r: dr_weight(r,user_pts)
     specs={"average_grid":False,"average_finish":False,"positions_gained_avg":True,"win_rate":True,"top5_rate":True}; scores={}; metric_meta={}
-    for key,higher in specs.items(): scores[key],metric_meta[key]=weighted_percentile(float(user[key]),same,key,higher,weight_fn)
+    for key,higher in specs.items(): scores[key],metric_meta[key]=weighted_percentile(float(user[key]),rated,key,higher,weight_fn)
     scores["results"]=(scores["win_rate"]+scores["top5_rate"])/2; scores["qualifying"]=scores["average_grid"]; scores["race_performance"]=scores["average_finish"]; scores["racecraft_unconditioned"]=scores["positions_gained_avg"]
-    rc,rc_meta=weighted_racecraft(user,same,weight_fn); scores["racecraft"]=rc; scores["racecraft_conditioning"]=rc_meta; scores["overall"]=.30*scores["qualifying"]+.35*scores["race_performance"]+.20*scores["racecraft"]+.15*scores["results"]
-    weights=[weight_fn(r) for r in same if weight_fn(r)>0]; sw=sum(weights); sw2=sum(w*w for w in weights); effective=sw*sw/sw2 if sw2 else 0
-    pts=[r["dr_points"] for r in same if isinstance(r.get("dr_points"),(int,float))]
-    meta={"method":"same_dr_continuous_exponential_weighting","driver_rating":user_dr,"raw_peer_count":len(same),"effective_peer_count":effective,"dr_weight_scale_points":DR_WEIGHT_SCALE,"dr_points_min":min(pts) if pts else None,"dr_points_max":max(pts) if pts else None,"racecraft_raw_peer_count":rc_meta.get("raw_peer_count"),"racecraft_effective_peer_count":rc_meta.get("effective_peer_count"),"racecraft_grid_window":rc_meta.get("grid_window"),"metric_effective_peers":{k:v["effective_peer_count"] for k,v in metric_meta.items()}}
+    rc,rc_meta=weighted_racecraft(user,rated,weight_fn); scores["racecraft"]=rc; scores["racecraft_conditioning"]=rc_meta; scores["overall"]=.30*scores["qualifying"]+.35*scores["race_performance"]+.20*scores["racecraft"]+.15*scores["results"]
+    weights=[weight_fn(r) for r in rated if weight_fn(r)>0]; sw=sum(weights); sw2=sum(w*w for w in weights); effective=sw*sw/sw2 if sw2 else 0
+    pts=[r["dr_points"] for r in rated]
+    by_dr={}
+    for r in rated:
+        label=r.get("dr_label") or str(r.get("driver_rating")); w=weight_fn(r)
+        if w<=0:continue
+        bucket=by_dr.setdefault(str(label),{"raw_peer_count":0,"weight_sum":0.0})
+        bucket["raw_peer_count"]+=1; bucket["weight_sum"]+=w
+    meta={"method":"cross_dr_continuous_exponential_weighting","driver_rating":user_dr,"user_dr_points":user_pts,"raw_peer_count":len(rated),"effective_peer_count":effective,"dr_weight_scale_points":DR_WEIGHT_SCALE,"dr_points_min":min(pts) if pts else None,"dr_points_max":max(pts) if pts else None,"weight_contribution_by_dr":by_dr,"racecraft_raw_peer_count":rc_meta.get("raw_peer_count"),"racecraft_effective_peer_count":rc_meta.get("effective_peer_count"),"racecraft_grid_window":rc_meta.get("grid_window"),"metric_effective_peers":{k:v["effective_peer_count"] for k,v in metric_meta.items()}}
     return scores,meta
 
 
@@ -164,8 +166,9 @@ def main():
         except Exception as exc:print(f"DR refresh failed {psn}: {exc}")
         if i%50==0:print(f"DR metadata refresh {i}/{len(incomplete)}")
         time.sleep(base.DELAY)
-    events=candidate_events(session); selected_events=[]; candidate_psns=[]; candidate_seen=set(); per_event=max(100,math.ceil(base.TARGET_SAMPLE/max(1,EVENTS_PER_RUN))); leaderboard_failures=[]
+    selected_events=[]; candidate_psns=[]; candidate_seen=set(); leaderboard_failures=[]
     if len(cache["profiles"])<TARGET_VALID_REFERENCE:
+        events=candidate_events(session); per_event=max(100,math.ceil(base.TARGET_SAMPLE/max(1,EVENTS_PER_RUN)))
         for event_url in events:
             if len(selected_events)>=EVENTS_PER_RUN:break
             try:
@@ -196,7 +199,7 @@ def main():
     save_cache(cache); sample=[r for r in cache["profiles"].values() if isinstance(r.get("driver_rating"),(int,float))]; cumulative=len(sample)
     if cumulative<MIN_VALID_TO_PUBLISH:raise RuntimeError(f"Cumulative DR-aware calibration sample too small: {cumulative}")
     user=base.user_daily(); global_scores=base.metric_percentiles(user,sample); adjusted,adjust_meta=adjusted_percentiles(user,sample,rating)
-    output={"captured_at":datetime.now(timezone.utc).isoformat(),"method":"cumulative_multi_event_dr_adjusted_reference","reference_population":"active/recent Daily Race leaderboard participants with at least 20 career Daily Races and physically valid career metrics","target_valid_profiles":TARGET_VALID_REFERENCE,"valid_profiles":cumulative,"target_reached":cumulative>=TARGET_VALID_REFERENCE,"progress_to_target":cumulative/TARGET_VALID_REFERENCE,"new_valid_profiles_this_run":run_valid,"events_used":selected_events,"unique_uncached_psns_attempted":len(candidate_psns),"unavailable_profiles_this_run":unavailable,"quality_filtered_this_run":sum(rejection_counts.values()),"profile_request_failures_this_run":request_failures,"minimum_races":base.MIN_RACES,"validation":{"average_grid_range":[1,base.MAX_OBSERVED_DAILY_GRID],"average_finish_range":[1,base.MAX_OBSERVED_DAILY_GRID],"wins_lte_races":True,"top5_lte_races":True,"wins_lte_top5":True},"rejection_reasons_this_run":dict(rejection_counts),"rejection_examples_this_run":rejection_examples,"leaderboard_failures_before_success":leaderboard_failures,"user_rating":{"driver_rating":rating.get("driver_rating"),"dr_label":rating.get("dr_label"),"dr_points":rating.get("dr_points"),"dr_percentage":rating.get("dr_percentage")},"user_percentiles_global":global_scores,"user_percentiles_dr_adjusted":adjusted,"dr_adjustment":adjust_meta,"user_percentiles":adjusted or global_scores,"sample_summary":sample_summary(sample)}
+    output={"captured_at":datetime.now(timezone.utc).isoformat(),"method":"cumulative_multi_event_cross_dr_adjusted_reference","reference_population":"active/recent Daily Race leaderboard participants with at least 20 career Daily Races and physically valid career metrics","target_valid_profiles":TARGET_VALID_REFERENCE,"valid_profiles":cumulative,"target_reached":cumulative>=TARGET_VALID_REFERENCE,"progress_to_target":cumulative/TARGET_VALID_REFERENCE,"new_valid_profiles_this_run":run_valid,"events_used":selected_events,"unique_uncached_psns_attempted":len(candidate_psns),"unavailable_profiles_this_run":unavailable,"quality_filtered_this_run":sum(rejection_counts.values()),"profile_request_failures_this_run":request_failures,"minimum_races":base.MIN_RACES,"validation":{"average_grid_range":[1,base.MAX_OBSERVED_DAILY_GRID],"average_finish_range":[1,base.MAX_OBSERVED_DAILY_GRID],"wins_lte_races":True,"top5_lte_races":True,"wins_lte_top5":True},"rejection_reasons_this_run":dict(rejection_counts),"rejection_examples_this_run":rejection_examples,"leaderboard_failures_before_success":leaderboard_failures,"user_rating":{"driver_rating":rating.get("driver_rating"),"dr_label":rating.get("dr_label"),"dr_points":rating.get("dr_points"),"dr_percentage":rating.get("dr_percentage")},"user_percentiles_global":global_scores,"user_percentiles_dr_adjusted":adjusted,"dr_adjustment":adjust_meta,"user_percentiles":adjusted or global_scores,"sample_summary":sample_summary(sample)}
     base.OUT_PATH.parent.mkdir(parents=True,exist_ok=True); base.OUT_PATH.write_text(json.dumps(output,ensure_ascii=False,indent=2)+"\n",encoding="utf-8"); print(f"Cumulative DR-aware reference: {cumulative}/{TARGET_VALID_REFERENCE} ({cumulative/TARGET_VALID_REFERENCE:.1%})"); print("DR adjustment:",json.dumps(adjust_meta,indent=2)); print(json.dumps(adjusted,indent=2))
 
 if __name__=="__main__":main()
