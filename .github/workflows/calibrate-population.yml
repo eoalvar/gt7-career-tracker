@@ -1,0 +1,64 @@
+name: Calibrate GT7 Career Population
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "41 5 * * 1"
+  push:
+    paths:
+      - "src/calibrate_population.py"
+      - ".github/workflows/calibrate-population.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: calibrate-gt7-career-population
+  cancel-in-progress: false
+
+jobs:
+  calibrate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Validate Python source
+        run: python -m compileall -q src
+
+      - name: Refresh current career snapshot
+        env:
+          GT7_PSN_ID: crazy_rooster74
+        run: python src/collect_rating.py
+
+      - name: Build empirical population calibration
+        env:
+          GT7_PSN_ID: crazy_rooster74
+          GT7_CALIBRATION_SAMPLE: "160"
+          GT7_CALIBRATION_MIN_RACES: "20"
+        run: python src/calibrate_population.py
+
+      - name: Regenerate career report
+        run: python src/generate_report.py
+
+      - name: Commit calibration and report
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/career.db data/latest_rating.json data/latest_career.json data/latest_profile_fields.json data/population_calibration.json reports/latest.md
+          if git diff --cached --quiet; then
+            echo "No calibration changes to commit."
+          else
+            git commit -m "Update GT7 population calibration"
+            git push
+          fi
