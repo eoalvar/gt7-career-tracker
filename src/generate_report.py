@@ -7,6 +7,7 @@ from pathlib import Path
 
 RATING_PATH = Path("data/latest_rating.json")
 CAREER_PATH = Path("data/latest_career.json")
+CALIBRATION_PATH = Path("data/population_calibration.json")
 DB_PATH = Path("data/career.db")
 REPORT_PATH = Path("reports/latest.md")
 SPORT_TYPE_LABELS = {1: "Daily Races", 2: "Championships"}
@@ -47,10 +48,9 @@ def load_dr_trend(days):
     a,b=rows[0],rows[-1]; covered=date_span_days(a['captured_at'],b['captured_at'])
     return {"status":coverage_status(days,covered),"covered_days":covered,"dr_points_change":delta(b['dr_points'],a['dr_points']),"dr_percentage_change":delta(b['dr_percentage'],a['dr_percentage']),"from_label":a['dr_label'],"to_label":b['dr_label']}
 
-def performance_indices(career):
-    daily=next((r for r in career.get('sport_types',[]) if r.get('sport_type')==1),None); qp=career.get('qualifying_performance',{}); sm=career.get('sports_mode',{})
+def provisional_indices(career):
+    daily=next((r for r in career.get('sport_types',[]) if r.get('sport_type')==1),None); sm=career.get('sports_mode',{})
     if not daily:return {}
-    # Provisional 0-100 indices. They are descriptive, not population percentiles.
     avg_grid=daily.get('average_grid'); avg_finish=daily.get('average_finish'); gained=daily.get('positions_gained_avg') or 0; top5=daily.get('top5_rate') or 0; win=daily.get('win_rate') or 0
     qualifying=clamp(100-(max(1,avg_grid)-1)*10) if avg_grid is not None else None
     finish_score=clamp(100-(max(1,avg_finish)-1)*10) if avg_finish is not None else None
@@ -60,13 +60,30 @@ def performance_indices(career):
     racecraft=clamp(.55*advancement+.30*clamp(top5*100)+.15*clamp((clean_rate or 0)*100))
     results=clamp(.65*clamp(top5*100)+.35*clamp(win*500))
     overall=clamp(.30*qualifying+.35*race_performance+.20*racecraft+.15*results) if qualifying is not None and race_performance is not None else None
-    return {"qualifying":qualifying,"race_performance":race_performance,"racecraft":racecraft,"results":results,"overall":overall,"clean_rate":clean_rate,"method":"provisional_absolute"}
+    return {"qualifying":qualifying,"race_performance":race_performance,"racecraft":racecraft,"results":results,"overall":overall,"method":"provisional_absolute"}
+
+def load_indices(career):
+    if CALIBRATION_PATH.exists():
+        try:
+            calibration=json.loads(CALIBRATION_PATH.read_text(encoding="utf-8")); scores=calibration.get("user_percentiles",{})
+            required=("qualifying","race_performance","racecraft","results","overall")
+            if all(isinstance(scores.get(k),(int,float)) for k in required):
+                return {**scores,"method":"empirical_percentile","sample_size":calibration.get("valid_profiles"),"reference_population":calibration.get("reference_population"),"calibrated_at":calibration.get("captured_at")}
+        except Exception:
+            pass
+    return provisional_indices(career)
 
 def main():
-    rating=json.loads(RATING_PATH.read_text()); career=json.loads(CAREER_PATH.read_text()); idx=performance_indices(career)
-    lines=["# GT7 Sport Career Report","",f"PSN: **{rating['psn_id']}**  ",f"Updated: {career['captured_at']}  ",f"DR: **{rating['dr_label']}** — {rating['dr_points']} points — {rating['dr_percentage']}% toward next DR  ",f"SR: **{rating['sportsmanship_rating']}**","","## Performance indices (provisional)",""]
+    rating=json.loads(RATING_PATH.read_text()); career=json.loads(CAREER_PATH.read_text()); idx=load_indices(career)
+    empirical=idx.get("method")=="empirical_percentile"
+    title="## Performance percentiles" if empirical else "## Performance indices (provisional)"
+    lines=["# GT7 Sport Career Report","",f"PSN: **{rating['psn_id']}**  ",f"Updated: {career['captured_at']}  ",f"DR: **{rating['dr_label']}** — {rating['dr_points']} points — {rating['dr_percentage']}% toward next DR  ",f"SR: **{rating['sportsmanship_rating']}**","",title,""]
     if idx:
-        lines += [f"Qualifying: **{idx['qualifying']:.1f}/100**  ",f"Race Performance: **{idx['race_performance']:.1f}/100**  ",f"Racecraft: **{idx['racecraft']:.1f}/100**  ",f"Results: **{idx['results']:.1f}/100**  ",f"Overall Career: **{idx['overall']:.1f}/100**", "", "> These are provisional absolute indices based on the available career statistics. They are not population percentiles. We will recalibrate them against broader GT7 population data before treating them as comparative ratings.",""]
+        lines += [f"Qualifying: **{idx['qualifying']:.1f}/100**  ",f"Race Performance: **{idx['race_performance']:.1f}/100**  ",f"Racecraft: **{idx['racecraft']:.1f}/100**  ",f"Results: **{idx['results']:.1f}/100**  ",f"Overall Career: **{idx['overall']:.1f}/100**",""]
+        if empirical:
+            lines += [f"> Empirical percentiles versus {idx.get('reference_population')}. Calibration sample: {idx.get('sample_size')} valid profiles. A score of 70 means better than approximately 70% of this reference sample for that dimension.",""]
+        else:
+            lines += ["> Provisional absolute indices. Population calibration has not completed yet.",""]
     lines += ["## Sport career","","| Category | Races | Wins | Top 5 | Poles | Avg grid | Avg finish | Avg positions gained | Win rate | Top-5 rate | Pole rate |","|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|"]
     for r in career.get('sport_types',[]): lines.append(f"| {sport_label(r['sport_type'])} | {r['races']} | {r['wins']} | {r['top5']} | {r['poles']} | {num(r['average_grid'])} | {num(r['average_finish'])} | {num(r['positions_gained_avg'])} | {pct(r['win_rate'])} | {pct(r['top5_rate'])} | {pct(r['pole_rate'])} |")
     sm=career.get('sports_mode',{}); qp=career.get('qualifying_performance',{})
@@ -85,7 +102,7 @@ def main():
     for r in career.get('sport_types',[]):
         g=r.get('positions_gained_avg')
         if g is not None: lines.append(f"- {sport_label(r['sport_type'])}: on average {'gains' if g>=0 else 'loses'} **{abs(g):.2f} positions per race** from qualifying/grid position to finish.")
-    lines += ["- The performance indices are intentionally marked provisional until population calibration is available.","- Raw GTSH sport_type values remain stored unchanged; labels are presentation-only.","- GTSH Sport totals and monthly Sports Mode counters remain separate because their definitions/populations differ."]
+    lines += ["- Empirical percentile scores are preferred whenever a valid calibration file exists.","- Raw GTSH sport_type values remain stored unchanged; labels are presentation-only.","- GTSH Sport totals and monthly Sports Mode counters remain separate because their definitions/populations differ."]
     REPORT_PATH.parent.mkdir(parents=True,exist_ok=True); REPORT_PATH.write_text("\n".join(lines)+"\n"); print(f"Career report written to {REPORT_PATH}")
 
 if __name__=='__main__': main()
