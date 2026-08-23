@@ -37,7 +37,7 @@ jobs:
       - name: Validate Python source
         run: python -m compileall -q src
 
-      - name: Refresh current career snapshot
+      - name: Refresh current career snapshot locally
         env:
           GT7_PSN_ID: crazy_rooster74
         run: python src/collect_rating.py
@@ -55,11 +55,17 @@ jobs:
       - name: Regenerate career report
         run: python src/generate_report.py
 
-      - name: Commit calibration and report
+      - name: Commit calibration artifacts only
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/career.db data/latest_rating.json data/latest_career.json data/latest_profile_fields.json data/population_calibration.json data/population_profiles.json reports/latest.md
+
+          # Volatile career snapshots are refreshed by the regular career workflow.
+          # Do not include them here, otherwise concurrent runs can conflict during rebase.
+          git restore --staged data/career.db data/latest_rating.json data/latest_career.json data/latest_profile_fields.json reports/latest.md 2>/dev/null || true
+          git restore data/career.db data/latest_rating.json data/latest_career.json data/latest_profile_fields.json reports/latest.md 2>/dev/null || true
+
+          git add data/population_calibration.json data/population_profiles.json
           if git diff --cached --quiet; then
             echo "No calibration changes to commit."
           else
