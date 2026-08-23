@@ -9,6 +9,7 @@ from bs4 import BeautifulSoup
 
 GTSH_DAILY="https://gtsh-rank.com/daily/"; PROFILE_BASE="https://gtsh-rank.com/profile/?id="; OUT_PATH=Path("data/population_calibration.json")
 MY_PSN=os.getenv("GT7_PSN_ID","crazy_rooster74"); TARGET_SAMPLE=int(os.getenv("GT7_CALIBRATION_SAMPLE","160")); MIN_RACES=int(os.getenv("GT7_CALIBRATION_MIN_RACES","20")); MAX_OBSERVED_DAILY_GRID=16; PAGE_SIZE=100; DELAY=float(os.getenv("GT7_CALIBRATION_DELAY","0.08")); HEADERS={"User-Agent":"Mozilla/5.0 (GT7 Career Population Calibration)"}
+RACECRAFT_GRID_WINDOW=1.5; RACECRAFT_MIN_PEERS=20
 
 def extract_json_variable(html,name):
     for marker in (f"const {name} = ",f"let {name} = ",f"var {name} = "):
@@ -70,9 +71,6 @@ def validate_metrics(races,wins,top5,avg_grid,avg_finish):
     if wins<0 or wins>races:reasons.append("wins_out_of_range")
     if top5<0 or top5>races:reasons.append("top5_out_of_range")
     if wins>top5:reasons.append("wins_gt_top5")
-    # Daily Race grids observed in GT7 have contained at most 16 cars. Although the
-    # game can support 20-car grids in principle, career Daily Race averages above
-    # 16 are therefore treated as suspect data rather than valid observations.
     if not 1.0<=avg_grid<=MAX_OBSERVED_DAILY_GRID:reasons.append("average_grid_out_of_range")
     if not 1.0<=avg_finish<=MAX_OBSERVED_DAILY_GRID:reasons.append("average_finish_out_of_range")
     return reasons
@@ -90,7 +88,20 @@ def fetch_profile_diagnostic(session,psn):
 def fetch_profile(session,psn):return fetch_profile_diagnostic(session,psn)[0]
 def percentile(value,values,higher_better):
     clean=sorted(v for v in values if isinstance(v,(int,float)) and math.isfinite(v)); return None if not clean else 100*sum((v<=value) if higher_better else (v>=value) for v in clean)/len(clean)
+
+def conditioned_racecraft(user,sample):
+    user_grid=float(user["average_grid"]); gain=float(user["positions_gained_avg"]); window=RACECRAFT_GRID_WINDOW
+    peers=[r for r in sample if abs(float(r["average_grid"])-user_grid)<=window]
+    # For small pilot samples, widen symmetrically until the comparison contains
+    # enough similarly-qualifying drivers to avoid an unstable percentile.
+    while len(peers)<RACECRAFT_MIN_PEERS and window<5.0:
+        window+=0.5; peers=[r for r in sample if abs(float(r["average_grid"])-user_grid)<=window]
+    score=percentile(gain,[float(r["positions_gained_avg"]) for r in peers],True) if peers else None
+    return score,{"peer_count":len(peers),"grid_window":window,"grid_min":user_grid-window,"grid_max":user_grid+window,"user_average_grid":user_grid,"user_positions_gained_avg":gain}
+
 def user_daily():
     c=json.loads(Path("data/latest_career.json").read_text()); return next(r for r in c.get("sport_types",[]) if r.get("sport_type")==1)
 def metric_percentiles(user,sample):
-    specs={"average_grid":False,"average_finish":False,"positions_gained_avg":True,"win_rate":True,"top5_rate":True}; out={k:percentile(float(user[k]),[float(r[k]) for r in sample],h) for k,h in specs.items()}; out["results"]=(out["win_rate"]+out["top5_rate"])/2; out["qualifying"]=out["average_grid"]; out["race_performance"]=out["average_finish"]; out["racecraft"]=out["positions_gained_avg"]; out["overall"]=.30*out["qualifying"]+.35*out["race_performance"]+.20*out["racecraft"]+.15*out["results"]; return out
+    specs={"average_grid":False,"average_finish":False,"positions_gained_avg":True,"win_rate":True,"top5_rate":True}; out={k:percentile(float(user[k]),[float(r[k]) for r in sample],h) for k,h in specs.items()}; out["results"]=(out["win_rate"]+out["top5_rate"])/2; out["qualifying"]=out["average_grid"]; out["race_performance"]=out["average_finish"]
+    conditioned,meta=conditioned_racecraft(user,sample); out["racecraft_unconditioned"]=out["positions_gained_avg"]; out["racecraft"]=conditioned; out["racecraft_conditioning"]=meta
+    out["overall"]=.30*out["qualifying"]+.35*out["race_performance"]+.20*out["racecraft"]+.15*out["results"]; return out
