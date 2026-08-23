@@ -1,21 +1,21 @@
 {
-  "captured_at": "2026-08-23T16:22:32.462774+00:00",
+  "captured_at": "2026-08-23T16:57:44.971890+00:00",
   "method": "cumulative_multi_event_dr_adjusted_reference",
   "reference_population": "active/recent Daily Race leaderboard participants with at least 20 career Daily Races and physically valid career metrics",
   "target_valid_profiles": 2000,
-  "valid_profiles": 566,
+  "valid_profiles": 804,
   "target_reached": false,
-  "progress_to_target": 0.283,
-  "new_valid_profiles_this_run": 183,
+  "progress_to_target": 0.402,
+  "new_valid_profiles_this_run": 238,
   "events_used": [
     {
       "url": "https://gtsh-rank.com/daily/leaderboard?event=HFYfEk1IVkJvQ0M4RUNBW0dAAG8BB1NWX1ILEx1eSRMNRTdRXE0RG0deRUUeVklSTV5WQFFFXgkTUUpNUFgQU1BFRU5RUkNQGlNdVBVdVlFcTQAVUVVDREVOKC1DUBJbXEVSFVZJFg4eB1dN",
-      "participants": 32551,
+      "participants": 32877,
       "selected_psns": 400
     },
     {
       "url": "https://gtsh-rank.com/daily/leaderboard?event=HFYfEk1IVkJvQ0M4RUNBW0dAA28BB1VWX1ILEx1eSRMNRTZRXE0RG0deRUUeVklSTV5WQFFFXgkTUUpNUFgQU1BFRU5RUkNQGlNdVBVdVlFcTQAVUVVDREVOKC1DUBJbXEVSFVZJFg4eB1dN",
-      "participants": 27570,
+      "participants": 27748,
       "selected_psns": 400
     },
     {
@@ -24,9 +24,9 @@
       "selected_psns": 400
     }
   ],
-  "unique_uncached_psns_attempted": 1178,
-  "unavailable_profiles_this_run": 966,
-  "quality_filtered_this_run": 30,
+  "unique_uncached_psns_attempted": 1143,
+  "unavailable_profiles_this_run": 860,
+  "quality_filtered_this_run": 48,
   "profile_request_failures_this_run": 0,
   "minimum_races": 20,
   "validation": {
@@ -43,21 +43,22 @@
     "wins_lte_top5": true
   },
   "rejection_reasons_this_run": {
-    "below_min_races": 27,
-    "average_finish_out_of_range": 3
+    "below_min_races": 44,
+    "average_finish_out_of_range": 4
   },
   "rejection_examples_this_run": {
     "below_min_races": [
-      "Jungle_CLE_",
-      "AK_Flights",
-      "Tijjoca73",
-      "Nin_Play13",
-      "SirEdgaar"
+      "FL_AleefHamilton",
+      "mc_ollie13",
+      "rostend_Lamelle",
+      "Staane21",
+      "R4R_Guillee"
     ],
     "average_finish_out_of_range": [
-      "MARPO456",
-      "kybermomo",
-      "Gnardoggs86"
+      "acalvetp",
+      "R4R_Guillee",
+      "nickpoyser",
+      "VkyRaghuwanshi19"
     ]
   },
   "leaderboard_failures_before_success": [
@@ -71,101 +72,101 @@
     "dr_percentage": 55
   },
   "user_percentiles_global": {
-    "average_grid": 83.39222614840989,
-    "average_finish": 51.236749116607776,
-    "positions_gained_avg": 19.434628975265017,
-    "win_rate": 30.742049469964666,
-    "top5_rate": 53.18021201413428,
-    "results": 41.96113074204947,
-    "qualifying": 83.39222614840989,
-    "race_performance": 51.236749116607776,
-    "racecraft_unconditioned": 19.434628975265017,
-    "racecraft": 31.95876288659794,
+    "average_grid": 83.58208955223881,
+    "average_finish": 51.492537313432834,
+    "positions_gained_avg": 18.781094527363184,
+    "win_rate": 31.34328358208955,
+    "top5_rate": 54.353233830845774,
+    "results": 42.84825870646766,
+    "qualifying": 83.58208955223881,
+    "race_performance": 51.492537313432834,
+    "racecraft_unconditioned": 18.781094527363184,
+    "racecraft": 31.4878892733564,
     "racecraft_conditioning": {
-      "peer_count": 194,
+      "peer_count": 289,
       "grid_window": 1.5,
       "grid_min": 4.543478260869565,
       "grid_max": 7.543478260869565,
       "user_average_grid": 6.043478260869565,
       "user_positions_gained_avg": 0.5491990846681922
     },
-    "overall": 55.63645222396269
+    "overall": 55.82183158601456
   },
   "user_percentiles_dr_adjusted": {
-    "average_grid": 79.55801104972376,
-    "average_finish": 59.668508287292816,
-    "positions_gained_avg": 24.30939226519337,
-    "win_rate": 16.574585635359117,
-    "top5_rate": 61.32596685082873,
-    "results": 38.950276243093924,
-    "qualifying": 79.55801104972376,
-    "race_performance": 59.668508287292816,
-    "racecraft_unconditioned": 24.30939226519337,
-    "racecraft": 36.986301369863014,
+    "average_grid": 78.94736842105263,
+    "average_finish": 60.32388663967611,
+    "positions_gained_avg": 27.125506072874494,
+    "win_rate": 18.62348178137652,
+    "top5_rate": 61.94331983805668,
+    "results": 40.283400809716596,
+    "qualifying": 78.94736842105263,
+    "race_performance": 60.32388663967611,
+    "racecraft_unconditioned": 27.125506072874494,
+    "racecraft": 39.81481481481482,
     "racecraft_conditioning": {
-      "peer_count": 73,
+      "peer_count": 108,
       "grid_window": 1.5,
       "grid_min": 4.543478260869565,
       "grid_max": 7.543478260869565,
       "user_average_grid": 6.043478260869565,
       "user_positions_gained_avg": 0.5491990846681922
     },
-    "overall": 57.9911829259063
+    "overall": 58.80304393462288
   },
   "dr_adjustment": {
     "method": "same_dr_nearest_points",
     "driver_rating": 4,
-    "peer_count": 181,
-    "dr_points_min": 10091.0,
+    "peer_count": 247,
+    "dr_points_min": 10001.0,
     "dr_points_max": 29989.0,
-    "racecraft_peer_count": 73,
+    "racecraft_peer_count": 108,
     "racecraft_grid_window": 1.5
   },
   "user_percentiles": {
-    "average_grid": 79.55801104972376,
-    "average_finish": 59.668508287292816,
-    "positions_gained_avg": 24.30939226519337,
-    "win_rate": 16.574585635359117,
-    "top5_rate": 61.32596685082873,
-    "results": 38.950276243093924,
-    "qualifying": 79.55801104972376,
-    "race_performance": 59.668508287292816,
-    "racecraft_unconditioned": 24.30939226519337,
-    "racecraft": 36.986301369863014,
+    "average_grid": 78.94736842105263,
+    "average_finish": 60.32388663967611,
+    "positions_gained_avg": 27.125506072874494,
+    "win_rate": 18.62348178137652,
+    "top5_rate": 61.94331983805668,
+    "results": 40.283400809716596,
+    "qualifying": 78.94736842105263,
+    "race_performance": 60.32388663967611,
+    "racecraft_unconditioned": 27.125506072874494,
+    "racecraft": 39.81481481481482,
     "racecraft_conditioning": {
-      "peer_count": 73,
+      "peer_count": 108,
       "grid_window": 1.5,
       "grid_min": 4.543478260869565,
       "grid_max": 7.543478260869565,
       "user_average_grid": 6.043478260869565,
       "user_positions_gained_avg": 0.5491990846681922
     },
-    "overall": 57.9911829259063
+    "overall": 58.80304393462288
   },
   "sample_summary": {
     "average_grid": {
       "min": 1.325,
-      "median": 8.013574660633484,
+      "median": 8.0,
       "max": 13.584070796460177
     },
     "average_finish": {
       "min": 1.1818181818181819,
-      "median": 5.561855670103093,
+      "median": 5.582278481012659,
       "max": 10.863636363636363
     },
     "positions_gained_avg": {
       "min": -3.501945525291829,
-      "median": 2.3451219512195127,
+      "median": 2.275735294117647,
       "max": 9.0
     },
     "win_rate": {
       "min": 0.0,
-      "median": 0.05172413793103448,
+      "median": 0.04896907216494845,
       "max": 0.75
     },
     "top5_rate": {
       "min": 0.045454545454545456,
-      "median": 0.5160493827160494,
+      "median": 0.5138888888888888,
       "max": 1.0
     }
   }
