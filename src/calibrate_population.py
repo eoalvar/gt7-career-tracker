@@ -58,7 +58,6 @@ def discover_current_event(session: requests.Session) -> str:
     r.raise_for_status()
     soup = BeautifulSoup(r.text, "html.parser")
     links = soup.select('a[href*="/daily/leaderboard?event="], a[href*="/daily/leaderboard/?event="]')
-    # Prefer Daily Race C when available because it normally has a large, active leaderboard.
     for link in links:
         parent_text = link.parent.get_text(" ", strip=True) if link.parent else ""
         if "Daily Race C" in parent_text:
@@ -68,21 +67,59 @@ def discover_current_event(session: requests.Session) -> str:
     raise RuntimeError("No current Daily Race leaderboard found")
 
 
-def initial_board(session: requests.Session, event_url: str) -> tuple[list[dict], int]:
-    r = session.get(canonical(event_url), timeout=60)
-    r.raise_for_status()
-    initial = extract_json_variable(r.text, "initialServerPage")
-    if not isinstance(initial, dict) or not isinstance(initial.get("board"), list):
-        raise RuntimeError("Could not read initialServerPage from leaderboard")
-    return initial["board"], int(initial.get("total", 0))
-
-
-def fetch_board_page(session: requests.Session, event_url: str, offset: int) -> list[dict]:
+def fetch_page_payload(session: requests.Session, event_url: str, offset: int) -> dict:
     r = session.get(page_url(event_url, offset), headers={**HEADERS, "Accept": "application/json"}, timeout=60)
     r.raise_for_status()
     data = r.json()
-    board = data.get("board") if isinstance(data, dict) else None
-    return board if isinstance(board, list) else []
+    if not isinstance(data, dict) or not isinstance(data.get("board"), list):
+        raise RuntimeError(f"Paged leaderboard response invalid at offset {offset}")
+    return data
+
+
+def initial_board(session: requests.Session, event_url: str) -> tuple[list[dict], int]:
+    r = session.get(canonical(event_url), timeout=60)
+    r.raise_for_status()
+
+    initial = extract_json_variable(r.text, "initialServerPage")
+    if isinstance(initial, dict) and isinstance(initial.get("board"), list):
+        total = int(initial.get("total", 0) or 0)
+        if total > 0:
+            print("Leaderboard bootstrap: initialServerPage")
+            return initial["board"], total
+
+    ranking = extract_json_variable(r.text, "initialRanking")
+    if isinstance(ranking, list) and ranking:
+        # Some GTSH templates expose the first/full board under initialRanking but
+        # omit the total. Ask the paged endpoint for authoritative pagination metadata.
+        try:
+            page0 = fetch_page_payload(session, event_url, 0)
+            total = int(page0.get("total", 0) or 0)
+            if total > 0:
+                print("Leaderboard bootstrap: initialRanking + paged metadata")
+                return page0["board"], total
+        except Exception as exc:
+            print(f"initialRanking paged metadata fallback failed: {exc}")
+        print("Leaderboard bootstrap: full initialRanking fallback")
+        return ranking, len(ranking)
+
+    # Most robust fallback: bypass embedded HTML variables entirely and call the
+    # same JSON pagination endpoint used for subsequent leaderboard pages.
+    try:
+        page0 = fetch_page_payload(session, event_url, 0)
+        total = int(page0.get("total", 0) or 0)
+        if total > 0:
+            print("Leaderboard bootstrap: page_data endpoint")
+            return page0["board"], total
+    except Exception as exc:
+        raise RuntimeError(
+            "Could not bootstrap leaderboard from initialServerPage, initialRanking, or page_data endpoint"
+        ) from exc
+
+    raise RuntimeError("Leaderboard total is unavailable")
+
+
+def fetch_board_page(session: requests.Session, event_url: str, offset: int) -> list[dict]:
+    return fetch_page_payload(session, event_url, offset)["board"]
 
 
 def online_id(driver: dict) -> str | None:
@@ -95,7 +132,6 @@ def systematic_psns(session: requests.Session, event_url: str, target: int) -> t
     first, total = initial_board(session, event_url)
     if total <= 0:
         raise RuntimeError("Leaderboard total is zero")
-    # One approximately uniform point from each equal-width interval across all participants.
     ranks = [max(1, min(total, round((i + 0.5) * total / target))) for i in range(target)]
     by_offset: dict[int, list[int]] = {}
     for rank in ranks:
@@ -154,49 +190,26 @@ def fetch_profile(session: requests.Session, psn: str) -> dict | None:
     top5 = daily.get("top5") or 0
     if not isinstance(avg_grid, (int, float)) or not isinstance(avg_finish, (int, float)):
         return None
-    return {
-        "psn_id": psn,
-        "races": int(races),
-        "wins": int(wins),
-        "top5": int(top5),
-        "average_grid": float(avg_grid),
-        "average_finish": float(avg_finish),
-        "positions_gained_avg": float(avg_grid - avg_finish),
-        "win_rate": float(wins / races) if races else 0.0,
-        "top5_rate": float(top5 / races) if races else 0.0,
-    }
+    return {"psn_id": psn, "races": int(races), "wins": int(wins), "top5": int(top5), "average_grid": float(avg_grid), "average_finish": float(avg_finish), "positions_gained_avg": float(avg_grid - avg_finish), "win_rate": float(wins / races) if races else 0.0, "top5_rate": float(top5 / races) if races else 0.0}
 
 
 def percentile(value: float, values: list[float], higher_better: bool) -> float | None:
     clean = sorted(v for v in values if isinstance(v, (int, float)) and math.isfinite(v))
     if not clean:
         return None
-    if higher_better:
-        better_or_equal = sum(v <= value for v in clean)
-    else:
-        better_or_equal = sum(v >= value for v in clean)
+    better_or_equal = sum(v <= value for v in clean) if higher_better else sum(v >= value for v in clean)
     return 100.0 * better_or_equal / len(clean)
 
 
 def user_daily() -> dict:
     career = json.loads(Path("data/latest_career.json").read_text(encoding="utf-8"))
-    row = next(r for r in career.get("sport_types", []) if r.get("sport_type") == 1)
-    return row
+    return next(r for r in career.get("sport_types", []) if r.get("sport_type") == 1)
 
 
 def metric_percentiles(user: dict, sample: list[dict]) -> dict:
-    specs = {
-        "average_grid": False,
-        "average_finish": False,
-        "positions_gained_avg": True,
-        "win_rate": True,
-        "top5_rate": True,
-    }
-    out = {}
-    for key, higher in specs.items():
-        out[key] = percentile(float(user[key]), [float(r[key]) for r in sample], higher)
-    results = [out["win_rate"], out["top5_rate"]]
-    out["results"] = sum(results) / len(results)
+    specs = {"average_grid": False, "average_finish": False, "positions_gained_avg": True, "win_rate": True, "top5_rate": True}
+    out = {key: percentile(float(user[key]), [float(r[key]) for r in sample], higher) for key, higher in specs.items()}
+    out["results"] = (out["win_rate"] + out["top5_rate"]) / 2
     out["qualifying"] = out["average_grid"]
     out["race_performance"] = out["average_finish"]
     out["racecraft"] = out["positions_gained_avg"]
@@ -208,6 +221,7 @@ def main() -> None:
     session = requests.Session()
     session.headers.update(HEADERS)
     event_url = discover_current_event(session)
+    print(f"Calibration event: {event_url}")
     psns, leaderboard_total = systematic_psns(session, event_url, TARGET_SAMPLE)
     print(f"Leaderboard participants: {leaderboard_total:,}; PSNs selected: {len(psns)}")
     sample = []
@@ -227,27 +241,7 @@ def main() -> None:
         raise RuntimeError(f"Calibration sample too small: {len(sample)} valid profiles")
     user = user_daily()
     scores = metric_percentiles(user, sample)
-    output = {
-        "captured_at": datetime.now(timezone.utc).isoformat(),
-        "method": "systematic_uniform_sample_across_current_daily_race_leaderboard",
-        "reference_population": "active Daily Race leaderboard participants with at least 20 career Daily Races",
-        "event_url": event_url,
-        "leaderboard_total": leaderboard_total,
-        "target_sample": TARGET_SAMPLE,
-        "selected_psns": len(psns),
-        "valid_profiles": len(sample),
-        "profile_failures": failures,
-        "minimum_races": MIN_RACES,
-        "user_percentiles": scores,
-        "sample_summary": {
-            key: {
-                "min": min(r[key] for r in sample),
-                "median": sorted(r[key] for r in sample)[len(sample)//2],
-                "max": max(r[key] for r in sample),
-            }
-            for key in ("average_grid", "average_finish", "positions_gained_avg", "win_rate", "top5_rate")
-        },
-    }
+    output = {"captured_at": datetime.now(timezone.utc).isoformat(), "method": "systematic_uniform_sample_across_current_daily_race_leaderboard", "reference_population": "active Daily Race leaderboard participants with at least 20 career Daily Races", "event_url": event_url, "leaderboard_total": leaderboard_total, "target_sample": TARGET_SAMPLE, "selected_psns": len(psns), "valid_profiles": len(sample), "profile_failures": failures, "minimum_races": MIN_RACES, "user_percentiles": scores, "sample_summary": {key: {"min": min(r[key] for r in sample), "median": sorted(r[key] for r in sample)[len(sample)//2], "max": max(r[key] for r in sample)} for key in ("average_grid", "average_finish", "positions_gained_avg", "win_rate", "top5_rate")}}
     OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     OUT_PATH.write_text(json.dumps(output, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(json.dumps(scores, indent=2))
