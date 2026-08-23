@@ -61,5 +61,6 @@ jobs:
             echo "No calibration changes to commit."
           else
             git commit -m "Update GT7 population calibration"
-            git push
+            git pull --rebase origin main
+            git push origin HEAD:main
           fi
