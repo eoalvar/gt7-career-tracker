@@ -1,55 +1,98 @@
 {
-  "captured_at": "2026-08-23T12:22:04.427420+00:00",
-  "method": "systematic_uniform_sample_with_multi_event_fallback",
-  "reference_population": "active/recent Daily Race leaderboard participants with at least 20 career Daily Races",
+  "captured_at": "2026-08-23T13:02:35.723687+00:00",
+  "method": "validated_systematic_uniform_sample_with_multi_event_fallback",
+  "reference_population": "active/recent Daily Race leaderboard participants with at least 20 career Daily Races and physically valid career metrics",
   "event_url": "https://gtsh-rank.com/daily/leaderboard?event=HFYfEk1IVkJvQ0M4RUNBW0dAAG8BB1NWX1ILEx1eSRMNRTdRXE0RG0deRUUeVklSTV5WQFFFXgkTUUpNUFgQU1BFRU5RUkNQGlNdVBVdVlFcTQAVUVVDREVOKC1DUBJbXEVSFVZJFg4eB1dN",
-  "leaderboard_total": 31628,
+  "leaderboard_total": 31796,
   "target_sample": 600,
   "selected_psns": 600,
-  "valid_profiles": 107,
-  "valid_profile_yield": 0.17833333333333334,
-  "filtered_profiles": 493,
+  "valid_profiles": 129,
+  "valid_profile_yield": 0.215,
+  "rejected_profiles": 471,
   "profile_failures": 0,
   "minimum_valid_sample": 100,
   "minimum_races": 20,
+  "validation": {
+    "average_grid_range": [
+      1,
+      20
+    ],
+    "average_finish_range": [
+      1,
+      20
+    ],
+    "wins_lte_races": true,
+    "top5_lte_races": true,
+    "wins_lte_top5": true
+  },
+  "rejection_reasons": {
+    "missing_encrypted_payload": 451,
+    "below_min_races": 19,
+    "average_finish_out_of_range": 3,
+    "average_grid_out_of_range": 1
+  },
+  "rejection_examples": {
+    "missing_encrypted_payload": [
+      "RMS-Chalo",
+      "mancabelli65",
+      "IGTSH_Tordinho",
+      "sebas17dank",
+      "CDTB_Senna"
+    ],
+    "below_min_races": [
+      "mthomas_27",
+      "ZIO-1212",
+      "baschdy92",
+      "desmogiangiu",
+      "HH-FUNDRIVER"
+    ],
+    "average_finish_out_of_range": [
+      "Hssky-",
+      "Felle-nizosnelle",
+      "bogman80"
+    ],
+    "average_grid_out_of_range": [
+      "Killer5738"
+    ]
+  },
   "leaderboard_failures_before_success": [],
   "user_percentiles": {
-    "average_grid": 79.4392523364486,
-    "average_finish": 38.3177570093458,
-    "positions_gained_avg": 15.88785046728972,
-    "win_rate": 36.44859813084112,
-    "top5_rate": 39.25233644859813,
-    "results": 37.850467289719624,
-    "qualifying": 79.4392523364486,
-    "race_performance": 38.3177570093458,
-    "racecraft": 15.88785046728972,
-    "overall": 46.0981308411215
+    "average_grid": 81.3953488372093,
+    "average_finish": 52.713178294573645,
+    "positions_gained_avg": 17.05426356589147,
+    "win_rate": 34.10852713178294,
+    "top5_rate": 52.713178294573645,
+    "results": 43.41085271317829,
+    "qualifying": 81.3953488372093,
+    "race_performance": 52.713178294573645,
+    "racecraft": 17.05426356589147,
+    "overall": 52.7906976744186
   },
   "sample_summary": {
     "average_grid": {
       "min": 1.6760365425158117,
-      "median": 7.513733245440562,
-      "max": 14.72972972972973
+      "median": 7.720588235294118,
+      "max": 13.491803278688524
     },
     "average_finish": {
-      "min": 0.8484848484848485,
-      "median": 4.868474576271186,
-      "max": 10.445727482678985
+      "min": 1.6391752577319587,
+      "median": 5.5588235294117645,
+      "max": 10.393939393939394
     },
     "positions_gained_avg": {
-      "min": -2.7467532467532463,
-      "median": 2.5227272727272725,
-      "max": 12.81081081081081
+      "min": -1.808988764044944,
+      "median": 2.1617647058823533,
+      "max": 7.929292929292929
     },
     "win_rate": {
       "min": 0.0,
-      "median": 0.05755395683453238,
+      "median": 0.04858490566037736,
       "max": 0.5846802529866479
     },
     "top5_rate": {
-      "min": 0.09006928406466513,
-      "median": 0.5849440488301119,
-      "max": 0.9696969696969697
+      "min": 0.15151515151515152,
+      "median": 0.5130616509926855,
+      "max": 0.9058073654390935
     }
   }
 }
