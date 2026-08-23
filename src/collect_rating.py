@@ -3,9 +3,11 @@ from __future__ import annotations
 import base64
 import json
 import os
+import re
 import sqlite3
 from datetime import datetime, timezone
 from pathlib import Path
+from typing import Any
 
 import requests
 from bs4 import BeautifulSoup
@@ -14,7 +16,12 @@ PSN_ID = os.getenv("GT7_PSN_ID", "crazy_rooster74")
 PROFILE_URL = f"https://gtsh-rank.com/profile/?id={PSN_ID}"
 DB_PATH = Path(os.getenv("GT7_CAREER_DB", "data/career.db"))
 LATEST_PATH = Path("data/latest_rating.json")
+DIAGNOSTIC_PATH = Path("data/latest_profile_fields.json")
 DR_LABELS = {1: "E", 2: "D", 3: "C", 4: "B", 5: "A", 6: "A+", 7: "S"}
+CAREER_KEY_RE = re.compile(
+    r"(win|race|pole|lap|rank|qual|top|finish|start|rating|sport|lead|position|podium)",
+    re.IGNORECASE,
+)
 
 
 def xor_decrypt(data: bytes, key: str) -> str:
@@ -23,7 +30,7 @@ def xor_decrypt(data: bytes, key: str) -> str:
     return decoded.decode("utf-8")
 
 
-def fetch_profile(session: requests.Session) -> dict:
+def fetch_payload(session: requests.Session) -> dict:
     page = session.get(PROFILE_URL, timeout=30)
     page.raise_for_status()
 
@@ -52,6 +59,12 @@ def fetch_profile(session: requests.Session) -> dict:
         raise RuntimeError("GTSH returned an unexpected response")
 
     payload = json.loads(xor_decrypt(base64.b64decode(encrypted), key))
+    if not isinstance(payload, dict):
+        raise RuntimeError("GTSH decrypted payload was not an object")
+    return payload
+
+
+def parse_rating(payload: dict) -> dict:
     user = payload.get("monthly_stats", {}).get("result", {}).get("user")
     if not isinstance(user, dict):
         raise RuntimeError("GTSH user profile was not found in response")
@@ -69,6 +82,41 @@ def fetch_profile(session: requests.Session) -> dict:
         "sportsmanship_rating": user.get("sportsmanship_rating"),
         "source": "GTSH public profile",
     }
+
+
+def flatten_candidate_fields(value: Any, path: str = "", depth: int = 0) -> dict[str, Any]:
+    result: dict[str, Any] = {}
+    if depth > 7:
+        return result
+
+    if isinstance(value, dict):
+        for key, child in value.items():
+            child_path = f"{path}.{key}" if path else str(key)
+            result.update(flatten_candidate_fields(child, child_path, depth + 1))
+    elif isinstance(value, list):
+        if CAREER_KEY_RE.search(path):
+            result[f"{path}.__count__"] = len(value)
+        for index, child in enumerate(value[:3]):
+            result.update(flatten_candidate_fields(child, f"{path}[{index}]", depth + 1))
+    elif value is None or isinstance(value, (str, int, float, bool)):
+        if CAREER_KEY_RE.search(path):
+            result[path] = value
+
+    return result
+
+
+def save_diagnostics(payload: dict, captured_at: str) -> None:
+    DIAGNOSTIC_PATH.parent.mkdir(parents=True, exist_ok=True)
+    diagnostic = {
+        "captured_at": captured_at,
+        "psn_id": PSN_ID,
+        "top_level_keys": sorted(payload.keys()),
+        "candidate_fields": flatten_candidate_fields(payload),
+    }
+    DIAGNOSTIC_PATH.write_text(
+        json.dumps(diagnostic, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
 
 
 def initialize_database(conn: sqlite3.Connection) -> None:
@@ -129,8 +177,10 @@ def main() -> None:
     session = requests.Session()
     session.headers.update({"User-Agent": "Mozilla/5.0 (GT7 Career Tracker)"})
 
-    profile = fetch_profile(session)
+    payload = fetch_payload(session)
+    profile = parse_rating(payload)
     save_profile(profile)
+    save_diagnostics(payload, profile["captured_at"])
 
     print(f"PSN: {profile['psn_id']}")
     print(
@@ -139,6 +189,7 @@ def main() -> None:
     )
     print(f"SR: {profile['sportsmanship_rating']}")
     print(f"Captured: {profile['captured_at']}")
+    print(f"GTSH top-level payload keys: {len(payload)}")
 
 
 if __name__ == "__main__":
