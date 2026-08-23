@@ -41,11 +41,14 @@ jobs:
           GT7_PSN_ID: crazy_rooster74
         run: python src/collect_rating.py
 
+      - name: Generate career report
+        run: python src/generate_report.py
+
       - name: Commit updated career data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/career.db data/latest_rating.json data/latest_career.json data/latest_profile_fields.json
+          git add data/career.db data/latest_rating.json data/latest_career.json data/latest_profile_fields.json reports/latest.md
           if git diff --cached --quiet; then
             echo "No career data changes to commit."
           else
