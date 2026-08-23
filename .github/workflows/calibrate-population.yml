@@ -7,6 +7,7 @@ on:
   push:
     paths:
       - "src/calibrate_population.py"
+      - "src/calibrate_population_resilient.py"
       - ".github/workflows/calibrate-population.yml"
 
 permissions:
@@ -46,7 +47,7 @@ jobs:
           GT7_PSN_ID: crazy_rooster74
           GT7_CALIBRATION_SAMPLE: "160"
           GT7_CALIBRATION_MIN_RACES: "20"
-        run: python src/calibrate_population.py
+        run: python src/calibrate_population_resilient.py
 
       - name: Regenerate career report
         run: python src/generate_report.py
