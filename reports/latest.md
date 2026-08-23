@@ -1,19 +1,21 @@
 # GT7 Sport Career Report
 
 PSN: **crazy_rooster74**  
-Updated: 2026-08-23T14:36:16.708993+00:00  
+Updated: 2026-08-23T14:36:48.102346+00:00  
 DR: **B** — 21079 points — 55% toward next DR  
 SR: **6**
 
 ## Performance percentiles
 
-Qualifying: **85.4/100**  
-Race Performance: **55.4/100**  
-Racecraft: **34.1/100**  
-Results: **44.8/100**  
-Overall Career: **58.6/100**
+| Dimension | DR-adjusted | Global |
+|---|---:|---:|
+| Qualifying | **85.4** | 85.4 |
+| Race Performance | **55.4** | 55.4 |
+| Racecraft | **34.1** | 34.1 |
+| Results | **44.8** | 44.8 |
+| Overall Career | **58.6** | 58.6 |
 
-> Empirical percentiles versus active/recent Daily Race leaderboard participants with at least 20 career Daily Races and physically valid career metrics. Calibration sample: 213 valid profiles. A score of 70 means better than approximately 70% of this reference sample for that dimension.
+> DR-adjusted is the primary benchmark. It compares performance with drivers near the current competitive level; Global compares with the full calibrated reference. DR peers used: n/a. Calibration sample: 213 valid profiles.
 
 ## Sport career
 
@@ -51,6 +53,6 @@ DR: insufficient history for a reliable trend.
 
 - Daily Races: on average gains **0.55 positions per race** from qualifying/grid position to finish.
 - Championships: on average gains **2.00 positions per race** from qualifying/grid position to finish.
-- Empirical percentile scores are preferred whenever a valid calibration file exists.
+- DR-adjusted percentiles are the primary longitudinal benchmark because matchmaking difficulty rises with DR.
+- Global percentiles are retained as population context.
 - Raw GTSH sport_type values remain stored unchanged; labels are presentation-only.
-- GTSH Sport totals and monthly Sports Mode counters remain separate because their definitions/populations differ.
