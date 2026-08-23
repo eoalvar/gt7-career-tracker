@@ -1,0 +1,59 @@
+{
+  "captured_at": "2026-08-23T00:13:38.929469+00:00",
+  "psn_id": "crazy_rooster74",
+  "sport_types": [
+    {
+      "sport_type": 1,
+      "races": 437,
+      "wins": 13,
+      "top5": 235,
+      "poles": 16,
+      "laps": 3875,
+      "lead_laps": 142,
+      "average_grid": 6.043478260869565,
+      "average_finish": 5.494279176201373,
+      "positions_gained_avg": 0.5491990846681922,
+      "win_rate": 0.029748283752860413,
+      "top5_rate": 0.5377574370709383,
+      "pole_rate": 0.036613272311212815
+    },
+    {
+      "sport_type": 2,
+      "races": 20,
+      "wins": 0,
+      "top5": 10,
+      "poles": 1,
+      "laps": 193,
+      "lead_laps": 10,
+      "average_grid": 7.45,
+      "average_finish": 5.45,
+      "positions_gained_avg": 2.0,
+      "win_rate": 0.0,
+      "top5_rate": 0.5,
+      "pole_rate": 0.05
+    }
+  ],
+  "sports_mode": {
+    "race_count": 371,
+    "win_count": 13,
+    "pole_position_count": 17,
+    "fastest_lap_count": 7,
+    "clean_race_count": 67
+  },
+  "qualifying_performance": {
+    "best_rank": 1393,
+    "average_rank": 26239.5,
+    "median_rank": 18831,
+    "worst_rank": 122020,
+    "rank_stddev": 23837.65,
+    "rank_distribution": {
+      "podiums": 0,
+      "top10": 0,
+      "top10_percent": 3,
+      "top25_percent": 37,
+      "top50_percent": 64,
+      "wins": 0
+    }
+  },
+  "source": "GTSH public profile"
+}
