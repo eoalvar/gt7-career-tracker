@@ -3,7 +3,6 @@ from __future__ import annotations
 import json
 import time
 from datetime import datetime, timezone
-from pathlib import Path
 from urllib.parse import urljoin
 
 import requests
@@ -14,6 +13,7 @@ import calibrate_population as base
 RETRY_STATUS = {429, 500, 502, 503, 504}
 MAX_EVENT_PAGES = 3
 MAX_EVENT_ATTEMPTS = 3
+MIN_VALID_SAMPLE = 100
 
 
 def candidate_events(session: requests.Session) -> list[str]:
@@ -90,20 +90,31 @@ def main() -> None:
     print(f"Leaderboard participants: {leaderboard_total:,}; PSNs selected: {len(psns)}")
     sample = []
     profile_failures = 0
+    filtered_profiles = 0
     for i, psn in enumerate(psns, 1):
         try:
             row = base.fetch_profile(session, psn)
             if row:
                 sample.append(row)
+            else:
+                filtered_profiles += 1
         except Exception as exc:
             profile_failures += 1
             print(f"Profile failed {psn}: {exc}")
-        if i % 20 == 0:
-            print(f"Profiles {i}/{len(psns)}; valid {len(sample)}")
+        if i % 25 == 0 or i == len(psns):
+            print(
+                f"Profiles {i}/{len(psns)}; valid {len(sample)}; "
+                f"filtered {filtered_profiles}; request failures {profile_failures}"
+            )
         time.sleep(base.DELAY)
 
-    if len(sample) < 40:
-        raise RuntimeError(f"Calibration sample too small: {len(sample)} valid profiles")
+    yield_rate = len(sample) / len(psns) if psns else 0.0
+    print(f"Valid profile yield: {yield_rate:.1%} ({len(sample)}/{len(psns)})")
+    if len(sample) < MIN_VALID_SAMPLE:
+        raise RuntimeError(
+            f"Calibration sample too small: {len(sample)} valid profiles; "
+            f"minimum required is {MIN_VALID_SAMPLE}"
+        )
 
     user = base.user_daily()
     scores = base.metric_percentiles(user, sample)
@@ -116,7 +127,10 @@ def main() -> None:
         "target_sample": base.TARGET_SAMPLE,
         "selected_psns": len(psns),
         "valid_profiles": len(sample),
+        "valid_profile_yield": yield_rate,
+        "filtered_profiles": filtered_profiles,
         "profile_failures": profile_failures,
+        "minimum_valid_sample": MIN_VALID_SAMPLE,
         "minimum_races": base.MIN_RACES,
         "leaderboard_failures_before_success": failures,
         "user_percentiles": scores,
