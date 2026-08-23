@@ -8,7 +8,7 @@ import requests
 from bs4 import BeautifulSoup
 
 GTSH_DAILY="https://gtsh-rank.com/daily/"; PROFILE_BASE="https://gtsh-rank.com/profile/?id="; OUT_PATH=Path("data/population_calibration.json")
-MY_PSN=os.getenv("GT7_PSN_ID","crazy_rooster74"); TARGET_SAMPLE=int(os.getenv("GT7_CALIBRATION_SAMPLE","160")); MIN_RACES=int(os.getenv("GT7_CALIBRATION_MIN_RACES","20")); PAGE_SIZE=100; DELAY=float(os.getenv("GT7_CALIBRATION_DELAY","0.08")); HEADERS={"User-Agent":"Mozilla/5.0 (GT7 Career Population Calibration)"}
+MY_PSN=os.getenv("GT7_PSN_ID","crazy_rooster74"); TARGET_SAMPLE=int(os.getenv("GT7_CALIBRATION_SAMPLE","160")); MIN_RACES=int(os.getenv("GT7_CALIBRATION_MIN_RACES","20")); MAX_OBSERVED_DAILY_GRID=16; PAGE_SIZE=100; DELAY=float(os.getenv("GT7_CALIBRATION_DELAY","0.08")); HEADERS={"User-Agent":"Mozilla/5.0 (GT7 Career Population Calibration)"}
 
 def extract_json_variable(html,name):
     for marker in (f"const {name} = ",f"let {name} = ",f"var {name} = "):
@@ -63,18 +63,18 @@ def xor_decrypt(data,key):
     kb=key.encode(); return bytes(b^kb[i%len(kb)] for i,b in enumerate(data)).decode()
 
 def validate_metrics(races,wins,top5,avg_grid,avg_finish):
-    reasons=[]
-    vals=(races,wins,top5,avg_grid,avg_finish)
-    if not all(isinstance(x,(int,float)) and math.isfinite(float(x)) for x in vals): reasons.append("non_numeric")
+    reasons=[]; vals=(races,wins,top5,avg_grid,avg_finish)
+    if not all(isinstance(x,(int,float)) and math.isfinite(float(x)) for x in vals):reasons.append("non_numeric")
     if reasons:return reasons
-    if races < MIN_RACES: reasons.append("below_min_races")
-    if wins < 0 or wins > races: reasons.append("wins_out_of_range")
-    if top5 < 0 or top5 > races: reasons.append("top5_out_of_range")
-    if wins > top5: reasons.append("wins_gt_top5")
-    # A finishing/grid position below 1 is physically impossible. Upper bound 20 is
-    # deliberately generous because Sport grids vary by event and era.
-    if not 1.0 <= avg_grid <= 20.0: reasons.append("average_grid_out_of_range")
-    if not 1.0 <= avg_finish <= 20.0: reasons.append("average_finish_out_of_range")
+    if races<MIN_RACES:reasons.append("below_min_races")
+    if wins<0 or wins>races:reasons.append("wins_out_of_range")
+    if top5<0 or top5>races:reasons.append("top5_out_of_range")
+    if wins>top5:reasons.append("wins_gt_top5")
+    # Daily Race grids observed in GT7 have contained at most 16 cars. Although the
+    # game can support 20-car grids in principle, career Daily Race averages above
+    # 16 are therefore treated as suspect data rather than valid observations.
+    if not 1.0<=avg_grid<=MAX_OBSERVED_DAILY_GRID:reasons.append("average_grid_out_of_range")
+    if not 1.0<=avg_finish<=MAX_OBSERVED_DAILY_GRID:reasons.append("average_finish_out_of_range")
     return reasons
 
 def fetch_profile_diagnostic(session,psn):
@@ -84,11 +84,9 @@ def fetch_profile_diagnostic(session,psn):
     if not isinstance(enc,str):return None,["missing_encrypted_payload"]
     payload=json.loads(xor_decrypt(base64.b64decode(enc),key)); rows=payload.get("sport",{}).get("result",[]) if isinstance(payload,dict) else []; daily=next((r for r in rows if isinstance(r,dict) and r.get("type")==1),None)
     if not daily:return None,["missing_daily_stats"]
-    races=daily.get("race"); wins=daily.get("win") or 0; top5=daily.get("top5") or 0; avg_grid=daily.get("average_qualify_rank"); avg_finish=daily.get("average_rank")
-    reasons=validate_metrics(races,wins,top5,avg_grid,avg_finish)
+    races=daily.get("race"); wins=daily.get("win") or 0; top5=daily.get("top5") or 0; avg_grid=daily.get("average_qualify_rank"); avg_finish=daily.get("average_rank"); reasons=validate_metrics(races,wins,top5,avg_grid,avg_finish)
     if reasons:return None,reasons
-    row={"psn_id":psn,"races":int(races),"wins":int(wins),"top5":int(top5),"average_grid":float(avg_grid),"average_finish":float(avg_finish)}; row["positions_gained_avg"]=row["average_grid"]-row["average_finish"]; row["win_rate"]=wins/races; row["top5_rate"]=top5/races
-    return row,[]
+    row={"psn_id":psn,"races":int(races),"wins":int(wins),"top5":int(top5),"average_grid":float(avg_grid),"average_finish":float(avg_finish)}; row["positions_gained_avg"]=row["average_grid"]-row["average_finish"]; row["win_rate"]=wins/races; row["top5_rate"]=top5/races; return row,[]
 def fetch_profile(session,psn):return fetch_profile_diagnostic(session,psn)[0]
 def percentile(value,values,higher_better):
     clean=sorted(v for v in values if isinstance(v,(int,float)) and math.isfinite(v)); return None if not clean else 100*sum((v<=value) if higher_better else (v>=value) for v in clean)/len(clean)
