@@ -1,19 +1,19 @@
 # GT7 Sport Career Report
 
 PSN: **crazy_rooster74**  
-Updated: 2026-08-23T13:14:14.273311+00:00  
+Updated: 2026-08-23T13:27:26.207917+00:00  
 DR: **B** — 21079 points — 55% toward next DR  
 SR: **6**
 
 ## Performance percentiles
 
-Qualifying: **81.4/100**  
-Race Performance: **52.7/100**  
-Racecraft: **17.1/100**  
-Results: **43.4/100**  
-Overall Career: **52.8/100**
+Qualifying: **88.7/100**  
+Race Performance: **53.8/100**  
+Racecraft: **29.4/100**  
+Results: **42.9/100**  
+Overall Career: **57.7/100**
 
-> Empirical percentiles versus active/recent Daily Race leaderboard participants with at least 20 career Daily Races and physically valid career metrics. Calibration sample: 129 valid profiles. A score of 70 means better than approximately 70% of this reference sample for that dimension.
+> Empirical percentiles versus active/recent Daily Race leaderboard participants with at least 20 career Daily Races and physically valid career metrics. Calibration sample: 106 valid profiles. A score of 70 means better than approximately 70% of this reference sample for that dimension.
 
 ## Sport career
 

@@ -1,14 +1,14 @@
 {
-  "captured_at": "2026-08-23T13:02:35.723687+00:00",
+  "captured_at": "2026-08-23T13:36:52.360106+00:00",
   "method": "validated_systematic_uniform_sample_with_multi_event_fallback",
   "reference_population": "active/recent Daily Race leaderboard participants with at least 20 career Daily Races and physically valid career metrics",
   "event_url": "https://gtsh-rank.com/daily/leaderboard?event=HFYfEk1IVkJvQ0M4RUNBW0dAAG8BB1NWX1ILEx1eSRMNRTdRXE0RG0deRUUeVklSTV5WQFFFXgkTUUpNUFgQU1BFRU5RUkNQGlNdVBVdVlFcTQAVUVVDREVOKC1DUBJbXEVSFVZJFg4eB1dN",
   "leaderboard_total": 31796,
   "target_sample": 600,
   "selected_psns": 600,
-  "valid_profiles": 129,
-  "valid_profile_yield": 0.215,
-  "rejected_profiles": 471,
+  "valid_profiles": 106,
+  "valid_profile_yield": 0.17666666666666667,
+  "rejected_profiles": 494,
   "profile_failures": 0,
   "minimum_valid_sample": 100,
   "minimum_races": 20,
@@ -26,10 +26,9 @@
     "wins_lte_top5": true
   },
   "rejection_reasons": {
-    "missing_encrypted_payload": 451,
-    "below_min_races": 19,
-    "average_finish_out_of_range": 3,
-    "average_grid_out_of_range": 1
+    "missing_encrypted_payload": 483,
+    "below_min_races": 11,
+    "average_finish_out_of_range": 2
   },
   "rejection_examples": {
     "missing_encrypted_payload": [
@@ -40,59 +39,64 @@
       "CDTB_Senna"
     ],
     "below_min_races": [
-      "mthomas_27",
-      "ZIO-1212",
-      "baschdy92",
-      "desmogiangiu",
-      "HH-FUNDRIVER"
+      "svckie-_-",
+      "goldsniper2012",
+      "wata131",
+      "gigabela",
+      "jbeny-"
     ],
     "average_finish_out_of_range": [
-      "Hssky-",
-      "Felle-nizosnelle",
-      "bogman80"
-    ],
-    "average_grid_out_of_range": [
-      "Killer5738"
+      "wata131",
+      "Gamers_MT12"
     ]
   },
   "leaderboard_failures_before_success": [],
   "user_percentiles": {
-    "average_grid": 81.3953488372093,
-    "average_finish": 52.713178294573645,
-    "positions_gained_avg": 17.05426356589147,
-    "win_rate": 34.10852713178294,
-    "top5_rate": 52.713178294573645,
-    "results": 43.41085271317829,
-    "qualifying": 81.3953488372093,
-    "race_performance": 52.713178294573645,
-    "racecraft": 17.05426356589147,
-    "overall": 52.7906976744186
+    "average_grid": 88.67924528301887,
+    "average_finish": 53.77358490566038,
+    "positions_gained_avg": 16.037735849056602,
+    "win_rate": 32.075471698113205,
+    "top5_rate": 53.77358490566038,
+    "results": 42.924528301886795,
+    "qualifying": 88.67924528301887,
+    "race_performance": 53.77358490566038,
+    "racecraft_unconditioned": 16.037735849056602,
+    "racecraft": 29.41176470588235,
+    "racecraft_conditioning": {
+      "peer_count": 34,
+      "grid_window": 1.5,
+      "grid_min": 4.543478260869565,
+      "grid_max": 7.543478260869565,
+      "user_average_grid": 6.043478260869565,
+      "user_positions_gained_avg": 0.5491990846681922
+    },
+    "overall": 57.745560488346285
   },
   "sample_summary": {
     "average_grid": {
       "min": 1.6760365425158117,
-      "median": 7.720588235294118,
-      "max": 13.491803278688524
+      "median": 8.094252873563219,
+      "max": 12.76923076923077
     },
     "average_finish": {
-      "min": 1.6391752577319587,
-      "median": 5.5588235294117645,
-      "max": 10.393939393939394
+      "min": 2.0588235294117645,
+      "median": 5.607407407407408,
+      "max": 9.13953488372093
     },
     "positions_gained_avg": {
-      "min": -1.808988764044944,
-      "median": 2.1617647058823533,
-      "max": 7.929292929292929
+      "min": -1.9954337899543386,
+      "median": 2.406593406593406,
+      "max": 7.125
     },
     "win_rate": {
       "min": 0.0,
-      "median": 0.04858490566037736,
+      "median": 0.05803571428571429,
       "max": 0.5846802529866479
     },
     "top5_rate": {
-      "min": 0.15151515151515152,
-      "median": 0.5130616509926855,
-      "max": 0.9058073654390935
+      "min": 0.16279069767441862,
+      "median": 0.5,
+      "max": 0.9117647058823529
     }
   }
 }
