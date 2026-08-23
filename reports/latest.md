@@ -1,7 +1,7 @@
 # GT7 Sport Career Report
 
 PSN: **crazy_rooster74**  
-Updated: 2026-08-23T00:51:41.072073+00:00  
+Updated: 2026-08-23T02:02:38.483951+00:00  
 DR: **B** — 21079 points — 55% toward next DR  
 SR: **6**
 
@@ -13,7 +13,7 @@ Racecraft: **50.9/100**
 Results: **40.2/100**  
 Overall Career: **50.6/100**
 
-> These are provisional absolute indices based on the available career statistics. They are not population percentiles. We will recalibrate them against broader GT7 population data before treating them as comparative ratings.
+> Provisional absolute indices. Population calibration has not completed yet.
 
 ## Sport career
 
@@ -51,6 +51,6 @@ DR: insufficient history for a reliable trend.
 
 - Daily Races: on average gains **0.55 positions per race** from qualifying/grid position to finish.
 - Championships: on average gains **2.00 positions per race** from qualifying/grid position to finish.
-- The performance indices are intentionally marked provisional until population calibration is available.
+- Empirical percentile scores are preferred whenever a valid calibration file exists.
 - Raw GTSH sport_type values remain stored unchanged; labels are presentation-only.
 - GTSH Sport totals and monthly Sports Mode counters remain separate because their definitions/populations differ.
