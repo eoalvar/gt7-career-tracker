@@ -1,102 +1,117 @@
 {
-  "captured_at": "2026-08-23T13:36:52.360106+00:00",
-  "method": "validated_systematic_uniform_sample_with_multi_event_fallback",
+  "captured_at": "2026-08-23T14:15:52.351645+00:00",
+  "method": "cumulative_multi_event_validated_reference",
   "reference_population": "active/recent Daily Race leaderboard participants with at least 20 career Daily Races and physically valid career metrics",
-  "event_url": "https://gtsh-rank.com/daily/leaderboard?event=HFYfEk1IVkJvQ0M4RUNBW0dAAG8BB1NWX1ILEx1eSRMNRTdRXE0RG0deRUUeVklSTV5WQFFFXgkTUUpNUFgQU1BFRU5RUkNQGlNdVBVdVlFcTQAVUVVDREVOKC1DUBJbXEVSFVZJFg4eB1dN",
-  "leaderboard_total": 31796,
-  "target_sample": 600,
-  "selected_psns": 600,
-  "valid_profiles": 106,
-  "valid_profile_yield": 0.17666666666666667,
-  "rejected_profiles": 494,
-  "profile_failures": 0,
-  "minimum_valid_sample": 100,
+  "target_valid_profiles": 2000,
+  "valid_profiles": 213,
+  "target_reached": false,
+  "progress_to_target": 0.1065,
+  "new_valid_profiles_this_run": 213,
+  "events_used": [
+    {
+      "url": "https://gtsh-rank.com/daily/leaderboard?event=HFYfEk1IVkJvQ0M4RUNBW0dAAG8BB1NWX1ILEx1eSRMNRTdRXE0RG0deRUUeVklSTV5WQFFFXgkTUUpNUFgQU1BFRU5RUkNQGlNdVBVdVlFcTQAVUVVDREVOKC1DUBJbXEVSFVZJFg4eB1dN",
+      "participants": 32011,
+      "selected_psns": 400
+    },
+    {
+      "url": "https://gtsh-rank.com/daily/leaderboard?event=HFYfEk1IVkJvQ0M4RUNBW0dAA28BB1VWX1ILEx1eSRMNRTZRXE0RG0deRUUeVklSTV5WQFFFXgkTUUpNUFgQU1BFRU5RUkNQGlNdVBVdVlFcTQAVUVVDREVOKC1DUBJbXEVSFVZJFg4eB1dN",
+      "participants": 26979,
+      "selected_psns": 400
+    },
+    {
+      "url": "https://gtsh-rank.com/daily/leaderboard?event=HFYfEk1IVkJvQ0M4RUNBW0dAAm8BB1VWX1ILEx1eSRMNRTVRXE0RG0deRUUeVklSTV5WQFFFXgkTUUpNUFgQU1BFRU5RUkNQGlNdVBVdVlFcTQAVUVVDREVOKC1DUBJbXEVSFVZJFg4eB1dN",
+      "participants": 11137,
+      "selected_psns": 400
+    }
+  ],
+  "unique_uncached_psns_attempted": 1192,
+  "unavailable_profiles_this_run": 941,
+  "quality_filtered_this_run": 43,
+  "profile_request_failures_this_run": 0,
   "minimum_races": 20,
   "validation": {
     "average_grid_range": [
       1,
-      20
+      16
     ],
     "average_finish_range": [
       1,
-      20
+      16
     ],
     "wins_lte_races": true,
     "top5_lte_races": true,
     "wins_lte_top5": true
   },
-  "rejection_reasons": {
-    "missing_encrypted_payload": 483,
-    "below_min_races": 11,
-    "average_finish_out_of_range": 2
+  "rejection_reasons_this_run": {
+    "below_min_races": 37,
+    "average_finish_out_of_range": 6
   },
-  "rejection_examples": {
-    "missing_encrypted_payload": [
-      "RMS-Chalo",
-      "mancabelli65",
-      "IGTSH_Tordinho",
-      "sebas17dank",
-      "CDTB_Senna"
-    ],
+  "rejection_examples_this_run": {
     "below_min_races": [
-      "svckie-_-",
-      "goldsniper2012",
-      "wata131",
-      "gigabela",
-      "jbeny-"
+      "AliMuhalab",
+      "veloforce4a",
+      "Khurzvy",
+      "Comeshotcraig",
+      "S-Racing706"
     ],
     "average_finish_out_of_range": [
-      "wata131",
-      "Gamers_MT12"
+      "AliMuhalab",
+      "becca_lossi",
+      "Kasys_060",
+      "big_mexican559",
+      "Evemo0_"
     ]
   },
-  "leaderboard_failures_before_success": [],
+  "leaderboard_failures_before_success": [
+    "Leaderboard unusable: https://gtsh-rank.com/daily/leaderboard?event=HFYfEk1IVkJvQ0M4RUNBW0dDAG8BB1ZWX1ILEx1eSRMNRTdRXE0RG0deRUUeVklSTV5WQFFFXgkTUUpNUFgQU1BFRU5RUkNQGlNdVBVdVlFcTQAVUVVDREVOKC1DUBJbXEVSFVZJFg4eB1dN: 502 Server Error: Bad Gateway for url: https://gtsh-rank.com/daily/leaderboard/?event=HFYfEk1IVkJvQ0M4RUNBW0dDAG8BB1ZWX1ILEx1eSRMNRTdRXE0RG0deRUUeVklSTV5WQFFFXgkTUUpNUFgQU1BFRU5RUkNQGlNdVBVdVlFcTQAVUVVDREVOKC1DUBJbXEVSFVZJFg4eB1dN&page_data=1&offset=0&limit=100",
+    "Leaderboard unusable: https://gtsh-rank.com/daily/leaderboard?event=HFYfEk1IVkJvQ0M4RUNBW0dDA28BB1ZWX1ILEx1eSRMNRTZRXE0RG0deRUUeVklSTV5WQFFFXgkTUUpNUFgQU1BFRU5RUkNQGlNdVBVdVlFcTQAVUVVDREVOKC1DUBJbXEVSFVZJFg4eB1dN: 502 Server Error: Bad Gateway for url: https://gtsh-rank.com/daily/leaderboard/?event=HFYfEk1IVkJvQ0M4RUNBW0dDA28BB1ZWX1ILEx1eSRMNRTZRXE0RG0deRUUeVklSTV5WQFFFXgkTUUpNUFgQU1BFRU5RUkNQGlNdVBVdVlFcTQAVUVVDREVOKC1DUBJbXEVSFVZJFg4eB1dN&page_data=1&offset=0&limit=100"
+  ],
   "user_percentiles": {
-    "average_grid": 88.67924528301887,
-    "average_finish": 53.77358490566038,
-    "positions_gained_avg": 16.037735849056602,
-    "win_rate": 32.075471698113205,
-    "top5_rate": 53.77358490566038,
-    "results": 42.924528301886795,
-    "qualifying": 88.67924528301887,
-    "race_performance": 53.77358490566038,
-    "racecraft_unconditioned": 16.037735849056602,
-    "racecraft": 29.41176470588235,
+    "average_grid": 85.44600938967136,
+    "average_finish": 55.39906103286385,
+    "positions_gained_avg": 18.309859154929576,
+    "win_rate": 34.27230046948357,
+    "top5_rate": 55.39906103286385,
+    "results": 44.83568075117371,
+    "qualifying": 85.44600938967136,
+    "race_performance": 55.39906103286385,
+    "racecraft_unconditioned": 18.309859154929576,
+    "racecraft": 34.11764705882353,
     "racecraft_conditioning": {
-      "peer_count": 34,
+      "peer_count": 85,
       "grid_window": 1.5,
       "grid_min": 4.543478260869565,
       "grid_max": 7.543478260869565,
       "user_average_grid": 6.043478260869565,
       "user_positions_gained_avg": 0.5491990846681922
     },
-    "overall": 57.745560488346285
+    "overall": 58.57235570284451
   },
   "sample_summary": {
     "average_grid": {
-      "min": 1.6760365425158117,
-      "median": 8.094252873563219,
-      "max": 12.76923076923077
+      "min": 2.8622754491017965,
+      "median": 7.923076923076923,
+      "max": 14.078313253012048
     },
     "average_finish": {
-      "min": 2.0588235294117645,
-      "median": 5.607407407407408,
-      "max": 9.13953488372093
+      "min": 1.2867483296213809,
+      "median": 5.73448275862069,
+      "max": 9.67
     },
     "positions_gained_avg": {
-      "min": -1.9954337899543386,
-      "median": 2.406593406593406,
-      "max": 7.125
+      "min": -2.115384615384615,
+      "median": 2.071428571428571,
+      "max": 9.153614457831324
     },
     "win_rate": {
       "min": 0.0,
-      "median": 0.05803571428571429,
-      "max": 0.5846802529866479
+      "median": 0.04551724137931035,
+      "max": 0.75
     },
     "top5_rate": {
-      "min": 0.16279069767441862,
-      "median": 0.5,
-      "max": 0.9117647058823529
+      "min": 0.10852713178294573,
+      "median": 0.4931972789115646,
+      "max": 1.0
     }
   }
 }
