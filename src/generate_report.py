@@ -29,6 +29,20 @@ def signed(value, digits=2):
     return "n/a" if value is None else f"{value:+.{digits}f}"
 
 
+def date_span_days(start: str, end: str) -> int:
+    start_date = datetime.fromisoformat(start.replace("Z", "+00:00")).date()
+    end_date = datetime.fromisoformat(end.replace("Z", "+00:00")).date()
+    return max(0, (end_date - start_date).days)
+
+
+def coverage_status(requested_days: int, covered_days: int) -> str:
+    if covered_days <= 0:
+        return "insufficient_data"
+    if covered_days < max(2, int(requested_days * 0.8)):
+        return "partial_coverage"
+    return "ok"
+
+
 def load_period_trends(days: int) -> list[dict]:
     if not DB_PATH.exists():
         return []
@@ -50,6 +64,7 @@ def load_period_trends(days: int) -> list[dict]:
                 trends.append({"sport_type": sport_type, "days": days, "status": "insufficient_data"})
                 continue
             first, last = rows[0], rows[-1]
+            covered_days = date_span_days(first["date"], last["date"])
             races_delta = delta(last["races"], first["races"])
             wins_delta = delta(last["wins"], first["wins"])
             top5_delta = delta(last["top5"], first["top5"])
@@ -64,7 +79,8 @@ def load_period_trends(days: int) -> list[dict]:
             trends.append({
                 "sport_type": sport_type,
                 "days": days,
-                "status": "ok",
+                "status": coverage_status(days, covered_days),
+                "covered_days": covered_days,
                 "from_date": first["date"],
                 "to_date": last["date"],
                 "races": races_delta,
@@ -100,8 +116,10 @@ def load_dr_trend(days: int) -> dict:
     if len(rows) < 2:
         return {"status": "insufficient_data"}
     first, last = rows[0], rows[-1]
+    covered_days = date_span_days(first["captured_at"], last["captured_at"])
     return {
-        "status": "ok",
+        "status": coverage_status(days, covered_days),
+        "covered_days": covered_days,
         "from": first["captured_at"],
         "to": last["captured_at"],
         "dr_points_change": delta(last["dr_points"], first["dr_points"]),
@@ -156,24 +174,28 @@ def main():
     for days in (7, 30, 90):
         dr = load_dr_trend(days)
         lines.append(f"### Last {days} days")
-        if dr.get("status") == "ok":
-            lines.append(
-                f"DR: {dr['from_label']} → {dr['to_label']} · points {signed(dr['dr_points_change'], 0)} · progress {signed(dr['dr_percentage_change'], 1)} pp"
-            )
-        else:
+        if dr.get("status") == "insufficient_data":
             lines.append("DR: insufficient history for a reliable trend.")
+        else:
+            coverage_note = "" if dr.get("status") == "ok" else f" · partial coverage: {dr.get('covered_days', 0)} days"
+            lines.append(
+                f"DR: {dr['from_label']} → {dr['to_label']} · points {signed(dr['dr_points_change'], 0)} · "
+                f"progress {signed(dr['dr_percentage_change'], 1)} pp{coverage_note}"
+            )
+
         sport_trends = load_period_trends(days)
         if not sport_trends:
             lines.append("Sport: insufficient history for a reliable trend.")
         else:
             for tr in sport_trends:
-                if tr.get("status") != "ok":
+                if tr.get("status") == "insufficient_data":
                     lines.append(f"- Sport type {tr['sport_type']}: insufficient history.")
                     continue
+                coverage_note = "" if tr.get("status") == "ok" else f" · partial coverage: {tr.get('covered_days', 0)} days"
                 lines.append(
                     f"- Sport type {tr['sport_type']}: {tr['races']} races · {tr['wins']} wins · {tr['top5']} Top 5 · {tr['poles']} poles · "
                     f"win rate {pct(tr['period_win_rate'])} · Top-5 rate {pct(tr['period_top5_rate'])} · "
-                    f"avg grid change {signed(tr['avg_grid_change'])} · avg finish change {signed(tr['avg_finish_change'])}"
+                    f"avg grid change {signed(tr['avg_grid_change'])} · avg finish change {signed(tr['avg_finish_change'])}{coverage_note}"
                 )
         lines.append("")
 
@@ -187,6 +209,7 @@ def main():
                 f"from qualifying/grid position to finish."
             )
     lines.append("- Positive grid/finish change means the numerical average position increased; because lower position numbers are better, negative changes indicate improvement.")
+    lines.append("- Trend windows explicitly flag partial coverage until the database contains enough history for the requested 7/30/90-day period.")
     lines.append("- Sport type labels remain numeric until their exact GTSH semantics are verified.")
     lines.append("- GTSH Sport totals and monthly Sports Mode counters are kept separate because they currently use different definitions/populations.")
 
