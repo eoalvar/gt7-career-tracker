@@ -1,9 +1,9 @@
 # GT7 Sport Career Report
 
 PSN: **crazy_rooster74**  
-Updated: 2026-08-23T00:44:32.794278+00:00  
+Updated: 2026-08-23T00:44:54.124546+00:00  
 DR: **B** — 21079 points — 55% toward next DR  
-SR: **6
+SR: **6**
 
 ## Sport career
 
