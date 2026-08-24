@@ -1,7 +1,7 @@
 # GT7 Sport Career Report
 
 PSN: **crazy_rooster74**  
-Updated: 2026-08-24T04:09:24.797355+00:00  
+Updated: 2026-08-24T07:31:56.523158+00:00  
 DR: **B** — 21019 points — 55% toward next DR  
 SR: **6**
 
@@ -9,15 +9,15 @@ SR: **6**
 
 | Dimension | Rating | Assessment | Statistical context |
 |---|---:|---|---|
-| **Qualifying Pace** | **7.4/10** | Strong | P80.2: starting-position performance versus competitively comparable drivers. |
-| **Finishing Performance** | **5.6/10** | Competitive / average | P57.2: finishing-position performance versus competitively comparable drivers. |
-| **Position Conversion** | **4.1/10** | Below average | P34.5: ability to convert similar grid positions into finishing positions versus comparable drivers. |
+| **Qualifying Pace** | **7.4/10** | Strong | P80.0: starting-position performance versus competitively comparable drivers. |
+| **Finishing Performance** | **5.6/10** | Competitive / average | P57.7: finishing-position performance versus competitively comparable drivers. |
+| **Position Conversion** | **4.1/10** | Below average | P35.3: ability to convert similar grid positions into finishing positions versus comparable drivers. |
 | **Results** | **4.4/10** | Below average | P39.4: concrete race outcomes such as wins and Top-5 results versus comparable drivers. |
-| **Career Rating** | **5.6/10** | Competitive / average | P56.9: combined competitive standing across the four career dimensions. |
+| **Career Rating** | **5.6/10** | Competitive / average | P57.2: combined competitive standing across the four career dimensions. |
 
 > Ratings are the presentation layer; the underlying cross-DR percentiles remain the statistical benchmark. The nonlinear 0–10 scale is anchored at 5.0 for the median (P50), ~7.0 for P75, ~8.3 for P90, ~8.9 for P95 and ~9.6 for P99.
 
-> Cross-DR peer reference: 703 effective. Calibration sample: 2211 valid profiles. Global percentiles remain available as population context.
+> Cross-DR peer reference: 697 effective. Calibration sample: 2197 valid profiles. Global percentiles remain available as population context.
 
 ## Sport career
 
@@ -37,13 +37,13 @@ Best rank: **1393** · Median rank: **18831** · Average rank: **26247.42** · W
 ## Performance trend
 
 ### Last 7 days
-Insufficient calibrated history for a reliable trend (7 snapshot(s)).
+Insufficient calibrated history for a reliable trend (8 snapshot(s)).
 
 ### Last 30 days
-Insufficient calibrated history for a reliable trend (7 snapshot(s)).
+Insufficient calibrated history for a reliable trend (8 snapshot(s)).
 
 ### Last 90 days
-Insufficient calibrated history for a reliable trend (7 snapshot(s)).
+Insufficient calibrated history for a reliable trend (8 snapshot(s)).
 
 ## Activity trends
 
