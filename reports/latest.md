@@ -1,7 +1,7 @@
 # GT7 Sport Career Report
 
 PSN: **crazy_rooster74**  
-Updated: 2026-08-24T00:09:46.592502+00:00  
+Updated: 2026-08-24T00:12:02.097457+00:00  
 DR: **B** — 21019 points — 55% toward next DR  
 SR: **6**
 
@@ -15,7 +15,7 @@ SR: **6**
 | Results | **38.9** | 46.1 |
 | Overall Career | **56.6** | 57.4 |
 
-> DR-adjusted is the primary benchmark. It compares performance with drivers near the current competitive level; Global compares with the full calibrated reference. DR peers used: n/a. Calibration sample: 2164 valid profiles.
+> DR-adjusted is the primary benchmark. It compares performance continuously by DR points across DR boundaries; Global compares with the full calibrated reference. Peer reference: 696 effective. Calibration sample: 2164 valid profiles.
 
 ## Sport career
 
@@ -32,7 +32,18 @@ Races: **372** · Wins: **13** · Poles: **17** · Fastest laps: **7** · Clean 
 
 Best rank: **1393** · Median rank: **18831** · Average rank: **26247.42** · Worst rank: **122020** · Rank standard deviation: **23830.08**
 
-## Trends
+## Performance trend
+
+### Last 7 days
+Insufficient calibrated history for a reliable trend (3 snapshot(s)).
+
+### Last 30 days
+Insufficient calibrated history for a reliable trend (3 snapshot(s)).
+
+### Last 90 days
+Insufficient calibrated history for a reliable trend (3 snapshot(s)).
+
+## Activity trends
 
 ### Last 7 days
 DR: B → B · points -60 · progress +0.0 pp · partial coverage: 1 days
@@ -55,4 +66,5 @@ DR: B → B · points -60 · progress +0.0 pp · partial coverage: 1 days
 - Championships: on average gains **2.00 positions per race** from qualifying/grid position to finish.
 - DR-adjusted percentiles are the primary longitudinal benchmark because matchmaking difficulty rises with DR.
 - Global percentiles are retained as population context.
+- Performance trends use stored snapshots and never recalculate historical scores with a newer benchmark.
 - Raw GTSH sport_type values remain stored unchanged; labels are presentation-only.
