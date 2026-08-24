@@ -1,7 +1,7 @@
 # GT7 Sport Career Report
 
 PSN: **crazy_rooster74**  
-Updated: 2026-08-24T07:31:56.523158+00:00  
+Updated: 2026-08-24T10:06:48.638739+00:00  
 DR: **B** — 21019 points — 55% toward next DR  
 SR: **6**
 
@@ -37,13 +37,13 @@ Best rank: **1393** · Median rank: **18831** · Average rank: **26247.42** · W
 ## Performance trend
 
 ### Last 7 days
-Insufficient calibrated history for a reliable trend (8 snapshot(s)).
+Insufficient calibrated history for a reliable trend (9 snapshot(s)).
 
 ### Last 30 days
-Insufficient calibrated history for a reliable trend (8 snapshot(s)).
+Insufficient calibrated history for a reliable trend (9 snapshot(s)).
 
 ### Last 90 days
-Insufficient calibrated history for a reliable trend (8 snapshot(s)).
+Insufficient calibrated history for a reliable trend (9 snapshot(s)).
 
 ## Activity trends
 
