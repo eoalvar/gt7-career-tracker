@@ -1,21 +1,23 @@
 # GT7 Sport Career Report
 
 PSN: **crazy_rooster74**  
-Updated: 2026-08-24T00:23:08.555832+00:00  
+Updated: 2026-08-24T00:45:10.458265+00:00  
 DR: **B** — 21019 points — 55% toward next DR  
 SR: **6**
 
-## Performance percentiles
+## Competitive ratings
 
-| Dimension | DR-adjusted | Global |
-|---|---:|---:|
-| Qualifying | **80.1** | 84.8 |
-| Race Performance | **57.1** | 54.2 |
-| Racecraft | **33.9** | 30.2 |
-| Results | **38.9** | 46.1 |
-| Overall Career | **56.6** | 57.4 |
+| Dimension | Rating | Assessment | Statistical context |
+|---|---:|---|---|
+| **Qualifying Pace** | **7.4/10** | Strong | P80.2: starting-position performance versus competitively comparable drivers. |
+| **Finishing Performance** | **5.6/10** | Competitive / average | P57.2: finishing-position performance versus competitively comparable drivers. |
+| **Position Conversion** | **4.1/10** | Below average | P34.5: ability to convert similar grid positions into finishing positions versus comparable drivers. |
+| **Results** | **4.4/10** | Below average | P39.4: concrete race outcomes such as wins and Top-5 results versus comparable drivers. |
+| **Career Rating** | **5.6/10** | Competitive / average | P56.9: combined competitive standing across the four career dimensions. |
 
-> DR-adjusted is the primary benchmark. It compares performance continuously by DR points across DR boundaries; Global compares with the full calibrated reference. Peer reference: 696 effective. Calibration sample: 2164 valid profiles.
+> Ratings are the presentation layer; the underlying cross-DR percentiles remain the statistical benchmark. The nonlinear 0–10 scale is anchored at 5.0 for the median (P50), ~7.0 for P75, ~8.3 for P90, ~8.9 for P95 and ~9.6 for P99.
+
+> Cross-DR peer reference: 703 effective. Calibration sample: 2211 valid profiles. Global percentiles remain available as population context.
 
 ## Sport career
 
@@ -35,13 +37,13 @@ Best rank: **1393** · Median rank: **18831** · Average rank: **26247.42** · W
 ## Performance trend
 
 ### Last 7 days
-Insufficient calibrated history for a reliable trend (4 snapshot(s)).
+Insufficient calibrated history for a reliable trend (5 snapshot(s)).
 
 ### Last 30 days
-Insufficient calibrated history for a reliable trend (4 snapshot(s)).
+Insufficient calibrated history for a reliable trend (5 snapshot(s)).
 
 ### Last 90 days
-Insufficient calibrated history for a reliable trend (4 snapshot(s)).
+Insufficient calibrated history for a reliable trend (5 snapshot(s)).
 
 ## Activity trends
 
@@ -64,7 +66,7 @@ DR: B → B · points -60 · progress +0.0 pp · partial coverage: 1 days
 
 - Daily Races: on average gains **0.54 positions per race** from qualifying/grid position to finish.
 - Championships: on average gains **2.00 positions per race** from qualifying/grid position to finish.
-- DR-adjusted percentiles are the primary longitudinal benchmark because matchmaking difficulty rises with DR.
-- Global percentiles are retained as population context.
+- Cross-DR percentiles remain the underlying longitudinal benchmark because matchmaking difficulty rises with DR.
+- The 0–10 ratings are a nonlinear presentation layer designed for intuitive interpretation.
+- Position Conversion is the presentation name for the historical racecraft field; the database field is retained for compatibility.
 - Performance trends use stored snapshots and never recalculate historical scores with a newer benchmark.
-- Raw GTSH sport_type values remain stored unchanged; labels are presentation-only.
