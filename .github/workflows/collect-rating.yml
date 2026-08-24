@@ -56,5 +56,6 @@ jobs:
             echo "No career data changes to commit."
           else
             git commit -m "Update GT7 career data"
-            git push
+            git pull --rebase origin main
+            git push origin HEAD:main
           fi
