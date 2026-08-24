@@ -48,6 +48,35 @@ def load_dr_trend(days):
     a,b=rows[0],rows[-1]; covered=date_span_days(a['captured_at'],b['captured_at'])
     return {"status":coverage_status(days,covered),"covered_days":covered,"dr_points_change":delta(b['dr_points'],a['dr_points']),"dr_percentage_change":delta(b['dr_percentage'],a['dr_percentage']),"from_label":a['dr_label'],"to_label":b['dr_label']}
 
+def load_performance_trend(days):
+    if not DB_PATH.exists(): return {"status":"insufficient_data"}
+    cutoff=(datetime.now(timezone.utc)-timedelta(days=days)).isoformat()
+    try:
+        with sqlite3.connect(DB_PATH) as conn:
+            conn.row_factory=sqlite3.Row
+            rows=conn.execute(
+                "SELECT captured_at,dr_points,qualifying,race_performance,racecraft,results,overall "
+                "FROM performance_history WHERE captured_at>=? ORDER BY captured_at ASC",
+                (cutoff,),
+            ).fetchall()
+    except sqlite3.OperationalError:
+        return {"status":"insufficient_data"}
+    if len(rows)<2:return {"status":"insufficient_data","snapshot_count":len(rows)}
+    a,b=rows[0],rows[-1]; covered=date_span_days(a['captured_at'],b['captured_at'])
+    return {
+        "status":coverage_status(days,covered),
+        "covered_days":covered,
+        "snapshot_count":len(rows),
+        "dr_points_change":delta(b['dr_points'],a['dr_points']),
+        "qualifying_change":delta(b['qualifying'],a['qualifying']),
+        "race_performance_change":delta(b['race_performance'],a['race_performance']),
+        "racecraft_change":delta(b['racecraft'],a['racecraft']),
+        "results_change":delta(b['results'],a['results']),
+        "overall_change":delta(b['overall'],a['overall']),
+        "overall_start":a['overall'],
+        "overall_end":b['overall'],
+    }
+
 def provisional_indices(career):
     daily=next((r for r in career.get('sport_types',[]) if r.get('sport_type')==1),None); sm=career.get('sports_mode',{})
     if not daily:return {}
@@ -78,13 +107,24 @@ def main():
     lines=["# GT7 Sport Career Report","",f"PSN: **{rating['psn_id']}**  ",f"Updated: {career['captured_at']}  ",f"DR: **{rating['dr_label']}** — {rating['dr_points']} points — {rating['dr_percentage']}% toward next DR  ",f"SR: **{rating['sportsmanship_rating']}**",""]
     if empirical:
         a=idx['adjusted']; g=idx.get('global',{}); meta=idx.get('dr_adjustment') or {}
-        lines += ["## Performance percentiles","","| Dimension | DR-adjusted | Global |","|---|---:|---:|",f"| Qualifying | **{a['qualifying']:.1f}** | {g.get('qualifying',float('nan')):.1f} |",f"| Race Performance | **{a['race_performance']:.1f}** | {g.get('race_performance',float('nan')):.1f} |",f"| Racecraft | **{a['racecraft']:.1f}** | {g.get('racecraft',float('nan')):.1f} |",f"| Results | **{a['results']:.1f}** | {g.get('results',float('nan')):.1f} |",f"| Overall Career | **{a['overall']:.1f}** | {g.get('overall',float('nan')):.1f} |","",f"> DR-adjusted is the primary benchmark. It compares performance with drivers near the current competitive level; Global compares with the full calibrated reference. DR peers used: {meta.get('peer_count','n/a')}. Calibration sample: {idx.get('sample_size')} valid profiles.",""]
+        effective=meta.get('effective_peer_count'); peer_text=f"{effective:.0f} effective" if isinstance(effective,(int,float)) else str(meta.get('peer_count','n/a'))
+        lines += ["## Performance percentiles","","| Dimension | DR-adjusted | Global |","|---|---:|---:|",f"| Qualifying | **{a['qualifying']:.1f}** | {g.get('qualifying',float('nan')):.1f} |",f"| Race Performance | **{a['race_performance']:.1f}** | {g.get('race_performance',float('nan')):.1f} |",f"| Racecraft | **{a['racecraft']:.1f}** | {g.get('racecraft',float('nan')):.1f} |",f"| Results | **{a['results']:.1f}** | {g.get('results',float('nan')):.1f} |",f"| Overall Career | **{a['overall']:.1f}** | {g.get('overall',float('nan')):.1f} |","",f"> DR-adjusted is the primary benchmark. It compares performance continuously by DR points across DR boundaries; Global compares with the full calibrated reference. Peer reference: {peer_text}. Calibration sample: {idx.get('sample_size')} valid profiles.",""]
     else:
         lines += ["## Performance indices (provisional)","",f"Qualifying: **{idx['qualifying']:.1f}/100**  ",f"Race Performance: **{idx['race_performance']:.1f}/100**  ",f"Racecraft: **{idx['racecraft']:.1f}/100**  ",f"Results: **{idx['results']:.1f}/100**  ",f"Overall Career: **{idx['overall']:.1f}/100**","","> Provisional absolute indices. Population calibration has not completed yet.",""]
     lines += ["## Sport career","","| Category | Races | Wins | Top 5 | Poles | Avg grid | Avg finish | Avg positions gained | Win rate | Top-5 rate | Pole rate |","|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|"]
     for r in career.get('sport_types',[]): lines.append(f"| {sport_label(r['sport_type'])} | {r['races']} | {r['wins']} | {r['top5']} | {r['poles']} | {num(r['average_grid'])} | {num(r['average_finish'])} | {num(r['positions_gained_avg'])} | {pct(r['win_rate'])} | {pct(r['top5_rate'])} | {pct(r['pole_rate'])} |")
     sm=career.get('sports_mode',{}); qp=career.get('qualifying_performance',{})
-    lines += ["","## Sports Mode counters","",f"Races: **{sm.get('race_count')}** · Wins: **{sm.get('win_count')}** · Poles: **{sm.get('pole_position_count')}** · Fastest laps: **{sm.get('fastest_lap_count')}** · Clean races: **{sm.get('clean_race_count')}**","","## Qualifying performance","",f"Best rank: **{qp.get('best_rank')}** · Median rank: **{qp.get('median_rank')}** · Average rank: **{qp.get('average_rank')}** · Worst rank: **{qp.get('worst_rank')}** · Rank standard deviation: **{qp.get('rank_stddev')}**","","## Trends",""]
+    lines += ["","## Sports Mode counters","",f"Races: **{sm.get('race_count')}** · Wins: **{sm.get('win_count')}** · Poles: **{sm.get('pole_position_count')}** · Fastest laps: **{sm.get('fastest_lap_count')}** · Clean races: **{sm.get('clean_race_count')}**","","## Qualifying performance","",f"Best rank: **{qp.get('best_rank')}** · Median rank: **{qp.get('median_rank')}** · Average rank: **{qp.get('average_rank')}** · Worst rank: **{qp.get('worst_rank')}** · Rank standard deviation: **{qp.get('rank_stddev')}**","","## Performance trend",""]
+    for days in (7,30,90):
+        tr=load_performance_trend(days); lines.append(f"### Last {days} days")
+        if tr.get('status')=='insufficient_data':
+            lines.append(f"Insufficient calibrated history for a reliable trend ({tr.get('snapshot_count',0)} snapshot(s)).")
+        else:
+            note="" if tr['status']=='ok' else f" · partial coverage: {tr.get('covered_days',0)} days"
+            lines.append(f"Overall: {tr['overall_start']:.1f} → {tr['overall_end']:.1f} ({signed(tr['overall_change'],1)}) · DR points {signed(tr['dr_points_change'],0)} · {tr['snapshot_count']} snapshots{note}")
+            lines.append(f"- Qualifying {signed(tr['qualifying_change'],1)} · Race Performance {signed(tr['race_performance_change'],1)} · Racecraft {signed(tr['racecraft_change'],1)} · Results {signed(tr['results_change'],1)}")
+        lines.append("")
+    lines += ["## Activity trends",""]
     for days in (7,30,90):
         dr=load_dr_trend(days); lines.append(f"### Last {days} days")
         if dr.get('status')=='insufficient_data': lines.append("DR: insufficient history for a reliable trend.")
@@ -99,7 +139,7 @@ def main():
     for r in career.get('sport_types',[]):
         g=r.get('positions_gained_avg')
         if g is not None: lines.append(f"- {sport_label(r['sport_type'])}: on average {'gains' if g>=0 else 'loses'} **{abs(g):.2f} positions per race** from qualifying/grid position to finish.")
-    lines += ["- DR-adjusted percentiles are the primary longitudinal benchmark because matchmaking difficulty rises with DR.","- Global percentiles are retained as population context.","- Raw GTSH sport_type values remain stored unchanged; labels are presentation-only."]
+    lines += ["- DR-adjusted percentiles are the primary longitudinal benchmark because matchmaking difficulty rises with DR.","- Global percentiles are retained as population context.","- Performance trends use stored snapshots and never recalculate historical scores with a newer benchmark.","- Raw GTSH sport_type values remain stored unchanged; labels are presentation-only."]
     REPORT_PATH.parent.mkdir(parents=True,exist_ok=True); REPORT_PATH.write_text("\n".join(lines)+"\n"); print(f"Career report written to {REPORT_PATH}")
 
 if __name__=='__main__': main()
