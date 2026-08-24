@@ -1,4 +1,4 @@
-name: Calibrate GT7 Career Population
+name: Maintain GT7 Career Population
 
 on:
   workflow_dispatch:
@@ -8,19 +8,20 @@ on:
     paths:
       - "src/calibrate_population.py"
       - "src/calibrate_population_resilient.py"
+      - "src/maintain_population.py"
       - ".github/workflows/calibrate-population.yml"
 
 permissions:
   contents: write
 
 concurrency:
-  group: calibrate-gt7-career-population
+  group: maintain-gt7-career-population
   cancel-in-progress: false
 
 jobs:
-  calibrate:
+  maintain:
     runs-on: ubuntu-latest
-    timeout-minutes: 75
+    timeout-minutes: 60
 
     steps:
       - name: Checkout repository
@@ -42,34 +43,35 @@ jobs:
           GT7_PSN_ID: crazy_rooster74
         run: python src/collect_rating.py
 
-      - name: Build cumulative empirical population calibration
+      - name: Maintain rolling empirical population
         env:
           GT7_PSN_ID: crazy_rooster74
-          GT7_CALIBRATION_SAMPLE: "1200"
           GT7_CALIBRATION_EVENTS_PER_RUN: "3"
-          GT7_CALIBRATION_TARGET_VALID: "2000"
           GT7_CALIBRATION_MIN_VALID: "100"
           GT7_CALIBRATION_MIN_RACES: "20"
-        run: python src/calibrate_population_resilient.py
+          GT7_DR_WEIGHT_SCALE: "5000"
+          GT7_MAINTENANCE_TARGET: "2200"
+          GT7_MAINTENANCE_REPLACE: "100"
+          GT7_MAINTENANCE_SAMPLE: "600"
+        run: python src/maintain_population.py
 
-      - name: Regenerate career report
+      - name: Regenerate career report locally
         run: python src/generate_report.py
 
-      - name: Commit calibration artifacts only
+      - name: Commit population artifacts only
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          # Volatile career snapshots are refreshed by the regular career workflow.
-          # Do not include them here, otherwise concurrent runs can conflict during rebase.
+          # The regular career workflow owns volatile personal snapshots/history.
           git restore --staged data/career.db data/latest_rating.json data/latest_career.json data/latest_profile_fields.json reports/latest.md 2>/dev/null || true
           git restore data/career.db data/latest_rating.json data/latest_career.json data/latest_profile_fields.json reports/latest.md 2>/dev/null || true
 
           git add data/population_calibration.json data/population_profiles.json
           if git diff --cached --quiet; then
-            echo "No calibration changes to commit."
+            echo "No population maintenance changes to commit."
           else
-            git commit -m "Update GT7 population calibration"
+            git commit -m "Maintain GT7 population reference"
             git pull --rebase origin main
             git push origin HEAD:main
           fi
