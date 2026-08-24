@@ -2,1606 +2,6 @@
   "updated_at": "2026-08-23T14:15:52.343810+00:00",
   "target_valid_profiles": 2200,
   "profiles": {
-    "thunder7kk": {
-      "psn_id": "Thunder7kK",
-      "races": 747,
-      "wins": 29,
-      "top5": 366,
-      "average_grid": 6.823293172690763,
-      "average_finish": 5.863453815261044,
-      "driver_rating": 4,
-      "dr_label": "B",
-      "dr_points": 11922.0,
-      "dr_percentage": 9,
-      "positions_gained_avg": 0.9598393574297184,
-      "win_rate": 0.038821954484605084,
-      "top5_rate": 0.4899598393574297,
-      "collected_at": "2026-08-23T15:21:51.804063+00:00"
-    },
-    "coure_sportivo": {
-      "psn_id": "Coure_Sportivo",
-      "races": 63,
-      "wins": 9,
-      "top5": 33,
-      "average_grid": 12.571428571428571,
-      "average_finish": 5.476190476190476,
-      "driver_rating": 4,
-      "dr_label": "B",
-      "dr_points": 18411.0,
-      "dr_percentage": 42,
-      "positions_gained_avg": 7.095238095238095,
-      "win_rate": 0.14285714285714285,
-      "top5_rate": 0.5238095238095238,
-      "collected_at": "2026-08-23T15:21:54.586047+00:00"
-    },
-    "the_balzaretti": {
-      "psn_id": "The_Balzaretti",
-      "races": 174,
-      "wins": 14,
-      "top5": 94,
-      "average_grid": 6.908045977011494,
-      "average_finish": 5.252873563218391,
-      "driver_rating": 4,
-      "dr_label": "B",
-      "dr_points": 22364.0,
-      "dr_percentage": 61,
-      "positions_gained_avg": 1.6551724137931032,
-      "win_rate": 0.08045977011494253,
-      "top5_rate": 0.5402298850574713,
-      "collected_at": "2026-08-23T15:22:00.247971+00:00"
-    },
-    "nissan_r31_gt-r": {
-      "psn_id": "Nissan_R31_GT-R",
-      "races": 226,
-      "wins": 18,
-      "top5": 109,
-      "average_grid": 13.584070796460177,
-      "average_finish": 6.115044247787611,
-      "driver_rating": 6,
-      "dr_label": "A+",
-      "dr_points": 52163.0,
-      "dr_percentage": 4,
-      "positions_gained_avg": 7.4690265486725655,
-      "win_rate": 0.07964601769911504,
-      "top5_rate": 0.4823008849557522,
-      "collected_at": "2026-08-23T15:22:02.513150+00:00"
-    },
-    "sgaggia87": {
-      "psn_id": "sgaggia87",
-      "races": 49,
-      "wins": 6,
-      "top5": 21,
-      "average_grid": 8.142857142857142,
-      "average_finish": 6.938775510204081,
-      "driver_rating": 3,
-      "dr_label": "C",
-      "dr_points": 8603.0,
-      "dr_percentage": 76,
-      "positions_gained_avg": 1.204081632653061,
-      "win_rate": 0.12244897959183673,
-      "top5_rate": 0.42857142857142855,
-      "collected_at": "2026-08-23T15:22:05.354648+00:00"
-    },
-    "auragni_": {
-      "psn_id": "Auragni_",
-      "races": 328,
-      "wins": 9,
-      "top5": 102,
-      "average_grid": 7.155487804878049,
-      "average_finish": 7.573170731707317,
-      "driver_rating": 3,
-      "dr_label": "C",
-      "dr_points": 9791.0,
-      "dr_percentage": 96,
-      "positions_gained_avg": -0.41768292682926855,
-      "win_rate": 0.027439024390243903,
-      "top5_rate": 0.31097560975609756,
-      "collected_at": "2026-08-23T15:22:07.596126+00:00"
-    },
-    "thenamesbond": {
-      "psn_id": "thenamesbond",
-      "races": 4662,
-      "wins": 636,
-      "top5": 2907,
-      "average_grid": 6.592878592878593,
-      "average_finish": 4.907764907764908,
-      "driver_rating": 4,
-      "dr_label": "B",
-      "dr_points": 13057.0,
-      "dr_percentage": 15,
-      "positions_gained_avg": 1.6851136851136852,
-      "win_rate": 0.1364221364221364,
-      "top5_rate": 0.6235521235521235,
-      "collected_at": "2026-08-23T15:22:14.440811+00:00"
-    },
-    "stig555": {
-      "psn_id": "Stig555",
-      "races": 656,
-      "wins": 89,
-      "top5": 384,
-      "average_grid": 6.2698170731707314,
-      "average_finish": 5.195121951219512,
-      "driver_rating": 2,
-      "dr_label": "D",
-      "dr_points": 2986.0,
-      "dr_percentage": 74,
-      "positions_gained_avg": 1.074695121951219,
-      "win_rate": 0.13567073170731708,
-      "top5_rate": 0.5853658536585366,
-      "collected_at": "2026-08-23T15:22:20.675277+00:00"
-    },
-    "casperson44": {
-      "psn_id": "Casperson44",
-      "races": 73,
-      "wins": 14,
-      "top5": 46,
-      "average_grid": 5.698630136986301,
-      "average_finish": 4.506849315068493,
-      "driver_rating": 3,
-      "dr_label": "C",
-      "dr_points": 6342.0,
-      "dr_percentage": 39,
-      "positions_gained_avg": 1.191780821917808,
-      "win_rate": 0.1917808219178082,
-      "top5_rate": 0.6301369863013698,
-      "collected_at": "2026-08-23T15:22:27.205118+00:00"
-    },
-    "gtid_drakorodo": {
-      "psn_id": "GTID_DraKoRodo",
-      "races": 132,
-      "wins": 2,
-      "top5": 33,
-      "average_grid": 9.590909090909092,
-      "average_finish": 8.590909090909092,
-      "driver_rating": 4,
-      "dr_label": "B",
-      "dr_points": 13533.0,
-      "dr_percentage": 17,
-      "positions_gained_avg": 1.0,
-      "win_rate": 0.015151515151515152,
-      "top5_rate": 0.25,
-      "collected_at": "2026-08-23T15:22:32.003976+00:00"
-    },
-    "vixen-stealth": {
-      "psn_id": "Vixen-Stealth",
-      "races": 378,
-      "wins": 9,
-      "top5": 123,
-      "average_grid": 11.640211640211641,
-      "average_finish": 7.124338624338624,
-      "driver_rating": 4,
-      "dr_label": "B",
-      "dr_points": 13457.0,
-      "dr_percentage": 17,
-      "positions_gained_avg": 4.515873015873017,
-      "win_rate": 0.023809523809523808,
-      "top5_rate": 0.3253968253968254,
-      "collected_at": "2026-08-23T15:22:35.743508+00:00"
-    },
-    "a_pizzonia": {
-      "psn_id": "A_Pizzonia",
-      "races": 1792,
-      "wins": 122,
-      "top5": 1388,
-      "average_grid": 7.03125,
-      "average_finish": 3.130580357142857,
-      "driver_rating": 4,
-      "dr_label": "B",
-      "dr_points": 18202.0,
-      "dr_percentage": 41,
-      "positions_gained_avg": 3.900669642857143,
-      "win_rate": 0.06808035714285714,
-      "top5_rate": 0.7745535714285714,
-      "collected_at": "2026-08-23T15:22:39.158350+00:00"
-    },
-    "andre19630111": {
-      "psn_id": "Andre19630111",
-      "races": 289,
-      "wins": 22,
-      "top5": 194,
-      "average_grid": 3.903114186851211,
-      "average_finish": 3.982698961937716,
-      "driver_rating": 3,
-      "dr_label": "C",
-      "dr_points": 6219.0,
-      "dr_percentage": 36,
-      "positions_gained_avg": -0.0795847750865053,
-      "win_rate": 0.07612456747404844,
-      "top5_rate": 0.671280276816609,
-      "collected_at": "2026-08-23T15:22:44.452684+00:00"
-    },
-    "bassangler25": {
-      "psn_id": "BASSangler25",
-      "races": 40,
-      "wins": 20,
-      "top5": 36,
-      "average_grid": 1.325,
-      "average_finish": 2.325,
-      "driver_rating": 4,
-      "dr_label": "B",
-      "dr_points": 21617.0,
-      "dr_percentage": 58,
-      "positions_gained_avg": -1.0000000000000002,
-      "win_rate": 0.5,
-      "top5_rate": 0.9,
-      "collected_at": "2026-08-23T15:22:49.564998+00:00"
-    },
-    "xxkhreios82xx": {
-      "psn_id": "XxKhreios82xX",
-      "races": 458,
-      "wins": 11,
-      "top5": 221,
-      "average_grid": 8.320960698689957,
-      "average_finish": 6.111353711790393,
-      "driver_rating": 4,
-      "dr_label": "B",
-      "dr_points": 13004.0,
-      "dr_percentage": 15,
-      "positions_gained_avg": 2.209606986899564,
-      "win_rate": 0.024017467248908297,
-      "top5_rate": 0.48253275109170307,
-      "collected_at": "2026-08-23T15:22:56.453233+00:00"
-    },
-    "racewars__": {
-      "psn_id": "RaceWars__",
-      "races": 66,
-      "wins": 5,
-      "top5": 30,
-      "average_grid": 7.545454545454546,
-      "average_finish": 6.984848484848484,
-      "driver_rating": 4,
-      "dr_label": "B",
-      "dr_points": 10176.0,
-      "dr_percentage": 0,
-      "positions_gained_avg": 0.5606060606060614,
-      "win_rate": 0.07575757575757576,
-      "top5_rate": 0.45454545454545453,
-      "collected_at": "2026-08-23T15:23:01.541956+00:00"
-    },
-    "donlowe": {
-      "psn_id": "donlowe",
-      "races": 418,
-      "wins": 19,
-      "top5": 134,
-      "average_grid": 8.311004784688995,
-      "average_finish": 7.827751196172249,
-      "driver_rating": 4,
-      "dr_label": "B",
-      "dr_points": 13877.0,
-      "dr_percentage": 19,
-      "positions_gained_avg": 0.48325358851674594,
-      "win_rate": 0.045454545454545456,
-      "top5_rate": 0.32057416267942584,
-      "collected_at": "2026-08-23T15:23:06.923716+00:00"
-    },
-    "amazing-lennox": {
-      "psn_id": "Amazing-Lennox",
-      "races": 1727,
-      "wins": 120,
-      "top5": 795,
-      "average_grid": 6.654313839027215,
-      "average_finish": 6.378691372321946,
-      "driver_rating": 3,
-      "dr_label": "C",
-      "dr_points": 7724.0,
-      "dr_percentage": 62,
-      "positions_gained_avg": 0.27562246670526935,
-      "win_rate": 0.06948465547191662,
-      "top5_rate": 0.4603358425014476,
-      "collected_at": "2026-08-23T15:23:10.833929+00:00"
-    },
-    "trav-i-is_cuhz": {
-      "psn_id": "Trav-I-is_cuhz",
-      "races": 213,
-      "wins": 4,
-      "top5": 65,
-      "average_grid": 9.629107981220658,
-      "average_finish": 7.572769953051643,
-      "driver_rating": 4,
-      "dr_label": "B",
-      "dr_points": 12027.0,
-      "dr_percentage": 10,
-      "positions_gained_avg": 2.056338028169015,
-      "win_rate": 0.018779342723004695,
-      "top5_rate": 0.3051643192488263,
-      "collected_at": "2026-08-23T15:23:17.919189+00:00"
-    },
-    "gulleasti": {
-      "psn_id": "Gulleasti",
-      "races": 1152,
-      "wins": 155,
-      "top5": 777,
-      "average_grid": 6.046006944444445,
-      "average_finish": 4.128472222222222,
-      "driver_rating": 2,
-      "dr_label": "D",
-      "dr_points": 2457.0,
-      "dr_percentage": 61,
-      "positions_gained_avg": 1.9175347222222223,
-      "win_rate": 0.1345486111111111,
-      "top5_rate": 0.6744791666666666,
-      "collected_at": "2026-08-23T15:23:20.573867+00:00"
-    },
-    "mjpiazza": {
-      "psn_id": "MJPiazza",
-      "races": 688,
-      "wins": 34,
-      "top5": 472,
-      "average_grid": 10.132267441860465,
-      "average_finish": 3.7863372093023258,
-      "driver_rating": 4,
-      "dr_label": "B",
-      "dr_points": 12095.0,
-      "dr_percentage": 10,
-      "positions_gained_avg": 6.345930232558139,
-      "win_rate": 0.04941860465116279,
-      "top5_rate": 0.686046511627907,
-      "collected_at": "2026-08-23T15:23:23.126144+00:00"
-    },
-    "determinednewbie": {
-      "psn_id": "DeterminedNewbie",
-      "races": 257,
-      "wins": 9,
-      "top5": 86,
-      "average_grid": 4.428015564202335,
-      "average_finish": 7.929961089494164,
-      "driver_rating": 4,
-      "dr_label": "B",
-      "dr_points": 13165.0,
-      "dr_percentage": 15,
-      "positions_gained_avg": -3.501945525291829,
-      "win_rate": 0.03501945525291829,
-      "top5_rate": 0.3346303501945525,
-      "collected_at": "2026-08-23T15:23:30.079418+00:00"
-    },
-    "hd99fxr3": {
-      "psn_id": "HD99FXR3",
-      "races": 450,
-      "wins": 71,
-      "top5": 215,
-      "average_grid": 7.2844444444444445,
-      "average_finish": 6.0311111111111115,
-      "driver_rating": 4,
-      "dr_label": "B",
-      "dr_points": 11678.0,
-      "dr_percentage": 8,
-      "positions_gained_avg": 1.253333333333333,
-      "win_rate": 0.15777777777777777,
-      "top5_rate": 0.4777777777777778,
-      "collected_at": "2026-08-23T15:23:31.655970+00:00"
-    },
-    "silveira_cma": {
-      "psn_id": "silveira_cma",
-      "races": 504,
-      "wins": 30,
-      "top5": 200,
-      "average_grid": 7.978174603174603,
-      "average_finish": 6.930555555555555,
-      "driver_rating": 3,
-      "dr_label": "C",
-      "dr_points": 5309.0,
-      "dr_percentage": 21,
-      "positions_gained_avg": 1.0476190476190474,
-      "win_rate": 0.05952380952380952,
-      "top5_rate": 0.3968253968253968,
-      "collected_at": "2026-08-23T15:23:37.965702+00:00"
-    },
-    "ren_rtm1": {
-      "psn_id": "REN_RTM1",
-      "races": 84,
-      "wins": 2,
-      "top5": 60,
-      "average_grid": 7.2976190476190474,
-      "average_finish": 3.0238095238095237,
-      "driver_rating": 2,
-      "dr_label": "D",
-      "dr_points": 2.0,
-      "dr_percentage": 0,
-      "positions_gained_avg": 4.273809523809524,
-      "win_rate": 0.023809523809523808,
-      "top5_rate": 0.7142857142857143,
-      "collected_at": "2026-08-23T15:23:40.654460+00:00"
-    },
-    "thetrainman71-ar": {
-      "psn_id": "TheTrainMan71-AR",
-      "races": 1324,
-      "wins": 44,
-      "top5": 572,
-      "average_grid": 7.4154078549848945,
-      "average_finish": 6.2975830815709966,
-      "driver_rating": 3,
-      "dr_label": "C",
-      "dr_points": 7912.0,
-      "dr_percentage": 65,
-      "positions_gained_avg": 1.117824773413898,
-      "win_rate": 0.03323262839879154,
-      "top5_rate": 0.43202416918429004,
-      "collected_at": "2026-08-23T15:23:42.710411+00:00"
-    },
-    "aj_jj_peace-1204": {
-      "psn_id": "AJ_JJ_PEACE-1204",
-      "races": 372,
-      "wins": 6,
-      "top5": 141,
-      "average_grid": 9.268817204301076,
-      "average_finish": 6.85752688172043,
-      "driver_rating": 3,
-      "dr_label": "C",
-      "dr_points": 8950.0,
-      "dr_percentage": 82,
-      "positions_gained_avg": 2.411290322580646,
-      "win_rate": 0.016129032258064516,
-      "top5_rate": 0.3790322580645161,
-      "collected_at": "2026-08-23T15:23:45.263356+00:00"
-    },
-    "john-deere-ia": {
-      "psn_id": "John-Deere-IA",
-      "races": 1363,
-      "wins": 90,
-      "top5": 722,
-      "average_grid": 7.901687454145268,
-      "average_finish": 5.7131327953044755,
-      "driver_rating": 4,
-      "dr_label": "B",
-      "dr_points": 10952.0,
-      "dr_percentage": 4,
-      "positions_gained_avg": 2.1885546588407925,
-      "win_rate": 0.06603081438004402,
-      "top5_rate": 0.5297138664710198,
-      "collected_at": "2026-08-23T15:23:47.764246+00:00"
-    },
-    "pretodokuduro": {
-      "psn_id": "pretodokuduro",
-      "races": 96,
-      "wins": 0,
-      "top5": 23,
-      "average_grid": 9.708333333333334,
-      "average_finish": 8.041666666666666,
-      "driver_rating": 2,
-      "dr_label": "D",
-      "dr_points": 2159.0,
-      "dr_percentage": 53,
-      "positions_gained_avg": 1.6666666666666679,
-      "win_rate": 0.0,
-      "top5_rate": 0.23958333333333334,
-      "collected_at": "2026-08-23T15:23:55.859050+00:00"
-    },
-    "evoexemplar99": {
-      "psn_id": "EvoExeMplaR99",
-      "races": 3587,
-      "wins": 540,
-      "top5": 2749,
-      "average_grid": 6.191803735712295,
-      "average_finish": 3.509339280735991,
-      "driver_rating": 4,
-      "dr_label": "B",
-      "dr_points": 18682.0,
-      "dr_percentage": 43,
-      "positions_gained_avg": 2.6824644549763037,
-      "win_rate": 0.15054362977418456,
-      "top5_rate": 0.7663785893504321,
-      "collected_at": "2026-08-23T15:23:58.790739+00:00"
-    },
-    "spm_dudu": {
-      "psn_id": "SPM_Dudu",
-      "races": 200,
-      "wins": 16,
-      "top5": 119,
-      "average_grid": 5.705,
-      "average_finish": 5.03,
-      "driver_rating": 4,
-      "dr_label": "B",
-      "dr_points": 16064.0,
-      "dr_percentage": 30,
-      "positions_gained_avg": 0.6749999999999998,
-      "win_rate": 0.08,
-      "top5_rate": 0.595,
-      "collected_at": "2026-08-23T15:24:06.927116+00:00"
-    },
-    "hiddenblaze86": {
-      "psn_id": "HiddenBlaze86",
-      "races": 739,
-      "wins": 22,
-      "top5": 415,
-      "average_grid": 9.108254397834912,
-      "average_finish": 5.062246278755074,
-      "driver_rating": 4,
-      "dr_label": "B",
-      "dr_points": 13754.0,
-      "dr_percentage": 18,
-      "positions_gained_avg": 4.046008119079838,
-      "win_rate": 0.029769959404600813,
-      "top5_rate": 0.5615696887686062,
-      "collected_at": "2026-08-23T15:24:10.599769+00:00"
-    },
-    "olm0rt5k1ng46": {
-      "psn_id": "Olm0rt5k1ng46",
-      "races": 39,
-      "wins": 3,
-      "top5": 19,
-      "average_grid": 10.743589743589743,
-      "average_finish": 5.871794871794871,
-      "driver_rating": 4,
-      "dr_label": "B",
-      "dr_points": 10213.0,
-      "dr_percentage": 1,
-      "positions_gained_avg": 4.871794871794871,
-      "win_rate": 0.07692307692307693,
-      "top5_rate": 0.48717948717948717,
-      "collected_at": "2026-08-23T15:24:15.457254+00:00"
-    },
-    "victorrxrz": {
-      "psn_id": "victorrxrz",
-      "races": 271,
-      "wins": 32,
-      "top5": 206,
-      "average_grid": 6.546125461254612,
-      "average_finish": 3.3837638376383765,
-      "driver_rating": 5,
-      "dr_label": "A",
-      "dr_points": 30589.0,
-      "dr_percentage": 2,
-      "positions_gained_avg": 3.1623616236162357,
-      "win_rate": 0.11808118081180811,
-      "top5_rate": 0.7601476014760148,
-      "collected_at": "2026-08-23T15:24:20.366014+00:00"
-    },
-    "ciapek-5": {
-      "psn_id": "ciapek-5",
-      "races": 212,
-      "wins": 19,
-      "top5": 141,
-      "average_grid": 9.028301886792454,
-      "average_finish": 3.9056603773584904,
-      "driver_rating": 3,
-      "dr_label": "C",
-      "dr_points": 8036.0,
-      "dr_percentage": 67,
-      "positions_gained_avg": 5.122641509433963,
-      "win_rate": 0.08962264150943396,
-      "top5_rate": 0.6650943396226415,
-      "collected_at": "2026-08-23T15:24:31.597930+00:00"
-    },
-    "king_viii_": {
-      "psn_id": "King_VIII_",
-      "races": 206,
-      "wins": 13,
-      "top5": 121,
-      "average_grid": 8.0,
-      "average_finish": 4.956310679611651,
-      "driver_rating": 3,
-      "dr_label": "C",
-      "dr_points": 9290.0,
-      "dr_percentage": 88,
-      "positions_gained_avg": 3.0436893203883493,
-      "win_rate": 0.06310679611650485,
-      "top5_rate": 0.587378640776699,
-      "collected_at": "2026-08-23T15:24:34.047229+00:00"
-    },
-    "y1u2y1a1s1u0b18": {
-      "psn_id": "y1u2y1a1s1u0b18",
-      "races": 180,
-      "wins": 17,
-      "top5": 146,
-      "average_grid": 7.933333333333334,
-      "average_finish": 2.3944444444444444,
-      "driver_rating": 2,
-      "dr_label": "D",
-      "dr_points": 3000.0,
-      "dr_percentage": 75,
-      "positions_gained_avg": 5.53888888888889,
-      "win_rate": 0.09444444444444444,
-      "top5_rate": 0.8111111111111111,
-      "collected_at": "2026-08-23T15:24:35.525606+00:00"
-    },
-    "mike301084": {
-      "psn_id": "Mike301084",
-      "races": 226,
-      "wins": 5,
-      "top5": 64,
-      "average_grid": 7.530973451327434,
-      "average_finish": 7.8584070796460175,
-      "driver_rating": 3,
-      "dr_label": "C",
-      "dr_points": 4873.0,
-      "dr_percentage": 14,
-      "positions_gained_avg": -0.3274336283185839,
-      "win_rate": 0.022123893805309734,
-      "top5_rate": 0.2831858407079646,
-      "collected_at": "2026-08-23T15:24:38.125961+00:00"
-    },
-    "bojidar_lazov48": {
-      "psn_id": "Bojidar_lazov48",
-      "races": 57,
-      "wins": 6,
-      "top5": 42,
-      "average_grid": 6.315789473684211,
-      "average_finish": 3.4035087719298245,
-      "driver_rating": 2,
-      "dr_label": "D",
-      "dr_points": 2281.0,
-      "dr_percentage": 57,
-      "positions_gained_avg": 2.912280701754386,
-      "win_rate": 0.10526315789473684,
-      "top5_rate": 0.7368421052631579,
-      "collected_at": "2026-08-23T15:24:45.661197+00:00"
-    },
-    "imab0ist_": {
-      "psn_id": "IMAB0ist_",
-      "races": 188,
-      "wins": 19,
-      "top5": 91,
-      "average_grid": 9.680851063829786,
-      "average_finish": 5.941489361702128,
-      "driver_rating": 4,
-      "dr_label": "B",
-      "dr_points": 12478.0,
-      "dr_percentage": 12,
-      "positions_gained_avg": 3.739361702127659,
-      "win_rate": 0.10106382978723404,
-      "top5_rate": 0.48404255319148937,
-      "collected_at": "2026-08-23T15:24:48.542470+00:00"
-    },
-    "viper-_-2k_": {
-      "psn_id": "VIPER-_-2K_",
-      "races": 404,
-      "wins": 61,
-      "top5": 380,
-      "average_grid": 3.2747524752475248,
-      "average_finish": 1.3613861386138615,
-      "driver_rating": 3,
-      "dr_label": "C",
-      "dr_points": 5032.0,
-      "dr_percentage": 17,
-      "positions_gained_avg": 1.9133663366336633,
-      "win_rate": 0.15099009900990099,
-      "top5_rate": 0.9405940594059405,
-      "collected_at": "2026-08-23T15:24:54.014697+00:00"
-    },
-    "patrickeiland": {
-      "psn_id": "PatrickEiland",
-      "races": 89,
-      "wins": 6,
-      "top5": 36,
-      "average_grid": 7.617977528089888,
-      "average_finish": 7.134831460674158,
-      "driver_rating": 4,
-      "dr_label": "B",
-      "dr_points": 10187.0,
-      "dr_percentage": 0,
-      "positions_gained_avg": 0.4831460674157304,
-      "win_rate": 0.06741573033707865,
-      "top5_rate": 0.4044943820224719,
-      "collected_at": "2026-08-23T15:24:58.385026+00:00"
-    },
-    "mr-siiiiuuu17": {
-      "psn_id": "Mr-siiiiuuu17",
-      "races": 344,
-      "wins": 19,
-      "top5": 128,
-      "average_grid": 5.988372093023256,
-      "average_finish": 6.9476744186046515,
-      "driver_rating": 3,
-      "dr_label": "C",
-      "dr_points": 8205.0,
-      "dr_percentage": 70,
-      "positions_gained_avg": -0.9593023255813957,
-      "win_rate": 0.055232558139534885,
-      "top5_rate": 0.37209302325581395,
-      "collected_at": "2026-08-23T15:25:04.611488+00:00"
-    },
-    "xv250virago-yuki": {
-      "psn_id": "xv250virago-yuki",
-      "races": 227,
-      "wins": 9,
-      "top5": 76,
-      "average_grid": 7.665198237885463,
-      "average_finish": 7.775330396475771,
-      "driver_rating": 4,
-      "dr_label": "B",
-      "dr_points": 10858.0,
-      "dr_percentage": 4,
-      "positions_gained_avg": -0.11013215859030812,
-      "win_rate": 0.039647577092511016,
-      "top5_rate": 0.33480176211453744,
-      "collected_at": "2026-08-23T15:25:10.975929+00:00"
-    },
-    "p-bambam68": {
-      "psn_id": "P-Bambam68",
-      "races": 743,
-      "wins": 27,
-      "top5": 343,
-      "average_grid": 10.020188425302827,
-      "average_finish": 6.017496635262449,
-      "driver_rating": 3,
-      "dr_label": "C",
-      "dr_points": 5801.0,
-      "dr_percentage": 30,
-      "positions_gained_avg": 4.002691790040378,
-      "win_rate": 0.03633916554508748,
-      "top5_rate": 0.4616419919246299,
-      "collected_at": "2026-08-23T15:25:15.736044+00:00"
-    },
-    "franz_hermann762": {
-      "psn_id": "Franz_Hermann762",
-      "races": 458,
-      "wins": 61,
-      "top5": 432,
-      "average_grid": 4.12882096069869,
-      "average_finish": 1.4410480349344978,
-      "driver_rating": 2,
-      "dr_label": "D",
-      "dr_points": 2.0,
-      "dr_percentage": 0,
-      "positions_gained_avg": 2.687772925764192,
-      "win_rate": 0.1331877729257642,
-      "top5_rate": 0.9432314410480349,
-      "collected_at": "2026-08-23T15:25:21.360877+00:00"
-    },
-    "hurlbag_": {
-      "psn_id": "Hurlbag_",
-      "races": 182,
-      "wins": 2,
-      "top5": 103,
-      "average_grid": 8.016483516483516,
-      "average_finish": 5.043956043956044,
-      "driver_rating": 4,
-      "dr_label": "B",
-      "dr_points": 10905.0,
-      "dr_percentage": 4,
-      "positions_gained_avg": 2.9725274725274726,
-      "win_rate": 0.01098901098901099,
-      "top5_rate": 0.5659340659340659,
-      "collected_at": "2026-08-23T15:25:24.293821+00:00"
-    },
-    "mr_dubrovski": {
-      "psn_id": "Mr_Dubrovski",
-      "races": 140,
-      "wins": 11,
-      "top5": 92,
-      "average_grid": 7.914285714285715,
-      "average_finish": 4.2785714285714285,
-      "driver_rating": 3,
-      "dr_label": "C",
-      "dr_points": 8110.0,
-      "dr_percentage": 68,
-      "positions_gained_avg": 3.635714285714286,
-      "win_rate": 0.07857142857142857,
-      "top5_rate": 0.6571428571428571,
-      "collected_at": "2026-08-23T15:25:32.896531+00:00"
-    },
-    "ncny2009": {
-      "psn_id": "NCNY2009",
-      "races": 108,
-      "wins": 8,
-      "top5": 83,
-      "average_grid": 8.5,
-      "average_finish": 2.8703703703703702,
-      "driver_rating": 2,
-      "dr_label": "D",
-      "dr_points": 1412.0,
-      "dr_percentage": 35,
-      "positions_gained_avg": 5.62962962962963,
-      "win_rate": 0.07407407407407407,
-      "top5_rate": 0.7685185185185185,
-      "collected_at": "2026-08-23T15:25:40.329706+00:00"
-    },
-    "e22bouis": {
-      "psn_id": "E22bouis",
-      "races": 64,
-      "wins": 1,
-      "top5": 35,
-      "average_grid": 8.46875,
-      "average_finish": 4.9375,
-      "driver_rating": 3,
-      "dr_label": "C",
-      "dr_points": 5981.0,
-      "dr_percentage": 33,
-      "positions_gained_avg": 3.53125,
-      "win_rate": 0.015625,
-      "top5_rate": 0.546875,
-      "collected_at": "2026-08-23T15:25:43.904597+00:00"
-    },
-    "jfmb_06": {
-      "psn_id": "JFMB_06",
-      "races": 58,
-      "wins": 0,
-      "top5": 39,
-      "average_grid": 9.39655172413793,
-      "average_finish": 3.6206896551724137,
-      "driver_rating": 2,
-      "dr_label": "D",
-      "dr_points": 1471.0,
-      "dr_percentage": 36,
-      "positions_gained_avg": 5.775862068965517,
-      "win_rate": 0.0,
-      "top5_rate": 0.6724137931034483,
-      "collected_at": "2026-08-23T15:25:48.693214+00:00"
-    },
-    "stable_dude": {
-      "psn_id": "stable_dude",
-      "races": 46,
-      "wins": 4,
-      "top5": 19,
-      "average_grid": 7.804347826086956,
-      "average_finish": 6.695652173913044,
-      "driver_rating": 3,
-      "dr_label": "C",
-      "dr_points": 4527.0,
-      "dr_percentage": 8,
-      "positions_gained_avg": 1.1086956521739122,
-      "win_rate": 0.08695652173913043,
-      "top5_rate": 0.41304347826086957,
-      "collected_at": "2026-08-23T15:25:52.489722+00:00"
-    },
-    "andre_xx87": {
-      "psn_id": "Andre_xx87",
-      "races": 25,
-      "wins": 2,
-      "top5": 15,
-      "average_grid": 6.36,
-      "average_finish": 6.24,
-      "driver_rating": 3,
-      "dr_label": "C",
-      "dr_points": 5784.0,
-      "dr_percentage": 29,
-      "positions_gained_avg": 0.1200000000000001,
-      "win_rate": 0.08,
-      "top5_rate": 0.6,
-      "collected_at": "2026-08-23T15:25:59.421657+00:00"
-    },
-    "xshel44": {
-      "psn_id": "xshel44",
-      "races": 347,
-      "wins": 18,
-      "top5": 135,
-      "average_grid": 8.351585014409222,
-      "average_finish": 6.971181556195965,
-      "driver_rating": 4,
-      "dr_label": "B",
-      "dr_points": 16276.0,
-      "dr_percentage": 31,
-      "positions_gained_avg": 1.380403458213257,
-      "win_rate": 0.05187319884726225,
-      "top5_rate": 0.38904899135446686,
-      "collected_at": "2026-08-23T15:26:00.998984+00:00"
-    },
-    "sifortnite69": {
-      "psn_id": "siFortnite69",
-      "races": 149,
-      "wins": 6,
-      "top5": 108,
-      "average_grid": 7.033557046979865,
-      "average_finish": 3.6040268456375837,
-      "driver_rating": 3,
-      "dr_label": "C",
-      "dr_points": 5223.0,
-      "dr_percentage": 20,
-      "positions_gained_avg": 3.4295302013422817,
-      "win_rate": 0.040268456375838924,
-      "top5_rate": 0.7248322147651006,
-      "collected_at": "2026-08-23T15:26:05.282125+00:00"
-    },
-    "motarobb1985": {
-      "psn_id": "motarobb1985",
-      "races": 1137,
-      "wins": 245,
-      "top5": 844,
-      "average_grid": 6.047493403693931,
-      "average_finish": 3.5145118733509233,
-      "driver_rating": 4,
-      "dr_label": "B",
-      "dr_points": 23336.0,
-      "dr_percentage": 66,
-      "positions_gained_avg": 2.5329815303430077,
-      "win_rate": 0.2154793315743184,
-      "top5_rate": 0.7423043095866315,
-      "collected_at": "2026-08-23T15:26:09.679647+00:00"
-    },
-    "capable-hoop05": {
-      "psn_id": "capable-hoop05",
-      "races": 70,
-      "wins": 0,
-      "top5": 52,
-      "average_grid": 8.314285714285715,
-      "average_finish": 2.8285714285714287,
-      "driver_rating": 2,
-      "dr_label": "D",
-      "dr_points": 336.0,
-      "dr_percentage": 8,
-      "positions_gained_avg": 5.485714285714286,
-      "win_rate": 0.0,
-      "top5_rate": 0.7428571428571429,
-      "collected_at": "2026-08-23T15:26:12.508811+00:00"
-    },
-    "marcobtc91": {
-      "psn_id": "Marcobtc91",
-      "races": 214,
-      "wins": 4,
-      "top5": 140,
-      "average_grid": 6.710280373831775,
-      "average_finish": 4.238317757009346,
-      "driver_rating": 2,
-      "dr_label": "D",
-      "dr_points": 3411.0,
-      "dr_percentage": 85,
-      "positions_gained_avg": 2.471962616822429,
-      "win_rate": 0.018691588785046728,
-      "top5_rate": 0.6542056074766355,
-      "collected_at": "2026-08-23T15:26:15.497732+00:00"
-    },
-    "superpaulux": {
-      "psn_id": "superpaulux",
-      "races": 228,
-      "wins": 9,
-      "top5": 166,
-      "average_grid": 9.210526315789474,
-      "average_finish": 3.2850877192982457,
-      "driver_rating": 2,
-      "dr_label": "D",
-      "dr_points": 861.0,
-      "dr_percentage": 21,
-      "positions_gained_avg": 5.925438596491229,
-      "win_rate": 0.039473684210526314,
-      "top5_rate": 0.7280701754385965,
-      "collected_at": "2026-08-23T15:26:18.416047+00:00"
-    },
-    "biggiddi": {
-      "psn_id": "biggiddi",
-      "races": 342,
-      "wins": 7,
-      "top5": 140,
-      "average_grid": 9.274853801169591,
-      "average_finish": 6.1988304093567255,
-      "driver_rating": 3,
-      "dr_label": "C",
-      "dr_points": 7984.0,
-      "dr_percentage": 66,
-      "positions_gained_avg": 3.076023391812866,
-      "win_rate": 0.02046783625730994,
-      "top5_rate": 0.4093567251461988,
-      "collected_at": "2026-08-23T15:26:23.885372+00:00"
-    },
-    "yuzuseven": {
-      "psn_id": "YuzuSEVEN",
-      "races": 704,
-      "wins": 11,
-      "top5": 291,
-      "average_grid": 11.257102272727273,
-      "average_finish": 6.292613636363637,
-      "driver_rating": 3,
-      "dr_label": "C",
-      "dr_points": 9558.0,
-      "dr_percentage": 92,
-      "positions_gained_avg": 4.964488636363637,
-      "win_rate": 0.015625,
-      "top5_rate": 0.4133522727272727,
-      "collected_at": "2026-08-23T15:26:27.434801+00:00"
-    },
-    "dirty_dave101": {
-      "psn_id": "dirty_dave101",
-      "races": 1471,
-      "wins": 56,
-      "top5": 1033,
-      "average_grid": 7.745751189666893,
-      "average_finish": 3.531611148878314,
-      "driver_rating": 3,
-      "dr_label": "C",
-      "dr_points": 4551.0,
-      "dr_percentage": 9,
-      "positions_gained_avg": 4.214140040788579,
-      "win_rate": 0.038069340584636305,
-      "top5_rate": 0.7022433718558804,
-      "collected_at": "2026-08-23T15:26:30.736691+00:00"
-    },
-    "majonesee": {
-      "psn_id": "Majonesee",
-      "races": 429,
-      "wins": 25,
-      "top5": 310,
-      "average_grid": 7.86013986013986,
-      "average_finish": 3.4335664335664338,
-      "driver_rating": 2,
-      "dr_label": "D",
-      "dr_points": 2296.0,
-      "dr_percentage": 57,
-      "positions_gained_avg": 4.426573426573427,
-      "win_rate": 0.05827505827505827,
-      "top5_rate": 0.7226107226107226,
-      "collected_at": "2026-08-23T15:26:34.328037+00:00"
-    },
-    "paul-1976win": {
-      "psn_id": "Paul-1976win",
-      "races": 88,
-      "wins": 3,
-      "top5": 53,
-      "average_grid": 8.079545454545455,
-      "average_finish": 4.8522727272727275,
-      "driver_rating": 4,
-      "dr_label": "B",
-      "dr_points": 12124.0,
-      "dr_percentage": 10,
-      "positions_gained_avg": 3.2272727272727275,
-      "win_rate": 0.03409090909090909,
-      "top5_rate": 0.6022727272727273,
-      "collected_at": "2026-08-23T15:26:36.758480+00:00"
-    },
-    "brittle_squish7": {
-      "psn_id": "brittle_squish7",
-      "races": 93,
-      "wins": 2,
-      "top5": 52,
-      "average_grid": 9.118279569892474,
-      "average_finish": 4.924731182795699,
-      "driver_rating": 3,
-      "dr_label": "C",
-      "dr_points": 5609.0,
-      "dr_percentage": 26,
-      "positions_gained_avg": 4.193548387096775,
-      "win_rate": 0.021505376344086023,
-      "top5_rate": 0.5591397849462365,
-      "collected_at": "2026-08-23T15:26:39.266747+00:00"
-    },
-    "ggg007guido": {
-      "psn_id": "GGG007Guido",
-      "races": 458,
-      "wins": 16,
-      "top5": 154,
-      "average_grid": 8.801310043668122,
-      "average_finish": 7.423580786026201,
-      "driver_rating": 3,
-      "dr_label": "C",
-      "dr_points": 7605.0,
-      "dr_percentage": 60,
-      "positions_gained_avg": 1.3777292576419216,
-      "win_rate": 0.034934497816593885,
-      "top5_rate": 0.33624454148471616,
-      "collected_at": "2026-08-23T15:26:45.246103+00:00"
-    },
-    "pavelzahy": {
-      "psn_id": "pavelzahy",
-      "races": 36,
-      "wins": 2,
-      "top5": 15,
-      "average_grid": 7.611111111111111,
-      "average_finish": 7.083333333333333,
-      "driver_rating": 3,
-      "dr_label": "C",
-      "dr_points": 5138.0,
-      "dr_percentage": 18,
-      "positions_gained_avg": 0.5277777777777777,
-      "win_rate": 0.05555555555555555,
-      "top5_rate": 0.4166666666666667,
-      "collected_at": "2026-08-23T15:26:47.712665+00:00"
-    },
-    "bastix249": {
-      "psn_id": "BastiX249",
-      "races": 308,
-      "wins": 31,
-      "top5": 148,
-      "average_grid": 7.0811688311688314,
-      "average_finish": 6.113636363636363,
-      "driver_rating": 3,
-      "dr_label": "C",
-      "dr_points": 4760.0,
-      "dr_percentage": 12,
-      "positions_gained_avg": 0.9675324675324681,
-      "win_rate": 0.10064935064935066,
-      "top5_rate": 0.4805194805194805,
-      "collected_at": "2026-08-23T15:26:49.937891+00:00"
-    },
-    "rashfisherman": {
-      "psn_id": "rashfisherman",
-      "races": 61,
-      "wins": 2,
-      "top5": 27,
-      "average_grid": 9.147540983606557,
-      "average_finish": 5.704918032786885,
-      "driver_rating": 2,
-      "dr_label": "D",
-      "dr_points": 716.0,
-      "dr_percentage": 17,
-      "positions_gained_avg": 3.442622950819672,
-      "win_rate": 0.03278688524590164,
-      "top5_rate": 0.4426229508196721,
-      "collected_at": "2026-08-23T15:26:56.192400+00:00"
-    },
-    "faze_imi123": {
-      "psn_id": "FaZe_Imi123",
-      "races": 949,
-      "wins": 12,
-      "top5": 512,
-      "average_grid": 9.440463645943098,
-      "average_finish": 5.025289778714436,
-      "driver_rating": 2,
-      "dr_label": "D",
-      "dr_points": 2.0,
-      "dr_percentage": 0,
-      "positions_gained_avg": 4.415173867228662,
-      "win_rate": 0.012644889357218124,
-      "top5_rate": 0.5395152792413066,
-      "collected_at": "2026-08-23T15:26:58.771111+00:00"
-    },
-    "xhamsterchen78": {
-      "psn_id": "Xhamsterchen78",
-      "races": 1571,
-      "wins": 39,
-      "top5": 725,
-      "average_grid": 9.406747294716741,
-      "average_finish": 5.7772119669000634,
-      "driver_rating": 3,
-      "dr_label": "C",
-      "dr_points": 6378.0,
-      "dr_percentage": 39,
-      "positions_gained_avg": 3.6295353278166775,
-      "win_rate": 0.024824952259707194,
-      "top5_rate": 0.4614894971355824,
-      "collected_at": "2026-08-23T15:27:01.037954+00:00"
-    },
-    "anyelo27b": {
-      "psn_id": "Anyelo27b",
-      "races": 32,
-      "wins": 0,
-      "top5": 18,
-      "average_grid": 8.71875,
-      "average_finish": 4.53125,
-      "driver_rating": 2,
-      "dr_label": "D",
-      "dr_points": 2469.0,
-      "dr_percentage": 61,
-      "positions_gained_avg": 4.1875,
-      "win_rate": 0.0,
-      "top5_rate": 0.5625,
-      "collected_at": "2026-08-23T15:27:07.422786+00:00"
-    },
-    "johnnytattoo74": {
-      "psn_id": "johnnytattoo74",
-      "races": 1027,
-      "wins": 28,
-      "top5": 333,
-      "average_grid": 9.378773125608568,
-      "average_finish": 7.6923076923076925,
-      "driver_rating": 3,
-      "dr_label": "C",
-      "dr_points": 5100.0,
-      "dr_percentage": 18,
-      "positions_gained_avg": 1.6864654333008753,
-      "win_rate": 0.027263875365141188,
-      "top5_rate": 0.32424537487828625,
-      "collected_at": "2026-08-23T15:27:12.567426+00:00"
-    },
-    "dreamy-blanket88": {
-      "psn_id": "dreamy-blanket88",
-      "races": 53,
-      "wins": 3,
-      "top5": 26,
-      "average_grid": 8.358490566037736,
-      "average_finish": 5.981132075471698,
-      "driver_rating": 2,
-      "dr_label": "D",
-      "dr_points": 1129.0,
-      "dr_percentage": 28,
-      "positions_gained_avg": 2.3773584905660377,
-      "win_rate": 0.05660377358490566,
-      "top5_rate": 0.49056603773584906,
-      "collected_at": "2026-08-23T15:27:17.810357+00:00"
-    },
-    "andreypr20": {
-      "psn_id": "andreypr20",
-      "races": 455,
-      "wins": 9,
-      "top5": 200,
-      "average_grid": 9.872527472527473,
-      "average_finish": 5.951648351648352,
-      "driver_rating": 4,
-      "dr_label": "B",
-      "dr_points": 10330.0,
-      "dr_percentage": 1,
-      "positions_gained_avg": 3.920879120879121,
-      "win_rate": 0.01978021978021978,
-      "top5_rate": 0.43956043956043955,
-      "collected_at": "2026-08-23T15:27:20.384867+00:00"
-    },
-    "superneum74": {
-      "psn_id": "SuperNeum74",
-      "races": 103,
-      "wins": 0,
-      "top5": 36,
-      "average_grid": 8.524271844660195,
-      "average_finish": 7.252427184466019,
-      "driver_rating": 3,
-      "dr_label": "C",
-      "dr_points": 5156.0,
-      "dr_percentage": 19,
-      "positions_gained_avg": 1.2718446601941755,
-      "win_rate": 0.0,
-      "top5_rate": 0.34951456310679613,
-      "collected_at": "2026-08-23T15:27:23.810533+00:00"
-    },
-    "nikslavv": {
-      "psn_id": "Nikslavv",
-      "races": 63,
-      "wins": 4,
-      "top5": 50,
-      "average_grid": 8.063492063492063,
-      "average_finish": 3.253968253968254,
-      "driver_rating": 3,
-      "dr_label": "C",
-      "dr_points": 5445.0,
-      "dr_percentage": 24,
-      "positions_gained_avg": 4.809523809523809,
-      "win_rate": 0.06349206349206349,
-      "top5_rate": 0.7936507936507936,
-      "collected_at": "2026-08-23T15:27:30.696287+00:00"
-    },
-    "cornwallb2121": {
-      "psn_id": "cornwallb2121",
-      "races": 205,
-      "wins": 4,
-      "top5": 124,
-      "average_grid": 11.185365853658537,
-      "average_finish": 4.146341463414634,
-      "driver_rating": 3,
-      "dr_label": "C",
-      "dr_points": 4470.0,
-      "dr_percentage": 7,
-      "positions_gained_avg": 7.0390243902439025,
-      "win_rate": 0.01951219512195122,
-      "top5_rate": 0.6048780487804878,
-      "collected_at": "2026-08-23T15:27:34.471909+00:00"
-    },
-    "x-tremwolf": {
-      "psn_id": "X-tremwolf",
-      "races": 1902,
-      "wins": 109,
-      "top5": 1245,
-      "average_grid": 9.29179810725552,
-      "average_finish": 4.0778128286014725,
-      "driver_rating": 2,
-      "dr_label": "D",
-      "dr_points": 2541.0,
-      "dr_percentage": 63,
-      "positions_gained_avg": 5.2139852786540475,
-      "win_rate": 0.057308096740273394,
-      "top5_rate": 0.6545741324921136,
-      "collected_at": "2026-08-23T15:27:37.823567+00:00"
-    },
-    "barbozzzza": {
-      "psn_id": "barbozzzza",
-      "races": 296,
-      "wins": 9,
-      "top5": 165,
-      "average_grid": 8.756756756756756,
-      "average_finish": 5.047297297297297,
-      "driver_rating": 2,
-      "dr_label": "D",
-      "dr_points": 1808.0,
-      "dr_percentage": 45,
-      "positions_gained_avg": 3.7094594594594588,
-      "win_rate": 0.030405405405405407,
-      "top5_rate": 0.5574324324324325,
-      "collected_at": "2026-08-23T15:27:42.141541+00:00"
-    },
-    "paulo_crf1": {
-      "psn_id": "Paulo_CRF1",
-      "races": 323,
-      "wins": 32,
-      "top5": 234,
-      "average_grid": 7.569659442724459,
-      "average_finish": 3.5077399380804954,
-      "driver_rating": 3,
-      "dr_label": "C",
-      "dr_points": 8322.0,
-      "dr_percentage": 72,
-      "positions_gained_avg": 4.061919504643964,
-      "win_rate": 0.09907120743034056,
-      "top5_rate": 0.7244582043343654,
-      "collected_at": "2026-08-23T15:27:44.489335+00:00"
-    },
-    "davidj3336": {
-      "psn_id": "davidj3336",
-      "races": 43,
-      "wins": 1,
-      "top5": 20,
-      "average_grid": 8.418604651162791,
-      "average_finish": 5.883720930232558,
-      "driver_rating": 2,
-      "dr_label": "D",
-      "dr_points": 2.0,
-      "dr_percentage": 0,
-      "positions_gained_avg": 2.5348837209302335,
-      "win_rate": 0.023255813953488372,
-      "top5_rate": 0.46511627906976744,
-      "collected_at": "2026-08-23T15:27:51.164109+00:00"
-    },
-    "dyerneedz": {
-      "psn_id": "Dyerneedz",
-      "races": 1175,
-      "wins": 54,
-      "top5": 488,
-      "average_grid": 8.521702127659575,
-      "average_finish": 6.822978723404256,
-      "driver_rating": 2,
-      "dr_label": "D",
-      "dr_points": 3657.0,
-      "dr_percentage": 91,
-      "positions_gained_avg": 1.6987234042553192,
-      "win_rate": 0.04595744680851064,
-      "top5_rate": 0.4153191489361702,
-      "collected_at": "2026-08-23T15:27:53.402458+00:00"
-    },
-    "torugo2271": {
-      "psn_id": "ToRuGo2271",
-      "races": 24,
-      "wins": 3,
-      "top5": 19,
-      "average_grid": 7.041666666666667,
-      "average_finish": 2.0833333333333335,
-      "driver_rating": 2,
-      "dr_label": "D",
-      "dr_points": 2.0,
-      "dr_percentage": 0,
-      "positions_gained_avg": 4.958333333333334,
-      "win_rate": 0.125,
-      "top5_rate": 0.7916666666666666,
-      "collected_at": "2026-08-23T15:27:55.666236+00:00"
-    },
-    "d7trb": {
-      "psn_id": "D7TRB",
-      "races": 378,
-      "wins": 8,
-      "top5": 160,
-      "average_grid": 9.952380952380953,
-      "average_finish": 6.505291005291006,
-      "driver_rating": 3,
-      "dr_label": "C",
-      "dr_points": 7134.0,
-      "dr_percentage": 52,
-      "positions_gained_avg": 3.447089947089947,
-      "win_rate": 0.021164021164021163,
-      "top5_rate": 0.42328042328042326,
-      "collected_at": "2026-08-23T15:28:02.461112+00:00"
-    },
-    "two_centzz": {
-      "psn_id": "Two_Centzz",
-      "races": 123,
-      "wins": 15,
-      "top5": 94,
-      "average_grid": 6.682926829268292,
-      "average_finish": 3.3089430894308944,
-      "driver_rating": 2,
-      "dr_label": "D",
-      "dr_points": 2415.0,
-      "dr_percentage": 60,
-      "positions_gained_avg": 3.373983739837398,
-      "win_rate": 0.12195121951219512,
-      "top5_rate": 0.7642276422764228,
-      "collected_at": "2026-08-23T15:28:07.317943+00:00"
-    },
-    "chrissie234": {
-      "psn_id": "chrissie234",
-      "races": 191,
-      "wins": 13,
-      "top5": 115,
-      "average_grid": 8.649214659685864,
-      "average_finish": 4.727748691099476,
-      "driver_rating": 3,
-      "dr_label": "C",
-      "dr_points": 5343.0,
-      "dr_percentage": 22,
-      "positions_gained_avg": 3.9214659685863875,
-      "win_rate": 0.06806282722513089,
-      "top5_rate": 0.6020942408376964,
-      "collected_at": "2026-08-23T15:28:12.245129+00:00"
-    },
-    "toepuntmydad": {
-      "psn_id": "ToePuntMyDad",
-      "races": 128,
-      "wins": 5,
-      "top5": 78,
-      "average_grid": 8.625,
-      "average_finish": 4.8828125,
-      "driver_rating": 2,
-      "dr_label": "D",
-      "dr_points": 1432.0,
-      "dr_percentage": 35,
-      "positions_gained_avg": 3.7421875,
-      "win_rate": 0.0390625,
-      "top5_rate": 0.609375,
-      "collected_at": "2026-08-23T15:28:14.600871+00:00"
-    },
-    "gus78__": {
-      "psn_id": "Gus78__",
-      "races": 3995,
-      "wins": 488,
-      "top5": 3626,
-      "average_grid": 3.845056320400501,
-      "average_finish": 1.5732165206508135,
-      "driver_rating": 2,
-      "dr_label": "D",
-      "dr_points": 2.0,
-      "dr_percentage": 0,
-      "positions_gained_avg": 2.2718397997496873,
-      "win_rate": 0.12215269086357948,
-      "top5_rate": 0.9076345431789737,
-      "collected_at": "2026-08-23T15:28:16.876989+00:00"
-    },
-    "traedmark-_-": {
-      "psn_id": "Traedmark-_-",
-      "races": 924,
-      "wins": 30,
-      "top5": 509,
-      "average_grid": 9.936147186147187,
-      "average_finish": 5.034632034632034,
-      "driver_rating": 2,
-      "dr_label": "D",
-      "dr_points": 3438.0,
-      "dr_percentage": 85,
-      "positions_gained_avg": 4.901515151515152,
-      "win_rate": 0.032467532467532464,
-      "top5_rate": 0.5508658008658008,
-      "collected_at": "2026-08-23T15:28:24.287666+00:00"
-    },
-    "dodomilan88": {
-      "psn_id": "Dodomilan88",
-      "races": 343,
-      "wins": 11,
-      "top5": 84,
-      "average_grid": 10.737609329446064,
-      "average_finish": 8.192419825072886,
-      "driver_rating": 3,
-      "dr_label": "C",
-      "dr_points": 7491.0,
-      "dr_percentage": 58,
-      "positions_gained_avg": 2.5451895043731785,
-      "win_rate": 0.03206997084548105,
-      "top5_rate": 0.24489795918367346,
-      "collected_at": "2026-08-23T15:28:26.610271+00:00"
-    },
-    "aleix2006cpaomg": {
-      "psn_id": "aleix2006cpaOMG",
-      "races": 116,
-      "wins": 7,
-      "top5": 89,
-      "average_grid": 9.344827586206897,
-      "average_finish": 2.9827586206896552,
-      "driver_rating": 2,
-      "dr_label": "D",
-      "dr_points": 1010.0,
-      "dr_percentage": 25,
-      "positions_gained_avg": 6.362068965517242,
-      "win_rate": 0.0603448275862069,
-      "top5_rate": 0.7672413793103449,
-      "collected_at": "2026-08-23T15:28:29.183426+00:00"
-    },
-    "detmolderjunge84": {
-      "psn_id": "Detmolderjunge84",
-      "races": 264,
-      "wins": 14,
-      "top5": 202,
-      "average_grid": 10.859848484848484,
-      "average_finish": 2.768939393939394,
-      "driver_rating": 2,
-      "dr_label": "D",
-      "dr_points": 243.0,
-      "dr_percentage": 6,
-      "positions_gained_avg": 8.09090909090909,
-      "win_rate": 0.05303030303030303,
-      "top5_rate": 0.7651515151515151,
-      "collected_at": "2026-08-23T15:28:37.780381+00:00"
-    },
-    "xiblacklotusix": {
-      "psn_id": "xIBlackLotusIx",
-      "races": 1249,
-      "wins": 130,
-      "top5": 682,
-      "average_grid": 6.9271417133706965,
-      "average_finish": 5.326661329063251,
-      "driver_rating": 5,
-      "dr_label": "A",
-      "dr_points": 38388.0,
-      "dr_percentage": 41,
-      "positions_gained_avg": 1.6004803843074455,
-      "win_rate": 0.10408326661329063,
-      "top5_rate": 0.5460368294635709,
-      "collected_at": "2026-08-23T15:28:40.369724+00:00"
-    },
-    "carrated": {
-      "psn_id": "CARRATED",
-      "races": 113,
-      "wins": 6,
-      "top5": 49,
-      "average_grid": 9.43362831858407,
-      "average_finish": 6.371681415929204,
-      "driver_rating": 3,
-      "dr_label": "C",
-      "dr_points": 8572.0,
-      "dr_percentage": 76,
-      "positions_gained_avg": 3.0619469026548662,
-      "win_rate": 0.05309734513274336,
-      "top5_rate": 0.4336283185840708,
-      "collected_at": "2026-08-23T15:28:46.107151+00:00"
-    },
-    "hilera_azulado8": {
-      "psn_id": "hilera_azulado8",
-      "races": 3235,
-      "wins": 45,
-      "top5": 1479,
-      "average_grid": 8.631839258114374,
-      "average_finish": 5.829984544049459,
-      "driver_rating": 2,
-      "dr_label": "D",
-      "dr_points": 2421.0,
-      "dr_percentage": 60,
-      "positions_gained_avg": 2.8018547140649144,
-      "win_rate": 0.013910355486862442,
-      "top5_rate": 0.45718701700154557,
-      "collected_at": "2026-08-23T15:28:48.559668+00:00"
-    },
-    "falcon-667": {
-      "psn_id": "FALCON-667",
-      "races": 157,
-      "wins": 3,
-      "top5": 58,
-      "average_grid": 9.280254777070065,
-      "average_finish": 7.414012738853503,
-      "driver_rating": 3,
-      "dr_label": "C",
-      "dr_points": 4770.0,
-      "dr_percentage": 12,
-      "positions_gained_avg": 1.8662420382165612,
-      "win_rate": 0.01910828025477707,
-      "top5_rate": 0.36942675159235666,
-      "collected_at": "2026-08-23T15:28:59.797227+00:00"
-    },
-    "ghost_racer4": {
-      "psn_id": "Ghost_Racer4",
-      "races": 90,
-      "wins": 5,
-      "top5": 59,
-      "average_grid": 7.522222222222222,
-      "average_finish": 3.7777777777777777,
-      "driver_rating": 3,
-      "dr_label": "C",
-      "dr_points": 6406.0,
-      "dr_percentage": 40,
-      "positions_gained_avg": 3.7444444444444445,
-      "win_rate": 0.05555555555555555,
-      "top5_rate": 0.6555555555555556,
-      "collected_at": "2026-08-23T15:29:08.199231+00:00"
-    },
-    "stuccoed_taster2": {
-      "psn_id": "stuccoed_taster2",
-      "races": 58,
-      "wins": 0,
-      "top5": 27,
-      "average_grid": 10.793103448275861,
-      "average_finish": 4.793103448275862,
-      "driver_rating": 2,
-      "dr_label": "D",
-      "dr_points": 2.0,
-      "dr_percentage": 0,
-      "positions_gained_avg": 5.999999999999999,
-      "win_rate": 0.0,
-      "top5_rate": 0.46551724137931033,
-      "collected_at": "2026-08-23T15:29:10.463516+00:00"
-    },
-    "ro121han": {
-      "psn_id": "ro121han",
-      "races": 241,
-      "wins": 1,
-      "top5": 202,
-      "average_grid": 10.522821576763485,
-      "average_finish": 1.7510373443983402,
-      "driver_rating": 2,
-      "dr_label": "D",
-      "dr_points": 2.0,
-      "dr_percentage": 0,
-      "positions_gained_avg": 8.771784232365146,
-      "win_rate": 0.004149377593360996,
-      "top5_rate": 0.8381742738589212,
-      "collected_at": "2026-08-23T15:29:12.816215+00:00"
-    },
     "xbionicherox": {
       "psn_id": "xBionicHerox",
       "races": 183,
@@ -35377,6 +33777,1382 @@
       "win_rate": 0.09523809523809523,
       "top5_rate": 0.5238095238095238,
       "collected_at": "2026-08-24T00:30:18.638009+00:00"
+    },
+    "moriskocze": {
+      "psn_id": "moriskocze",
+      "races": 522,
+      "wins": 85,
+      "top5": 399,
+      "average_grid": 3.4099616858237547,
+      "average_finish": 3.5478927203065136,
+      "driver_rating": 5,
+      "dr_label": "A",
+      "dr_points": 41047.0,
+      "dr_percentage": 55,
+      "positions_gained_avg": -0.1379310344827589,
+      "win_rate": 0.16283524904214558,
+      "top5_rate": 0.764367816091954,
+      "collected_at": "2026-08-24T06:10:50.684998+00:00"
+    },
+    "nutts99-99": {
+      "psn_id": "Nutts99-99",
+      "races": 283,
+      "wins": 51,
+      "top5": 165,
+      "average_grid": 5.554770318021202,
+      "average_finish": 5.434628975265018,
+      "driver_rating": 6,
+      "dr_label": "A+",
+      "dr_points": 51731.0,
+      "dr_percentage": 3,
+      "positions_gained_avg": 0.12014134275618371,
+      "win_rate": 0.18021201413427562,
+      "top5_rate": 0.5830388692579506,
+      "collected_at": "2026-08-24T06:10:52.522590+00:00"
+    },
+    "kilgore_rod": {
+      "psn_id": "Kilgore_Rod",
+      "races": 890,
+      "wins": 119,
+      "top5": 602,
+      "average_grid": 4.702247191011236,
+      "average_finish": 4.595505617977528,
+      "driver_rating": 6,
+      "dr_label": "A+",
+      "dr_points": 50475.0,
+      "dr_percentage": 0,
+      "positions_gained_avg": 0.10674157303370801,
+      "win_rate": 0.13370786516853933,
+      "top5_rate": 0.6764044943820224,
+      "collected_at": "2026-08-24T06:10:54.812514+00:00"
+    },
+    "gavinwho": {
+      "psn_id": "gavinwho",
+      "races": 741,
+      "wins": 25,
+      "top5": 330,
+      "average_grid": 8.082321187584345,
+      "average_finish": 6.267206477732794,
+      "driver_rating": 4,
+      "dr_label": "B",
+      "dr_points": 22340.0,
+      "dr_percentage": 61,
+      "positions_gained_avg": 1.8151147098515512,
+      "win_rate": 0.033738191632928474,
+      "top5_rate": 0.44534412955465585,
+      "collected_at": "2026-08-24T06:11:01.195038+00:00"
+    },
+    "kojitora2022": {
+      "psn_id": "KojiTora2022",
+      "races": 676,
+      "wins": 135,
+      "top5": 499,
+      "average_grid": 4.8801775147929,
+      "average_finish": 4.085798816568047,
+      "driver_rating": 5,
+      "dr_label": "A",
+      "dr_points": 49109.0,
+      "dr_percentage": 95,
+      "positions_gained_avg": 0.7943786982248522,
+      "win_rate": 0.1997041420118343,
+      "top5_rate": 0.7381656804733728,
+      "collected_at": "2026-08-24T06:11:04.027211+00:00"
+    },
+    "carnerdsunite": {
+      "psn_id": "CarNerdsUnite",
+      "races": 1075,
+      "wins": 84,
+      "top5": 671,
+      "average_grid": 8.413023255813954,
+      "average_finish": 4.463255813953489,
+      "driver_rating": 5,
+      "dr_label": "A",
+      "dr_points": 34297.0,
+      "dr_percentage": 21,
+      "positions_gained_avg": 3.949767441860465,
+      "win_rate": 0.07813953488372093,
+      "top5_rate": 0.6241860465116279,
+      "collected_at": "2026-08-24T06:11:06.409504+00:00"
+    },
+    "wenka93": {
+      "psn_id": "wenka93",
+      "races": 443,
+      "wins": 27,
+      "top5": 177,
+      "average_grid": 9.212189616252822,
+      "average_finish": 7.108352144469526,
+      "driver_rating": 4,
+      "dr_label": "B",
+      "dr_points": 17726.0,
+      "dr_percentage": 38,
+      "positions_gained_avg": 2.1038374717832955,
+      "win_rate": 0.060948081264108354,
+      "top5_rate": 0.39954853273137697,
+      "collected_at": "2026-08-24T06:11:11.252217+00:00"
+    },
+    "atzalfratz": {
+      "psn_id": "AtzAlFratz",
+      "races": 126,
+      "wins": 4,
+      "top5": 56,
+      "average_grid": 7.817460317460317,
+      "average_finish": 6.833333333333333,
+      "driver_rating": 4,
+      "dr_label": "B",
+      "dr_points": 19622.0,
+      "dr_percentage": 48,
+      "positions_gained_avg": 0.9841269841269842,
+      "win_rate": 0.031746031746031744,
+      "top5_rate": 0.4444444444444444,
+      "collected_at": "2026-08-24T06:11:13.469017+00:00"
+    },
+    "broyeur_moderne": {
+      "psn_id": "broyeur_moderne",
+      "races": 20,
+      "wins": 4,
+      "top5": 17,
+      "average_grid": 6.9,
+      "average_finish": 2.8,
+      "driver_rating": 3,
+      "dr_label": "C",
+      "dr_points": 7344.0,
+      "dr_percentage": 55,
+      "positions_gained_avg": 4.1000000000000005,
+      "win_rate": 0.2,
+      "top5_rate": 0.85,
+      "collected_at": "2026-08-24T06:11:15.723839+00:00"
+    },
+    "tiger-lavish180": {
+      "psn_id": "tiger-lavish180",
+      "races": 661,
+      "wins": 60,
+      "top5": 409,
+      "average_grid": 6.753403933434191,
+      "average_finish": 4.723146747352496,
+      "driver_rating": 4,
+      "dr_label": "B",
+      "dr_points": 12251.0,
+      "dr_percentage": 11,
+      "positions_gained_avg": 2.0302571860816947,
+      "win_rate": 0.0907715582450832,
+      "top5_rate": 0.6187594553706506,
+      "collected_at": "2026-08-24T06:11:23.223752+00:00"
+    },
+    "irozz-0ptiik": {
+      "psn_id": "iRoZz-0ptiiK",
+      "races": 1639,
+      "wins": 151,
+      "top5": 787,
+      "average_grid": 6.465527760829774,
+      "average_finish": 6.238560097620501,
+      "driver_rating": 3,
+      "dr_label": "C",
+      "dr_points": 9208.0,
+      "dr_percentage": 86,
+      "positions_gained_avg": 0.22696766320927342,
+      "win_rate": 0.0921293471629042,
+      "top5_rate": 0.4801708358755339,
+      "collected_at": "2026-08-24T06:11:25.365560+00:00"
+    },
+    "marc-gt3-rs": {
+      "psn_id": "Marc-GT3-RS",
+      "races": 97,
+      "wins": 10,
+      "top5": 83,
+      "average_grid": 3.8350515463917527,
+      "average_finish": 1.9896907216494846,
+      "driver_rating": 2,
+      "dr_label": "D",
+      "dr_points": 1344.0,
+      "dr_percentage": 33,
+      "positions_gained_avg": 1.8453608247422681,
+      "win_rate": 0.10309278350515463,
+      "top5_rate": 0.8556701030927835,
+      "collected_at": "2026-08-24T06:11:26.749775+00:00"
+    },
+    "andriiinho": {
+      "psn_id": "Andriiinho",
+      "races": 803,
+      "wins": 47,
+      "top5": 381,
+      "average_grid": 7.978829389788294,
+      "average_finish": 6.239103362391034,
+      "driver_rating": 5,
+      "dr_label": "A",
+      "dr_points": 39184.0,
+      "dr_percentage": 45,
+      "positions_gained_avg": 1.7397260273972606,
+      "win_rate": 0.058530510585305104,
+      "top5_rate": 0.47447073474470736,
+      "collected_at": "2026-08-24T06:11:34.216410+00:00"
+    },
+    "bombeoofficial": {
+      "psn_id": "bombeoofficial",
+      "races": 409,
+      "wins": 48,
+      "top5": 315,
+      "average_grid": 6.528117359413203,
+      "average_finish": 3.063569682151589,
+      "driver_rating": 3,
+      "dr_label": "C",
+      "dr_points": 8641.0,
+      "dr_percentage": 77,
+      "positions_gained_avg": 3.464547677261614,
+      "win_rate": 0.11735941320293398,
+      "top5_rate": 0.7701711491442543,
+      "collected_at": "2026-08-24T06:11:35.613640+00:00"
+    },
+    "filo4693": {
+      "psn_id": "filo4693",
+      "races": 31,
+      "wins": 1,
+      "top5": 14,
+      "average_grid": 6.258064516129032,
+      "average_finish": 5.354838709677419,
+      "driver_rating": 2,
+      "dr_label": "D",
+      "dr_points": 1522.0,
+      "dr_percentage": 38,
+      "positions_gained_avg": 0.903225806451613,
+      "win_rate": 0.03225806451612903,
+      "top5_rate": 0.45161290322580644,
+      "collected_at": "2026-08-24T06:11:37.861210+00:00"
+    },
+    "kdjemo_12": {
+      "psn_id": "Kdjemo_12",
+      "races": 138,
+      "wins": 23,
+      "top5": 98,
+      "average_grid": 6.77536231884058,
+      "average_finish": 3.6666666666666665,
+      "driver_rating": 4,
+      "dr_label": "B",
+      "dr_points": 18804.0,
+      "dr_percentage": 44,
+      "positions_gained_avg": 3.1086956521739135,
+      "win_rate": 0.16666666666666666,
+      "top5_rate": 0.7101449275362319,
+      "collected_at": "2026-08-24T06:11:45.360780+00:00"
+    },
+    "yoyaye11": {
+      "psn_id": "YoYaYe11",
+      "races": 107,
+      "wins": 6,
+      "top5": 93,
+      "average_grid": 6.08411214953271,
+      "average_finish": 2.383177570093458,
+      "driver_rating": 3,
+      "dr_label": "C",
+      "dr_points": 5091.0,
+      "dr_percentage": 18,
+      "positions_gained_avg": 3.700934579439252,
+      "win_rate": 0.056074766355140186,
+      "top5_rate": 0.8691588785046729,
+      "collected_at": "2026-08-24T06:11:47.724983+00:00"
+    },
+    "evil_not_meh5": {
+      "psn_id": "Evil_not_meh5",
+      "races": 224,
+      "wins": 20,
+      "top5": 188,
+      "average_grid": 6.522321428571429,
+      "average_finish": 2.3660714285714284,
+      "driver_rating": 3,
+      "dr_label": "C",
+      "dr_points": 5008.0,
+      "dr_percentage": 16,
+      "positions_gained_avg": 4.15625,
+      "win_rate": 0.08928571428571429,
+      "top5_rate": 0.8392857142857143,
+      "collected_at": "2026-08-24T06:11:50.073921+00:00"
+    },
+    "ice_dolphin_sign": {
+      "psn_id": "Ice_Dolphin_Sign",
+      "races": 72,
+      "wins": 3,
+      "top5": 34,
+      "average_grid": 7.138888888888889,
+      "average_finish": 5.819444444444445,
+      "driver_rating": 4,
+      "dr_label": "B",
+      "dr_points": 11658.0,
+      "dr_percentage": 8,
+      "positions_gained_avg": 1.3194444444444446,
+      "win_rate": 0.041666666666666664,
+      "top5_rate": 0.4722222222222222,
+      "collected_at": "2026-08-24T06:11:56.132892+00:00"
+    },
+    "al_batreaux": {
+      "psn_id": "Al_Batreaux",
+      "races": 132,
+      "wins": 6,
+      "top5": 47,
+      "average_grid": 9.325757575757576,
+      "average_finish": 7.007575757575758,
+      "driver_rating": 3,
+      "dr_label": "C",
+      "dr_points": 7353.0,
+      "dr_percentage": 55,
+      "positions_gained_avg": 2.3181818181818183,
+      "win_rate": 0.045454545454545456,
+      "top5_rate": 0.3560606060606061,
+      "collected_at": "2026-08-24T06:11:58.415759+00:00"
+    },
+    "chrismc82": {
+      "psn_id": "chrismc82",
+      "races": 1098,
+      "wins": 17,
+      "top5": 301,
+      "average_grid": 11.30327868852459,
+      "average_finish": 7.907103825136612,
+      "driver_rating": 4,
+      "dr_label": "B",
+      "dr_points": 11992.0,
+      "dr_percentage": 9,
+      "positions_gained_avg": 3.396174863387979,
+      "win_rate": 0.015482695810564663,
+      "top5_rate": 0.27413479052823314,
+      "collected_at": "2026-08-24T06:12:00.677143+00:00"
+    },
+    "eduardo100marvel": {
+      "psn_id": "eduardo100marvel",
+      "races": 666,
+      "wins": 18,
+      "top5": 400,
+      "average_grid": 8.915915915915916,
+      "average_finish": 4.546546546546547,
+      "driver_rating": 2,
+      "dr_label": "D",
+      "dr_points": 3753.0,
+      "dr_percentage": 93,
+      "positions_gained_avg": 4.369369369369369,
+      "win_rate": 0.02702702702702703,
+      "top5_rate": 0.6006006006006006,
+      "collected_at": "2026-08-24T06:12:09.394838+00:00"
+    },
+    "live-anfahrt": {
+      "psn_id": "live-Anfahrt",
+      "races": 216,
+      "wins": 21,
+      "top5": 105,
+      "average_grid": 4.699074074074074,
+      "average_finish": 6.296296296296297,
+      "driver_rating": 3,
+      "dr_label": "C",
+      "dr_points": 7226.0,
+      "dr_percentage": 53,
+      "positions_gained_avg": -1.5972222222222223,
+      "win_rate": 0.09722222222222222,
+      "top5_rate": 0.4861111111111111,
+      "collected_at": "2026-08-24T06:12:11.536622+00:00"
+    },
+    "pliniofb": {
+      "psn_id": "Pliniofb",
+      "races": 38,
+      "wins": 0,
+      "top5": 16,
+      "average_grid": 7.7368421052631575,
+      "average_finish": 6.552631578947368,
+      "driver_rating": 2,
+      "dr_label": "D",
+      "dr_points": 2484.0,
+      "dr_percentage": 62,
+      "positions_gained_avg": 1.1842105263157894,
+      "win_rate": 0.0,
+      "top5_rate": 0.42105263157894735,
+      "collected_at": "2026-08-24T06:12:19.165892+00:00"
+    },
+    "p1-popeye-24": {
+      "psn_id": "P1-POPEYE-24",
+      "races": 97,
+      "wins": 2,
+      "top5": 40,
+      "average_grid": 8.711340206185566,
+      "average_finish": 7.020618556701031,
+      "driver_rating": 2,
+      "dr_label": "D",
+      "dr_points": 1815.0,
+      "dr_percentage": 45,
+      "positions_gained_avg": 1.6907216494845354,
+      "win_rate": 0.020618556701030927,
+      "top5_rate": 0.41237113402061853,
+      "collected_at": "2026-08-24T06:12:21.782951+00:00"
+    },
+    "gary_grandi": {
+      "psn_id": "Gary_Grandi",
+      "races": 139,
+      "wins": 5,
+      "top5": 49,
+      "average_grid": 10.244604316546763,
+      "average_finish": 7.553956834532374,
+      "driver_rating": 5,
+      "dr_label": "A",
+      "dr_points": 45697.0,
+      "dr_percentage": 78,
+      "positions_gained_avg": 2.6906474820143886,
+      "win_rate": 0.03597122302158273,
+      "top5_rate": 0.35251798561151076,
+      "collected_at": "2026-08-24T06:12:23.211140+00:00"
+    },
+    "henrytupac": {
+      "psn_id": "henrytupac",
+      "races": 456,
+      "wins": 15,
+      "top5": 200,
+      "average_grid": 9.0,
+      "average_finish": 6.574561403508772,
+      "driver_rating": 4,
+      "dr_label": "B",
+      "dr_points": 16552.0,
+      "dr_percentage": 32,
+      "positions_gained_avg": 2.4254385964912277,
+      "win_rate": 0.03289473684210526,
+      "top5_rate": 0.43859649122807015,
+      "collected_at": "2026-08-24T06:12:29.295521+00:00"
+    },
+    "lc3-83": {
+      "psn_id": "lc3-83",
+      "races": 39,
+      "wins": 0,
+      "top5": 22,
+      "average_grid": 5.0256410256410255,
+      "average_finish": 6.230769230769231,
+      "driver_rating": 4,
+      "dr_label": "B",
+      "dr_points": 11613.0,
+      "dr_percentage": 8,
+      "positions_gained_avg": -1.2051282051282053,
+      "win_rate": 0.0,
+      "top5_rate": 0.5641025641025641,
+      "collected_at": "2026-08-24T06:12:31.399414+00:00"
+    },
+    "crazydrinkdriver": {
+      "psn_id": "crazydrinkdriver",
+      "races": 50,
+      "wins": 6,
+      "top5": 32,
+      "average_grid": 5.48,
+      "average_finish": 4.12,
+      "driver_rating": 3,
+      "dr_label": "C",
+      "dr_points": 8305.0,
+      "dr_percentage": 71,
+      "positions_gained_avg": 1.3600000000000003,
+      "win_rate": 0.12,
+      "top5_rate": 0.64,
+      "collected_at": "2026-08-24T06:12:33.503632+00:00"
+    },
+    "dwarf69102": {
+      "psn_id": "DWARF69102",
+      "races": 60,
+      "wins": 0,
+      "top5": 9,
+      "average_grid": 10.616666666666667,
+      "average_finish": 8.766666666666667,
+      "driver_rating": 2,
+      "dr_label": "D",
+      "dr_points": 925.0,
+      "dr_percentage": 23,
+      "positions_gained_avg": 1.8499999999999996,
+      "win_rate": 0.0,
+      "top5_rate": 0.15,
+      "collected_at": "2026-08-24T06:12:40.083392+00:00"
+    },
+    "dawson76lh": {
+      "psn_id": "Dawson76LH",
+      "races": 329,
+      "wins": 5,
+      "top5": 221,
+      "average_grid": 9.70516717325228,
+      "average_finish": 3.8297872340425534,
+      "driver_rating": 2,
+      "dr_label": "D",
+      "dr_points": 2.0,
+      "dr_percentage": 0,
+      "positions_gained_avg": 5.875379939209726,
+      "win_rate": 0.015197568389057751,
+      "top5_rate": 0.6717325227963525,
+      "collected_at": "2026-08-24T06:12:42.383386+00:00"
+    },
+    "donco-march": {
+      "psn_id": "donco-march",
+      "races": 162,
+      "wins": 1,
+      "top5": 31,
+      "average_grid": 9.419753086419753,
+      "average_finish": 8.364197530864198,
+      "driver_rating": 2,
+      "dr_label": "D",
+      "dr_points": 2551.0,
+      "dr_percentage": 63,
+      "positions_gained_avg": 1.0555555555555554,
+      "win_rate": 0.006172839506172839,
+      "top5_rate": 0.19135802469135801,
+      "collected_at": "2026-08-24T06:12:44.690605+00:00"
+    },
+    "w1cker22": {
+      "psn_id": "W1cker22",
+      "races": 420,
+      "wins": 33,
+      "top5": 279,
+      "average_grid": 6.254761904761905,
+      "average_finish": 4.242857142857143,
+      "driver_rating": 4,
+      "dr_label": "B",
+      "dr_points": 11952.0,
+      "dr_percentage": 9,
+      "positions_gained_avg": 2.011904761904762,
+      "win_rate": 0.07857142857142857,
+      "top5_rate": 0.6642857142857143,
+      "collected_at": "2026-08-24T06:12:51.187544+00:00"
+    },
+    "a9bolt3": {
+      "psn_id": "a9bolt3",
+      "races": 678,
+      "wins": 2,
+      "top5": 153,
+      "average_grid": 10.089970501474927,
+      "average_finish": 7.945427728613569,
+      "driver_rating": 3,
+      "dr_label": "C",
+      "dr_points": 4668.0,
+      "dr_percentage": 11,
+      "positions_gained_avg": 2.1445427728613575,
+      "win_rate": 0.0029498525073746312,
+      "top5_rate": 0.22566371681415928,
+      "collected_at": "2026-08-24T06:12:53.223393+00:00"
+    },
+    "jdmhondaep3": {
+      "psn_id": "jdmhondaep3",
+      "races": 322,
+      "wins": 0,
+      "top5": 60,
+      "average_grid": 9.48136645962733,
+      "average_finish": 9.15527950310559,
+      "driver_rating": 2,
+      "dr_label": "D",
+      "dr_points": 2.0,
+      "dr_percentage": 0,
+      "positions_gained_avg": 0.32608695652174013,
+      "win_rate": 0.0,
+      "top5_rate": 0.18633540372670807,
+      "collected_at": "2026-08-24T06:12:55.778977+00:00"
+    },
+    "cobretti2912": {
+      "psn_id": "Cobretti2912",
+      "races": 146,
+      "wins": 25,
+      "top5": 118,
+      "average_grid": 5.006849315068493,
+      "average_finish": 2.910958904109589,
+      "driver_rating": 4,
+      "dr_label": "B",
+      "dr_points": 15139.0,
+      "dr_percentage": 25,
+      "positions_gained_avg": 2.095890410958904,
+      "win_rate": 0.17123287671232876,
+      "top5_rate": 0.8082191780821918,
+      "collected_at": "2026-08-24T06:13:02.111590+00:00"
+    },
+    "doblabielas": {
+      "psn_id": "DoblaBielas",
+      "races": 383,
+      "wins": 42,
+      "top5": 176,
+      "average_grid": 4.892950391644908,
+      "average_finish": 6.827676240208877,
+      "driver_rating": 4,
+      "dr_label": "B",
+      "dr_points": 13380.0,
+      "dr_percentage": 16,
+      "positions_gained_avg": -1.9347258485639687,
+      "win_rate": 0.10966057441253264,
+      "top5_rate": 0.4595300261096606,
+      "collected_at": "2026-08-24T06:13:04.834458+00:00"
+    },
+    "jvdm959": {
+      "psn_id": "jvdm959",
+      "races": 422,
+      "wins": 59,
+      "top5": 259,
+      "average_grid": 6.109004739336493,
+      "average_finish": 5.040284360189573,
+      "driver_rating": 4,
+      "dr_label": "B",
+      "dr_points": 17367.0,
+      "dr_percentage": 36,
+      "positions_gained_avg": 1.06872037914692,
+      "win_rate": 0.13981042654028436,
+      "top5_rate": 0.6137440758293838,
+      "collected_at": "2026-08-24T06:13:06.953129+00:00"
+    },
+    "lt_blunt_420": {
+      "psn_id": "Lt_Blunt_420",
+      "races": 567,
+      "wins": 79,
+      "top5": 461,
+      "average_grid": 5.350970017636684,
+      "average_finish": 2.271604938271605,
+      "driver_rating": 2,
+      "dr_label": "D",
+      "dr_points": 2755.0,
+      "dr_percentage": 68,
+      "positions_gained_avg": 3.0793650793650795,
+      "win_rate": 0.13932980599647266,
+      "top5_rate": 0.8130511463844797,
+      "collected_at": "2026-08-24T06:13:13.266924+00:00"
+    },
+    "zafira_07": {
+      "psn_id": "zafira_07",
+      "races": 882,
+      "wins": 47,
+      "top5": 556,
+      "average_grid": 6.082766439909297,
+      "average_finish": 4.264172335600907,
+      "driver_rating": 4,
+      "dr_label": "B",
+      "dr_points": 20079.0,
+      "dr_percentage": 50,
+      "positions_gained_avg": 1.8185941043083895,
+      "win_rate": 0.05328798185941043,
+      "top5_rate": 0.6303854875283447,
+      "collected_at": "2026-08-24T06:13:15.917440+00:00"
+    },
+    "glendasblender": {
+      "psn_id": "glendasblender",
+      "races": 2155,
+      "wins": 208,
+      "top5": 998,
+      "average_grid": 5.190719257540604,
+      "average_finish": 6.229698375870069,
+      "driver_rating": 4,
+      "dr_label": "B",
+      "dr_points": 18660.0,
+      "dr_percentage": 43,
+      "positions_gained_avg": -1.0389791183294657,
+      "win_rate": 0.09651972157772622,
+      "top5_rate": 0.4631090487238979,
+      "collected_at": "2026-08-24T06:13:18.020744+00:00"
+    },
+    "louisss-57": {
+      "psn_id": "louisss-57",
+      "races": 53,
+      "wins": 7,
+      "top5": 32,
+      "average_grid": 8.09433962264151,
+      "average_finish": 4.773584905660377,
+      "driver_rating": 4,
+      "dr_label": "B",
+      "dr_points": 13521.0,
+      "dr_percentage": 17,
+      "positions_gained_avg": 3.3207547169811322,
+      "win_rate": 0.1320754716981132,
+      "top5_rate": 0.6037735849056604,
+      "collected_at": "2026-08-24T06:13:24.056503+00:00"
+    },
+    "vxper-za-": {
+      "psn_id": "vxper-ZA-",
+      "races": 37,
+      "wins": 10,
+      "top5": 29,
+      "average_grid": 5.8108108108108105,
+      "average_finish": 3.918918918918919,
+      "driver_rating": 4,
+      "dr_label": "B",
+      "dr_points": 14643.0,
+      "dr_percentage": 23,
+      "positions_gained_avg": 1.8918918918918917,
+      "win_rate": 0.2702702702702703,
+      "top5_rate": 0.7837837837837838,
+      "collected_at": "2026-08-24T06:13:25.474249+00:00"
+    },
+    "puma-phatman34": {
+      "psn_id": "Puma-phatman34",
+      "races": 4282,
+      "wins": 222,
+      "top5": 1574,
+      "average_grid": 6.490191499299393,
+      "average_finish": 7.328818309201308,
+      "driver_rating": 4,
+      "dr_label": "B",
+      "dr_points": 17045.0,
+      "dr_percentage": 35,
+      "positions_gained_avg": -0.838626809901915,
+      "win_rate": 0.05184493227463802,
+      "top5_rate": 0.3675852405418029,
+      "collected_at": "2026-08-24T06:13:28.160822+00:00"
+    },
+    "lrdchris67": {
+      "psn_id": "LrdChris67",
+      "races": 466,
+      "wins": 19,
+      "top5": 208,
+      "average_grid": 7.139484978540772,
+      "average_finish": 6.384120171673819,
+      "driver_rating": 3,
+      "dr_label": "C",
+      "dr_points": 7005.0,
+      "dr_percentage": 50,
+      "positions_gained_avg": 0.755364806866953,
+      "win_rate": 0.0407725321888412,
+      "top5_rate": 0.44635193133047213,
+      "collected_at": "2026-08-24T06:13:35.056306+00:00"
+    },
+    "cermi71": {
+      "psn_id": "Cermi71",
+      "races": 846,
+      "wins": 50,
+      "top5": 580,
+      "average_grid": 7.17612293144208,
+      "average_finish": 3.851063829787234,
+      "driver_rating": 3,
+      "dr_label": "C",
+      "dr_points": 4653.0,
+      "dr_percentage": 10,
+      "positions_gained_avg": 3.3250591016548463,
+      "win_rate": 0.0591016548463357,
+      "top5_rate": 0.6855791962174941,
+      "collected_at": "2026-08-24T06:13:37.218599+00:00"
+    },
+    "simobuzz99": {
+      "psn_id": "simobuzz99",
+      "races": 55,
+      "wins": 5,
+      "top5": 29,
+      "average_grid": 7.345454545454546,
+      "average_finish": 6.0181818181818185,
+      "driver_rating": 3,
+      "dr_label": "C",
+      "dr_points": 5245.0,
+      "dr_percentage": 20,
+      "positions_gained_avg": 1.3272727272727272,
+      "win_rate": 0.09090909090909091,
+      "top5_rate": 0.5272727272727272,
+      "collected_at": "2026-08-24T06:13:39.361191+00:00"
+    },
+    "saisai1004": {
+      "psn_id": "saisai1004",
+      "races": 76,
+      "wins": 4,
+      "top5": 38,
+      "average_grid": 9.092105263157896,
+      "average_finish": 5.855263157894737,
+      "driver_rating": 4,
+      "dr_label": "B",
+      "dr_points": 17711.0,
+      "dr_percentage": 38,
+      "positions_gained_avg": 3.2368421052631584,
+      "win_rate": 0.05263157894736842,
+      "top5_rate": 0.5,
+      "collected_at": "2026-08-24T06:13:46.200913+00:00"
+    },
+    "l-c-ping": {
+      "psn_id": "L-C-PING",
+      "races": 595,
+      "wins": 25,
+      "top5": 251,
+      "average_grid": 8.183193277310924,
+      "average_finish": 6.741176470588235,
+      "driver_rating": 3,
+      "dr_label": "C",
+      "dr_points": 5699.0,
+      "dr_percentage": 28,
+      "positions_gained_avg": 1.4420168067226884,
+      "win_rate": 0.04201680672268908,
+      "top5_rate": 0.4218487394957983,
+      "collected_at": "2026-08-24T06:13:49.484456+00:00"
+    },
+    "axel-schneider-7": {
+      "psn_id": "Axel-Schneider-7",
+      "races": 59,
+      "wins": 1,
+      "top5": 32,
+      "average_grid": 7.6440677966101696,
+      "average_finish": 5.305084745762712,
+      "driver_rating": 4,
+      "dr_label": "B",
+      "dr_points": 10847.0,
+      "dr_percentage": 4,
+      "positions_gained_avg": 2.3389830508474576,
+      "win_rate": 0.01694915254237288,
+      "top5_rate": 0.5423728813559322,
+      "collected_at": "2026-08-24T06:13:51.672380+00:00"
+    },
+    "totato03": {
+      "psn_id": "totato03",
+      "races": 239,
+      "wins": 19,
+      "top5": 172,
+      "average_grid": 6.7154811715481175,
+      "average_finish": 3.481171548117155,
+      "driver_rating": 3,
+      "dr_label": "C",
+      "dr_points": 9031.0,
+      "dr_percentage": 83,
+      "positions_gained_avg": 3.2343096234309625,
+      "win_rate": 0.0794979079497908,
+      "top5_rate": 0.7196652719665272,
+      "collected_at": "2026-08-24T06:13:56.786577+00:00"
+    },
+    "pepitoderussafa": {
+      "psn_id": "pepitoderussafa",
+      "races": 575,
+      "wins": 41,
+      "top5": 397,
+      "average_grid": 6.092173913043478,
+      "average_finish": 3.853913043478261,
+      "driver_rating": 3,
+      "dr_label": "C",
+      "dr_points": 4709.0,
+      "dr_percentage": 11,
+      "positions_gained_avg": 2.238260869565217,
+      "win_rate": 0.07130434782608695,
+      "top5_rate": 0.6904347826086956,
+      "collected_at": "2026-08-24T06:13:59.044225+00:00"
+    },
+    "vrbaski_m": {
+      "psn_id": "vrbaski_m",
+      "races": 548,
+      "wins": 7,
+      "top5": 167,
+      "average_grid": 8.872262773722628,
+      "average_finish": 7.434306569343065,
+      "driver_rating": 2,
+      "dr_label": "D",
+      "dr_points": 2273.0,
+      "dr_percentage": 56,
+      "positions_gained_avg": 1.4379562043795628,
+      "win_rate": 0.012773722627737226,
+      "top5_rate": 0.30474452554744524,
+      "collected_at": "2026-08-24T06:14:01.589639+00:00"
+    },
+    "geoff3333": {
+      "psn_id": "geoff3333",
+      "races": 1877,
+      "wins": 118,
+      "top5": 1275,
+      "average_grid": 7.977091102823655,
+      "average_finish": 4.025572722429408,
+      "driver_rating": 3,
+      "dr_label": "C",
+      "dr_points": 6719.0,
+      "dr_percentage": 45,
+      "positions_gained_avg": 3.951518380394247,
+      "win_rate": 0.06286627597229622,
+      "top5_rate": 0.6792754395311668,
+      "collected_at": "2026-08-24T06:14:10.428711+00:00"
+    },
+    "kabutomu4_15": {
+      "psn_id": "kabutomu4_15",
+      "races": 38,
+      "wins": 4,
+      "top5": 20,
+      "average_grid": 5.7894736842105265,
+      "average_finish": 5.552631578947368,
+      "driver_rating": 3,
+      "dr_label": "C",
+      "dr_points": 5879.0,
+      "dr_percentage": 31,
+      "positions_gained_avg": 0.2368421052631584,
+      "win_rate": 0.10526315789473684,
+      "top5_rate": 0.5263157894736842,
+      "collected_at": "2026-08-24T06:14:11.838892+00:00"
+    },
+    "rbb16314_": {
+      "psn_id": "RBB16314_",
+      "races": 121,
+      "wins": 3,
+      "top5": 76,
+      "average_grid": 6.115702479338843,
+      "average_finish": 4.363636363636363,
+      "driver_rating": 2,
+      "dr_label": "D",
+      "dr_points": 1711.0,
+      "dr_percentage": 42,
+      "positions_gained_avg": 1.7520661157024797,
+      "win_rate": 0.024793388429752067,
+      "top5_rate": 0.628099173553719,
+      "collected_at": "2026-08-24T06:14:21.134953+00:00"
+    },
+    "afroman0489": {
+      "psn_id": "afroman0489",
+      "races": 26,
+      "wins": 0,
+      "top5": 6,
+      "average_grid": 9.153846153846153,
+      "average_finish": 8.153846153846153,
+      "driver_rating": 2,
+      "dr_label": "D",
+      "dr_points": 360.0,
+      "dr_percentage": 9,
+      "positions_gained_avg": 1.0,
+      "win_rate": 0.0,
+      "top5_rate": 0.23076923076923078,
+      "collected_at": "2026-08-24T06:14:22.487122+00:00"
+    },
+    "burundu_kok": {
+      "psn_id": "burundu_kok",
+      "races": 26,
+      "wins": 3,
+      "top5": 9,
+      "average_grid": 6.384615384615385,
+      "average_finish": 6.769230769230769,
+      "driver_rating": 3,
+      "dr_label": "C",
+      "dr_points": 4880.0,
+      "dr_percentage": 14,
+      "positions_gained_avg": -0.38461538461538414,
+      "win_rate": 0.11538461538461539,
+      "top5_rate": 0.34615384615384615,
+      "collected_at": "2026-08-24T06:14:29.468764+00:00"
+    },
+    "clockwise_101": {
+      "psn_id": "Clockwise_101",
+      "races": 30,
+      "wins": 1,
+      "top5": 12,
+      "average_grid": 8.466666666666667,
+      "average_finish": 6.233333333333333,
+      "driver_rating": 2,
+      "dr_label": "D",
+      "dr_points": 1838.0,
+      "dr_percentage": 45,
+      "positions_gained_avg": 2.2333333333333334,
+      "win_rate": 0.03333333333333333,
+      "top5_rate": 0.4,
+      "collected_at": "2026-08-24T06:14:33.167906+00:00"
+    },
+    "fallengersc2": {
+      "psn_id": "FallengerSC2",
+      "races": 50,
+      "wins": 0,
+      "top5": 6,
+      "average_grid": 11.0,
+      "average_finish": 8.66,
+      "driver_rating": 2,
+      "dr_label": "D",
+      "dr_points": 2.0,
+      "dr_percentage": 0,
+      "positions_gained_avg": 2.34,
+      "win_rate": 0.0,
+      "top5_rate": 0.12,
+      "collected_at": "2026-08-24T06:14:40.999442+00:00"
+    },
+    "janno_sky": {
+      "psn_id": "Janno_Sky",
+      "races": 241,
+      "wins": 6,
+      "top5": 154,
+      "average_grid": 8.70954356846473,
+      "average_finish": 4.385892116182573,
+      "driver_rating": 2,
+      "dr_label": "D",
+      "dr_points": 2711.0,
+      "dr_percentage": 67,
+      "positions_gained_avg": 4.3236514522821565,
+      "win_rate": 0.024896265560165973,
+      "top5_rate": 0.6390041493775933,
+      "collected_at": "2026-08-24T06:14:52.166796+00:00"
+    },
+    "mathu3d": {
+      "psn_id": "mathu3d",
+      "races": 609,
+      "wins": 23,
+      "top5": 297,
+      "average_grid": 8.599343185550081,
+      "average_finish": 5.789819376026273,
+      "driver_rating": 2,
+      "dr_label": "D",
+      "dr_points": 1240.0,
+      "dr_percentage": 31,
+      "positions_gained_avg": 2.8095238095238084,
+      "win_rate": 0.03776683087027915,
+      "top5_rate": 0.4876847290640394,
+      "collected_at": "2026-08-24T06:14:56.328039+00:00"
+    },
+    "xu9j4-d6c": {
+      "psn_id": "XU9J4-D6C",
+      "races": 331,
+      "wins": 37,
+      "top5": 185,
+      "average_grid": 5.259818731117825,
+      "average_finish": 5.785498489425982,
+      "driver_rating": 5,
+      "dr_label": "A",
+      "dr_points": 45547.0,
+      "dr_percentage": 77,
+      "positions_gained_avg": -0.5256797583081569,
+      "win_rate": 0.11178247734138973,
+      "top5_rate": 0.5589123867069486,
+      "collected_at": "2026-08-24T06:15:03.750509+00:00"
+    },
+    "turbomokus": {
+      "psn_id": "TurboMokus",
+      "races": 66,
+      "wins": 0,
+      "top5": 17,
+      "average_grid": 8.196969696969697,
+      "average_finish": 8.196969696969697,
+      "driver_rating": 5,
+      "dr_label": "A",
+      "dr_points": 35056.0,
+      "dr_percentage": 25,
+      "positions_gained_avg": 0.0,
+      "win_rate": 0.0,
+      "top5_rate": 0.25757575757575757,
+      "collected_at": "2026-08-24T06:15:06.415314+00:00"
+    },
+    "hipknotik-": {
+      "psn_id": "HIPKNOTIK-",
+      "races": 945,
+      "wins": 135,
+      "top5": 761,
+      "average_grid": 4.819047619047619,
+      "average_finish": 2.9047619047619047,
+      "driver_rating": 4,
+      "dr_label": "B",
+      "dr_points": 14793.0,
+      "dr_percentage": 23,
+      "positions_gained_avg": 1.9142857142857141,
+      "win_rate": 0.14285714285714285,
+      "top5_rate": 0.8052910052910053,
+      "collected_at": "2026-08-24T06:15:08.645442+00:00"
+    },
+    "rezman6": {
+      "psn_id": "Rezman6",
+      "races": 993,
+      "wins": 221,
+      "top5": 684,
+      "average_grid": 4.125881168177241,
+      "average_finish": 4.608257804632427,
+      "driver_rating": 5,
+      "dr_label": "A",
+      "dr_points": 32212.0,
+      "dr_percentage": 11,
+      "positions_gained_avg": -0.4823766364551867,
+      "win_rate": 0.22255790533736153,
+      "top5_rate": 0.6888217522658611,
+      "collected_at": "2026-08-24T06:15:16.393133+00:00"
+    },
+    "ej20-camel4380": {
+      "psn_id": "ej20-camel4380",
+      "races": 120,
+      "wins": 6,
+      "top5": 88,
+      "average_grid": 7.108333333333333,
+      "average_finish": 4.0,
+      "driver_rating": 3,
+      "dr_label": "C",
+      "dr_points": 8659.0,
+      "dr_percentage": 77,
+      "positions_gained_avg": 3.1083333333333334,
+      "win_rate": 0.05,
+      "top5_rate": 0.7333333333333333,
+      "collected_at": "2026-08-24T06:15:20.713802+00:00"
+    },
+    "the00melo": {
+      "psn_id": "the00melo",
+      "races": 31,
+      "wins": 3,
+      "top5": 24,
+      "average_grid": 8.741935483870968,
+      "average_finish": 3.5806451612903225,
+      "driver_rating": 3,
+      "dr_label": "C",
+      "dr_points": 7330.0,
+      "dr_percentage": 55,
+      "positions_gained_avg": 5.161290322580646,
+      "win_rate": 0.0967741935483871,
+      "top5_rate": 0.7741935483870968,
+      "collected_at": "2026-08-24T06:15:25.020416+00:00"
+    },
+    "underpond23": {
+      "psn_id": "underpond23",
+      "races": 2313,
+      "wins": 104,
+      "top5": 885,
+      "average_grid": 7.3277129269347165,
+      "average_finish": 6.860354517942066,
+      "driver_rating": 3,
+      "dr_label": "C",
+      "dr_points": 7611.0,
+      "dr_percentage": 60,
+      "positions_gained_avg": 0.46735840899265035,
+      "win_rate": 0.04496325118893212,
+      "top5_rate": 0.38261997405966275,
+      "collected_at": "2026-08-24T06:15:27.130484+00:00"
+    },
+    "dams768": {
+      "psn_id": "dams768",
+      "races": 58,
+      "wins": 0,
+      "top5": 19,
+      "average_grid": 8.672413793103448,
+      "average_finish": 7.068965517241379,
+      "driver_rating": 3,
+      "dr_label": "C",
+      "dr_points": 8221.0,
+      "dr_percentage": 70,
+      "positions_gained_avg": 1.6034482758620694,
+      "win_rate": 0.0,
+      "top5_rate": 0.3275862068965517,
+      "collected_at": "2026-08-24T06:15:29.150209+00:00"
+    },
+    "wanaberacing": {
+      "psn_id": "Wanaberacing",
+      "races": 348,
+      "wins": 20,
+      "top5": 272,
+      "average_grid": 5.75,
+      "average_finish": 3.0977011494252875,
+      "driver_rating": 3,
+      "dr_label": "C",
+      "dr_points": 6065.0,
+      "dr_percentage": 34,
+      "positions_gained_avg": 2.6522988505747125,
+      "win_rate": 0.05747126436781609,
+      "top5_rate": 0.7816091954022989,
+      "collected_at": "2026-08-24T06:15:36.291999+00:00"
+    },
+    "bmhkc9966": {
+      "psn_id": "bmhkc9966",
+      "races": 169,
+      "wins": 18,
+      "top5": 113,
+      "average_grid": 7.781065088757397,
+      "average_finish": 3.8520710059171597,
+      "driver_rating": 4,
+      "dr_label": "B",
+      "dr_points": 21544.0,
+      "dr_percentage": 57,
+      "positions_gained_avg": 3.928994082840237,
+      "win_rate": 0.10650887573964497,
+      "top5_rate": 0.6686390532544378,
+      "collected_at": "2026-08-24T06:15:38.432803+00:00"
+    },
+    "paulo-jr6": {
+      "psn_id": "paulo-jr6",
+      "races": 92,
+      "wins": 5,
+      "top5": 46,
+      "average_grid": 10.021739130434783,
+      "average_finish": 5.739130434782608,
+      "driver_rating": 4,
+      "dr_label": "B",
+      "dr_points": 12739.0,
+      "dr_percentage": 13,
+      "positions_gained_avg": 4.282608695652175,
+      "win_rate": 0.05434782608695652,
+      "top5_rate": 0.5,
+      "collected_at": "2026-08-24T06:15:40.663381+00:00"
+    },
+    "lactobacillovivo": {
+      "psn_id": "lactobacillovivo",
+      "races": 41,
+      "wins": 6,
+      "top5": 26,
+      "average_grid": 8.048780487804878,
+      "average_finish": 3.8292682926829267,
+      "driver_rating": 3,
+      "dr_label": "C",
+      "dr_points": 5768.0,
+      "dr_percentage": 29,
+      "positions_gained_avg": 4.219512195121951,
+      "win_rate": 0.14634146341463414,
+      "top5_rate": 0.6341463414634146,
+      "collected_at": "2026-08-24T06:15:49.694107+00:00"
+    },
+    "joabayer": {
+      "psn_id": "joabayer",
+      "races": 33,
+      "wins": 0,
+      "top5": 16,
+      "average_grid": 7.696969696969697,
+      "average_finish": 6.0606060606060606,
+      "driver_rating": 3,
+      "dr_label": "C",
+      "dr_points": 5529.0,
+      "dr_percentage": 25,
+      "positions_gained_avg": 1.6363636363636367,
+      "win_rate": 0.0,
+      "top5_rate": 0.48484848484848486,
+      "collected_at": "2026-08-24T06:15:51.942645+00:00"
+    },
+    "rooferron": {
+      "psn_id": "rooferron",
+      "races": 1171,
+      "wins": 19,
+      "top5": 358,
+      "average_grid": 8.825789923142613,
+      "average_finish": 7.25533731853117,
+      "driver_rating": 2,
+      "dr_label": "D",
+      "dr_points": 3538.0,
+      "dr_percentage": 88,
+      "positions_gained_avg": 1.570452604611443,
+      "win_rate": 0.016225448334756618,
+      "top5_rate": 0.30572160546541416,
+      "collected_at": "2026-08-24T06:15:58.011817+00:00"
+    },
+    "oversteerdad": {
+      "psn_id": "Oversteerdad",
+      "races": 802,
+      "wins": 12,
+      "top5": 317,
+      "average_grid": 8.228179551122194,
+      "average_finish": 6.466334164588528,
+      "driver_rating": 2,
+      "dr_label": "D",
+      "dr_points": 1414.0,
+      "dr_percentage": 35,
+      "positions_gained_avg": 1.7618453865336656,
+      "win_rate": 0.014962593516209476,
+      "top5_rate": 0.39526184538653364,
+      "collected_at": "2026-08-24T06:16:02.936382+00:00"
+    },
+    "amekie_04": {
+      "psn_id": "Amekie_04",
+      "races": 47,
+      "wins": 1,
+      "top5": 30,
+      "average_grid": 6.8936170212765955,
+      "average_finish": 4.148936170212766,
+      "driver_rating": 2,
+      "dr_label": "D",
+      "dr_points": 2163.0,
+      "dr_percentage": 54,
+      "positions_gained_avg": 2.74468085106383,
+      "win_rate": 0.02127659574468085,
+      "top5_rate": 0.6382978723404256,
+      "collected_at": "2026-08-24T06:16:08.746831+00:00"
+    },
+    "adriianpacheco_": {
+      "psn_id": "adriianpacheco_",
+      "races": 2219,
+      "wins": 87,
+      "top5": 905,
+      "average_grid": 7.864353312302839,
+      "average_finish": 6.698062190175754,
+      "driver_rating": 5,
+      "dr_label": "A",
+      "dr_points": 32028.0,
+      "dr_percentage": 10,
+      "positions_gained_avg": 1.1662911221270846,
+      "win_rate": 0.039206849932401984,
+      "top5_rate": 0.4078413699864804,
+      "collected_at": "2026-08-24T06:16:11.041783+00:00"
+    },
+    "simmi0303": {
+      "psn_id": "simmi0303",
+      "races": 40,
+      "wins": 0,
+      "top5": 19,
+      "average_grid": 8.8,
+      "average_finish": 6.35,
+      "driver_rating": 2,
+      "dr_label": "D",
+      "dr_points": 857.0,
+      "dr_percentage": 21,
+      "positions_gained_avg": 2.450000000000001,
+      "win_rate": 0.0,
+      "top5_rate": 0.475,
+      "collected_at": "2026-08-24T06:16:13.237258+00:00"
+    },
+    "gigi5846": {
+      "psn_id": "gigi5846",
+      "races": 100,
+      "wins": 2,
+      "top5": 46,
+      "average_grid": 10.25,
+      "average_finish": 5.56,
+      "driver_rating": 2,
+      "dr_label": "D",
+      "dr_points": 3027.0,
+      "dr_percentage": 75,
+      "positions_gained_avg": 4.69,
+      "win_rate": 0.02,
+      "top5_rate": 0.46,
+      "collected_at": "2026-08-24T06:16:20.224968+00:00"
+    },
+    "katane_73": {
+      "psn_id": "Katane_73",
+      "races": 241,
+      "wins": 38,
+      "top5": 208,
+      "average_grid": 6.0995850622406635,
+      "average_finish": 2.074688796680498,
+      "driver_rating": 3,
+      "dr_label": "C",
+      "dr_points": 6403.0,
+      "dr_percentage": 40,
+      "positions_gained_avg": 4.024896265560166,
+      "win_rate": 0.15767634854771784,
+      "top5_rate": 0.8630705394190872,
+      "collected_at": "2026-08-24T06:16:35.706761+00:00"
+    },
+    "ricardopatrese77": {
+      "psn_id": "RICARDOPATRESE77",
+      "races": 186,
+      "wins": 7,
+      "top5": 83,
+      "average_grid": 6.645161290322581,
+      "average_finish": 6.494623655913978,
+      "driver_rating": 3,
+      "dr_label": "C",
+      "dr_points": 5368.0,
+      "dr_percentage": 22,
+      "positions_gained_avg": 0.1505376344086029,
+      "win_rate": 0.03763440860215054,
+      "top5_rate": 0.44623655913978494,
+      "collected_at": "2026-08-24T06:16:43.944207+00:00"
+    },
+    "watto688": {
+      "psn_id": "watto688",
+      "races": 235,
+      "wins": 3,
+      "top5": 120,
+      "average_grid": 10.212765957446809,
+      "average_finish": 5.217021276595744,
+      "driver_rating": 2,
+      "dr_label": "D",
+      "dr_points": 58.0,
+      "dr_percentage": 1,
+      "positions_gained_avg": 4.995744680851065,
+      "win_rate": 0.01276595744680851,
+      "top5_rate": 0.5106382978723404,
+      "collected_at": "2026-08-24T06:16:55.630437+00:00"
+    },
+    "hadelldiablo": {
+      "psn_id": "hadelldiablo",
+      "races": 20,
+      "wins": 0,
+      "top5": 11,
+      "average_grid": 10.55,
+      "average_finish": 4.55,
+      "driver_rating": 2,
+      "dr_label": "D",
+      "dr_points": 29.0,
+      "dr_percentage": 0,
+      "positions_gained_avg": 6.000000000000001,
+      "win_rate": 0.0,
+      "top5_rate": 0.55,
+      "collected_at": "2026-08-24T06:17:06.506814+00:00"
+    },
+    "montesk21": {
+      "psn_id": "montesk21",
+      "races": 195,
+      "wins": 2,
+      "top5": 43,
+      "average_grid": 8.497435897435897,
+      "average_finish": 7.876923076923077,
+      "driver_rating": 3,
+      "dr_label": "C",
+      "dr_points": 5599.0,
+      "dr_percentage": 26,
+      "positions_gained_avg": 0.6205128205128201,
+      "win_rate": 0.010256410256410256,
+      "top5_rate": 0.2205128205128205,
+      "collected_at": "2026-08-24T06:17:08.726503+00:00"
     }
   },
   "unavailable": {
@@ -35683,7 +35459,7 @@
     "expired1_milk": {
       "psn_id": "expired1_milk",
       "reason": "missing_encrypted_payload",
-      "last_attempt_at": "2026-08-23T14:01:31.728924+00:00"
+      "last_attempt_at": "2026-08-24T06:11:18.220133+00:00"
     },
     "hmarcod62": {
       "psn_id": "HMarcoD62",
@@ -36383,7 +36159,7 @@
     "cnusmumric": {
       "psn_id": "Cnusmumric",
       "reason": "missing_encrypted_payload",
-      "last_attempt_at": "2026-08-23T14:03:56.346513+00:00"
+      "last_attempt_at": "2026-08-24T06:12:14.341336+00:00"
     },
     "tomoki_1822": {
       "psn_id": "tomoki_1822",
@@ -39393,7 +39169,7 @@
     "eagel-nine": {
       "psn_id": "eagel-nine",
       "reason": "missing_encrypted_payload",
-      "last_attempt_at": "2026-08-23T14:14:24.821374+00:00"
+      "last_attempt_at": "2026-08-24T06:16:36.642661+00:00"
     },
     "p11lacoul12": {
       "psn_id": "p11lacoul12",
@@ -40418,7 +40194,7 @@
     "farquini_diot": {
       "psn_id": "Farquini_diot",
       "reason": "missing_encrypted_payload",
-      "last_attempt_at": "2026-08-23T15:10:40.315624+00:00"
+      "last_attempt_at": "2026-08-24T06:15:22.271600+00:00"
     },
     "nt1nastyn8": {
       "psn_id": "nt1nastyn8",
@@ -40553,7 +40329,7 @@
     "jaga3193": {
       "psn_id": "JaGa3193",
       "reason": "missing_encrypted_payload",
-      "last_attempt_at": "2026-08-23T15:11:03.742954+00:00"
+      "last_attempt_at": "2026-08-24T06:13:29.097439+00:00"
     },
     "kjborona": {
       "psn_id": "kjborona",
@@ -40583,7 +40359,7 @@
     "widowm8kers": {
       "psn_id": "WidowM8kers",
       "reason": "missing_encrypted_payload",
-      "last_attempt_at": "2026-08-23T20:05:13.475522+00:00"
+      "last_attempt_at": "2026-08-24T06:16:38.822098+00:00"
     },
     "giantkuku": {
       "psn_id": "GiantKuKu",
@@ -40883,7 +40659,7 @@
     "shane2372": {
       "psn_id": "shane2372",
       "reason": "missing_encrypted_payload",
-      "last_attempt_at": "2026-08-23T15:23:50.183908+00:00"
+      "last_attempt_at": "2026-08-24T06:13:31.305210+00:00"
     },
     "criscastilhox": {
       "psn_id": "criscastilhox",
@@ -41863,7 +41639,7 @@
     "goldjunge1895": {
       "psn_id": "goldjunge1895",
       "reason": "missing_encrypted_payload",
-      "last_attempt_at": "2026-08-23T15:30:20.043808+00:00"
+      "last_attempt_at": "2026-08-24T06:16:17.699247+00:00"
     },
     "base_alliance0": {
       "psn_id": "base_alliance0",
@@ -43108,7 +42884,7 @@
     "a-j-j-1": {
       "psn_id": "A-J-J-1",
       "reason": "missing_encrypted_payload",
-      "last_attempt_at": "2026-08-23T20:41:09.909429+00:00"
+      "last_attempt_at": "2026-08-24T06:15:21.024640+00:00"
     },
     "amletbibi": {
       "psn_id": "amletbibi",
@@ -43398,7 +43174,7 @@
     "rafafeher": {
       "psn_id": "RafaFeher",
       "reason": "missing_encrypted_payload",
-      "last_attempt_at": "2026-08-23T15:40:15.135079+00:00"
+      "last_attempt_at": "2026-08-24T06:15:54.098234+00:00"
     },
     "joaky14": {
       "psn_id": "joaky14",
@@ -43408,12 +43184,12 @@
     "mcgrailg78": {
       "psn_id": "Mcgrailg78",
       "reason": "missing_encrypted_payload",
-      "last_attempt_at": "2026-08-23T15:40:15.903354+00:00"
+      "last_attempt_at": "2026-08-24T06:15:54.405850+00:00"
     },
     "qencherofthirst": {
       "psn_id": "QencherOfThirst",
       "reason": "missing_encrypted_payload",
-      "last_attempt_at": "2026-08-23T15:40:16.286367+00:00"
+      "last_attempt_at": "2026-08-24T06:15:54.712974+00:00"
     },
     "keks1van1bahlsen": {
       "psn_id": "KEKS1van1BAHLSEN",
@@ -43438,7 +43214,7 @@
     "herzinfarkt00": {
       "psn_id": "Herzinfarkt00",
       "reason": "missing_encrypted_payload",
-      "last_attempt_at": "2026-08-23T20:38:35.624716+00:00"
+      "last_attempt_at": "2026-08-24T06:15:55.945147+00:00"
     },
     "personal_chopeur": {
       "psn_id": "personal_chopeur",
@@ -44143,7 +43919,7 @@
     "maxlion7": {
       "psn_id": "maxlion7",
       "reason": "missing_encrypted_payload",
-      "last_attempt_at": "2026-08-23T15:43:24.246645+00:00"
+      "last_attempt_at": "2026-08-24T06:11:51.320327+00:00"
     },
     "sinyk00": {
       "psn_id": "Sinyk00",
@@ -44748,7 +44524,7 @@
     "timthefreeze": {
       "psn_id": "TimtheFreeze",
       "reason": "missing_encrypted_payload",
-      "last_attempt_at": "2026-08-23T17:17:46.775142+00:00"
+      "last_attempt_at": "2026-08-24T06:14:04.150008+00:00"
     },
     "oscar--46": {
       "psn_id": "OSCAR--46",
@@ -44998,7 +44774,7 @@
     "gambino-1987": {
       "psn_id": "GaMbInO-1987",
       "reason": "missing_encrypted_payload",
-      "last_attempt_at": "2026-08-23T16:11:43.141558+00:00"
+      "last_attempt_at": "2026-08-24T06:14:36.610122+00:00"
     },
     "leomaza972": {
       "psn_id": "leomaza972",
@@ -46258,7 +46034,7 @@
     "n57d30tu2": {
       "psn_id": "N57d30tu2",
       "reason": "missing_encrypted_payload",
-      "last_attempt_at": "2026-08-23T16:15:44.523345+00:00"
+      "last_attempt_at": "2026-08-24T06:15:33.200856+00:00"
     },
     "dadodj80": {
       "psn_id": "dadodj80",
@@ -46473,7 +46249,7 @@
     "norvallaurent": {
       "psn_id": "norvallaurent",
       "reason": "missing_encrypted_payload",
-      "last_attempt_at": "2026-08-23T16:16:18.427551+00:00"
+      "last_attempt_at": "2026-08-24T06:13:54.136993+00:00"
     },
     "rashal-dndan": {
       "psn_id": "rashal-dndan",
@@ -46698,7 +46474,7 @@
     "helgast_71": {
       "psn_id": "helgast_71",
       "reason": "missing_encrypted_payload",
-      "last_attempt_at": "2026-08-23T16:16:52.248566+00:00"
+      "last_attempt_at": "2026-08-24T06:14:25.707333+00:00"
     },
     "sr_nation-3455": {
       "psn_id": "Sr_nation-3455",
@@ -47493,7 +47269,7 @@
     "jacon186": {
       "psn_id": "Jacon186",
       "reason": "missing_encrypted_payload",
-      "last_attempt_at": "2026-08-23T16:53:47.735981+00:00"
+      "last_attempt_at": "2026-08-24T06:13:43.055556+00:00"
     },
     "michaelx1968x": {
       "psn_id": "michaelx1968x",
@@ -47649,11 +47425,6 @@
       "psn_id": "Oldjoe41",
       "reason": "missing_encrypted_payload",
       "last_attempt_at": "2026-08-23T16:54:39.621820+00:00"
-    },
-    "cermi71": {
-      "psn_id": "Cermi71",
-      "reason": "missing_encrypted_payload",
-      "last_attempt_at": "2026-08-23T16:54:40.022335+00:00"
     },
     "oldspanner": {
       "psn_id": "Oldspanner",
@@ -48788,7 +48559,7 @@
     "holey-ppt55": {
       "psn_id": "holey-ppt55",
       "reason": "missing_encrypted_payload",
-      "last_attempt_at": "2026-08-23T16:42:02.288894+00:00"
+      "last_attempt_at": "2026-08-24T06:14:05.709280+00:00"
     },
     "tav1710": {
       "psn_id": "Tav1710",
@@ -50313,7 +50084,7 @@
     "negaprion77": {
       "psn_id": "Negaprion77",
       "reason": "missing_encrypted_payload",
-      "last_attempt_at": "2026-08-23T16:48:58.957506+00:00"
+      "last_attempt_at": "2026-08-24T06:16:26.940790+00:00"
     },
     "rambo_y_su_madre": {
       "psn_id": "rambo_y_su_madre",
@@ -50339,11 +50110,6 @@
       "psn_id": "Last_Ronin-07",
       "reason": "missing_encrypted_payload",
       "last_attempt_at": "2026-08-23T16:49:00.968495+00:00"
-    },
-    "totato03": {
-      "psn_id": "totato03",
-      "reason": "missing_encrypted_payload",
-      "last_attempt_at": "2026-08-23T16:49:01.370273+00:00"
     },
     "chetalopez": {
       "psn_id": "ChetaLopez",
@@ -50643,7 +50409,7 @@
     "blaqkthespian90": {
       "psn_id": "blaqkthespian90",
       "reason": "missing_encrypted_payload",
-      "last_attempt_at": "2026-08-23T20:08:09.432975+00:00"
+      "last_attempt_at": "2026-08-24T06:12:35.046936+00:00"
     },
     "notdropfortress": {
       "psn_id": "Notdropfortress",
@@ -53010,11 +52776,6 @@
       "reason": "missing_encrypted_payload",
       "last_attempt_at": "2026-08-23T17:15:12.128551+00:00"
     },
-    "jvdm959": {
-      "psn_id": "jvdm959",
-      "reason": "missing_encrypted_payload",
-      "last_attempt_at": "2026-08-23T17:15:13.037507+00:00"
-    },
     "teamdo_do": {
       "psn_id": "TeamDo_Do",
       "reason": "missing_encrypted_payload",
@@ -54058,7 +53819,7 @@
     "dr_murdo_86": {
       "psn_id": "Dr_Murdo_86",
       "reason": "missing_encrypted_payload",
-      "last_attempt_at": "2026-08-23T17:19:25.527881+00:00"
+      "last_attempt_at": "2026-08-24T06:14:38.460246+00:00"
     },
     "tommyt4209": {
       "psn_id": "TommyT4209",
@@ -54448,7 +54209,7 @@
     "terrorizer1989": {
       "psn_id": "Terrorizer1989",
       "reason": "missing_encrypted_payload",
-      "last_attempt_at": "2026-08-23T17:21:03.277056+00:00"
+      "last_attempt_at": "2026-08-24T06:15:22.893625+00:00"
     },
     "liamsles": {
       "psn_id": "Liamsles",
@@ -54913,7 +54674,7 @@
     "charlie--bulldog": {
       "psn_id": "Charlie--Bulldog",
       "reason": "missing_encrypted_payload",
-      "last_attempt_at": "2026-08-23T17:22:53.796840+00:00"
+      "last_attempt_at": "2026-08-24T06:16:06.326346+00:00"
     },
     "longipard95": {
       "psn_id": "longipard95",
@@ -55123,7 +54884,7 @@
     "gt59road": {
       "psn_id": "GT59road",
       "reason": "missing_encrypted_payload",
-      "last_attempt_at": "2026-08-23T17:23:46.085591+00:00"
+      "last_attempt_at": "2026-08-24T06:16:27.565484+00:00"
     },
     "moshartotc": {
       "psn_id": "moshartotc",
@@ -55133,7 +54894,7 @@
     "xboostedeggx": {
       "psn_id": "xBoostedEGGx",
       "reason": "missing_encrypted_payload",
-      "last_attempt_at": "2026-08-23T17:23:46.802816+00:00"
+      "last_attempt_at": "2026-08-24T06:16:27.876113+00:00"
     },
     "macredstg": {
       "psn_id": "MacRedstg",
@@ -55228,7 +54989,7 @@
     "diego-atco": {
       "psn_id": "DIEGO-ATCO",
       "reason": "missing_encrypted_payload",
-      "last_attempt_at": "2026-08-23T17:24:10.744514+00:00"
+      "last_attempt_at": "2026-08-24T06:14:59.718387+00:00"
     },
     "tracerke": {
       "psn_id": "Tracerke",
@@ -55498,7 +55259,7 @@
     "the__nacho": {
       "psn_id": "The__nacho",
       "reason": "missing_encrypted_payload",
-      "last_attempt_at": "2026-08-23T17:25:06.509999+00:00"
+      "last_attempt_at": "2026-08-24T06:17:01.100815+00:00"
     },
     "requin_-_malin": {
       "psn_id": "Requin_-_Malin",
@@ -55518,7 +55279,7 @@
     "desmo_pommes": {
       "psn_id": "Desmo_Pommes",
       "reason": "missing_encrypted_payload",
-      "last_attempt_at": "2026-08-23T17:25:07.942171+00:00"
+      "last_attempt_at": "2026-08-24T06:17:01.717550+00:00"
     },
     "thisisbussin": {
       "psn_id": "ThisisBussin",
@@ -55588,7 +55349,7 @@
     "giakallo": {
       "psn_id": "giakallo",
       "reason": "missing_encrypted_payload",
-      "last_attempt_at": "2026-08-23T17:25:25.080260+00:00"
+      "last_attempt_at": "2026-08-24T06:17:10.881355+00:00"
     },
     "doodoobrown34": {
       "psn_id": "DooDooBrown34",
@@ -55878,7 +55639,7 @@
     "steph_trofel": {
       "psn_id": "Steph_Trofel",
       "reason": "missing_encrypted_payload",
-      "last_attempt_at": "2026-08-23T17:37:28.914794+00:00"
+      "last_attempt_at": "2026-08-24T06:11:20.069753+00:00"
     },
     "brodie_no32": {
       "psn_id": "Brodie_no32",
@@ -56973,7 +56734,7 @@
     "jumbo_junction71": {
       "psn_id": "jumbo_junction71",
       "reason": "missing_encrypted_payload",
-      "last_attempt_at": "2026-08-23T17:41:09.942523+00:00"
+      "last_attempt_at": "2026-08-24T06:12:56.090234+00:00"
     },
     "lilbabywipe777": {
       "psn_id": "Lilbabywipe777",
@@ -58285,11 +58046,6 @@
       "reason": "missing_encrypted_payload",
       "last_attempt_at": "2026-08-23T17:45:54.192241+00:00"
     },
-    "mathu3d": {
-      "psn_id": "mathu3d",
-      "reason": "missing_encrypted_payload",
-      "last_attempt_at": "2026-08-23T17:45:54.525534+00:00"
-    },
     "ymnl2727": {
       "psn_id": "ymnl2727",
       "reason": "missing_encrypted_payload",
@@ -58563,7 +58319,7 @@
     "vlonerager999": {
       "psn_id": "VLoneRager999",
       "reason": "missing_encrypted_payload",
-      "last_attempt_at": "2026-08-23T17:46:52.847012+00:00"
+      "last_attempt_at": "2026-08-24T06:15:29.465382+00:00"
     },
     "htvs1980": {
       "psn_id": "HTVS1980",
@@ -58738,7 +58494,7 @@
     "specialized_67": {
       "psn_id": "Specialized_67",
       "reason": "missing_encrypted_payload",
-      "last_attempt_at": "2026-08-23T20:12:57.902983+00:00"
+      "last_attempt_at": "2026-08-24T06:15:43.168930+00:00"
     },
     "built-sugar31": {
       "psn_id": "built-sugar31",
@@ -59088,7 +58844,7 @@
     "thegreen_ghost66": {
       "psn_id": "TheGreen_Ghost66",
       "reason": "missing_encrypted_payload",
-      "last_attempt_at": "2026-08-23T17:48:42.218260+00:00"
+      "last_attempt_at": "2026-08-24T06:16:16.145345+00:00"
     },
     "kushedthe86": {
       "psn_id": "KUSHEDTHE86",
@@ -59128,7 +58884,7 @@
     "heavenly-grim": {
       "psn_id": "Heavenly-Grim",
       "reason": "missing_encrypted_payload",
-      "last_attempt_at": "2026-08-23T17:49:03.735136+00:00"
+      "last_attempt_at": "2026-08-24T06:16:26.319569+00:00"
     },
     "robson1505": {
       "psn_id": "Robson1505",
@@ -59603,7 +59359,7 @@
     "lifeasitiss": {
       "psn_id": "Lifeasitiss",
       "reason": "missing_encrypted_payload",
-      "last_attempt_at": "2026-08-23T20:31:04.077944+00:00"
+      "last_attempt_at": "2026-08-24T06:13:21.463237+00:00"
     },
     "sidewayz_shan": {
       "psn_id": "Sidewayz_Shan",
@@ -59724,11 +59480,6 @@
       "psn_id": "Lo_Stefa_due7",
       "reason": "missing_encrypted_payload",
       "last_attempt_at": "2026-08-23T19:57:12.525864+00:00"
-    },
-    "hipknotik-": {
-      "psn_id": "HIPKNOTIK-",
-      "reason": "missing_encrypted_payload",
-      "last_attempt_at": "2026-08-23T19:57:13.813220+00:00"
     },
     "mando1621a": {
       "psn_id": "Mando1621a",
@@ -61238,7 +60989,7 @@
     "pablete2002": {
       "psn_id": "pablete2002",
       "reason": "missing_encrypted_payload",
-      "last_attempt_at": "2026-08-23T19:28:45.970185+00:00"
+      "last_attempt_at": "2026-08-24T06:14:04.773000+00:00"
     },
     "tumbalata24": {
       "psn_id": "Tumbalata24",
@@ -62213,7 +61964,7 @@
     "gamer_8_9_5_": {
       "psn_id": "GAMER_8_9_5_",
       "reason": "missing_encrypted_payload",
-      "last_attempt_at": "2026-08-23T19:32:47.734268+00:00"
+      "last_attempt_at": "2026-08-24T06:15:41.597080+00:00"
     },
     "noto61": {
       "psn_id": "NoTo61",
@@ -62238,7 +61989,7 @@
     "chipreese": {
       "psn_id": "ChipReese",
       "reason": "missing_encrypted_payload",
-      "last_attempt_at": "2026-08-23T19:32:56.103243+00:00"
+      "last_attempt_at": "2026-08-24T06:15:42.861144+00:00"
     },
     "tac--tickle": {
       "psn_id": "Tac--Tickle",
@@ -62258,7 +62009,7 @@
     "jalbright25": {
       "psn_id": "jalbright25",
       "reason": "missing_encrypted_payload",
-      "last_attempt_at": "2026-08-23T19:32:57.354969+00:00"
+      "last_attempt_at": "2026-08-24T06:15:43.476904+00:00"
     },
     "inicobu": {
       "psn_id": "INICOBU",
@@ -62328,7 +62079,7 @@
     "lordbanan333": {
       "psn_id": "LordBanan333",
       "reason": "missing_encrypted_payload",
-      "last_attempt_at": "2026-08-23T19:33:09.569729+00:00"
+      "last_attempt_at": "2026-08-24T06:15:52.252506+00:00"
     },
     "papylipo": {
       "psn_id": "Papylipo",
@@ -62513,7 +62264,7 @@
     "wanderson72": {
       "psn_id": "Wanderson72",
       "reason": "missing_encrypted_payload",
-      "last_attempt_at": "2026-08-23T19:34:15.387177+00:00"
+      "last_attempt_at": "2026-08-24T06:14:37.844947+00:00"
     },
     "thorsten29-05-79": {
       "psn_id": "Thorsten29-05-79",
@@ -63868,7 +63619,7 @@
     "bleu917": {
       "psn_id": "BLEU917",
       "reason": "missing_encrypted_payload",
-      "last_attempt_at": "2026-08-23T20:07:26.999840+00:00"
+      "last_attempt_at": "2026-08-24T06:14:14.127348+00:00"
     },
     "comencal": {
       "psn_id": "comencal",
@@ -64563,7 +64314,7 @@
     "reivilo_gt7": {
       "psn_id": "Reivilo_gt7",
       "reason": "missing_encrypted_payload",
-      "last_attempt_at": "2026-08-23T20:12:47.816336+00:00"
+      "last_attempt_at": "2026-08-24T06:15:42.553710+00:00"
     },
     "beau_findlay": {
       "psn_id": "beau_findlay",
@@ -65117,8 +64868,8 @@
     },
     "onwennig-lipje": {
       "psn_id": "onwennig-lipje",
-      "reason": "missing_daily_stats",
-      "last_attempt_at": "2026-08-23T20:17:28.460176+00:00"
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:16:50.876015+00:00"
     },
     "romachavannes": {
       "psn_id": "romachavannes",
@@ -65128,7 +64879,7 @@
     "vicendice": {
       "psn_id": "vicendice",
       "reason": "missing_encrypted_payload",
-      "last_attempt_at": "2026-08-23T20:17:43.579093+00:00"
+      "last_attempt_at": "2026-08-24T06:16:58.024779+00:00"
     },
     "mark86hn": {
       "psn_id": "Mark86HN",
@@ -65348,12 +65099,12 @@
     "goran_petkovski": {
       "psn_id": "goran_petkovski",
       "reason": "missing_encrypted_payload",
-      "last_attempt_at": "2026-08-23T20:31:23.109340+00:00"
+      "last_attempt_at": "2026-08-24T06:11:08.595477+00:00"
     },
     "hawth89": {
       "psn_id": "Hawth89",
       "reason": "missing_encrypted_payload",
-      "last_attempt_at": "2026-08-23T20:31:23.789545+00:00"
+      "last_attempt_at": "2026-08-24T06:11:08.907766+00:00"
     },
     "dabersi": {
       "psn_id": "DaBersi",
@@ -66938,7 +66689,7 @@
     "shilangu": {
       "psn_id": "SHILANGU",
       "reason": "missing_encrypted_payload",
-      "last_attempt_at": "2026-08-23T20:37:31.039346+00:00"
+      "last_attempt_at": "2026-08-24T06:16:49.953777+00:00"
     },
     "xulti95": {
       "psn_id": "xUlti95",
@@ -67373,7 +67124,7 @@
     "thiago_marques19": {
       "psn_id": "Thiago_Marques19",
       "reason": "missing_encrypted_payload",
-      "last_attempt_at": "2026-08-23T20:39:10.022548+00:00"
+      "last_attempt_at": "2026-08-24T06:12:03.484089+00:00"
     },
     "ez-e-rider": {
       "psn_id": "Ez-E-Rider",
@@ -67880,11 +67631,6 @@
       "reason": "missing_encrypted_payload",
       "last_attempt_at": "2026-08-23T20:40:57.763114+00:00"
     },
-    "kdjemo_12": {
-      "psn_id": "Kdjemo_12",
-      "reason": "missing_encrypted_payload",
-      "last_attempt_at": "2026-08-23T21:15:39.500826+00:00"
-    },
     "bartabence347": {
       "psn_id": "bartabence347",
       "reason": "missing_encrypted_payload",
@@ -67898,7 +67644,7 @@
     "kr8_acht": {
       "psn_id": "KR8_acht",
       "reason": "missing_encrypted_payload",
-      "last_attempt_at": "2026-08-23T20:40:59.123851+00:00"
+      "last_attempt_at": "2026-08-24T06:15:11.446287+00:00"
     },
     "prisstinei5312": {
       "psn_id": "prisstinei5312",
@@ -67920,20 +67666,10 @@
       "reason": "missing_encrypted_payload",
       "last_attempt_at": "2026-08-23T20:41:07.773436+00:00"
     },
-    "rezman6": {
-      "psn_id": "Rezman6",
-      "reason": "missing_encrypted_payload",
-      "last_attempt_at": "2026-08-23T20:41:08.113103+00:00"
-    },
     "aarhusdk71": {
       "psn_id": "AarhusDk71",
       "reason": "missing_encrypted_payload",
       "last_attempt_at": "2026-08-23T20:41:08.452839+00:00"
-    },
-    "ej20-camel4380": {
-      "psn_id": "ej20-camel4380",
-      "reason": "missing_encrypted_payload",
-      "last_attempt_at": "2026-08-23T20:41:09.093484+00:00"
     },
     "velvetrevolver1": {
       "psn_id": "velvetrevolver1",
@@ -68840,11 +68576,6 @@
       "reason": "missing_encrypted_payload",
       "last_attempt_at": "2026-08-23T20:44:58.557017+00:00"
     },
-    "hadelldiablo": {
-      "psn_id": "hadelldiablo",
-      "reason": "missing_encrypted_payload",
-      "last_attempt_at": "2026-08-23T20:44:59.250897+00:00"
-    },
     "cool_da757": {
       "psn_id": "cool_da757",
       "reason": "missing_encrypted_payload",
@@ -69018,7 +68749,7 @@
     "yukyusoubi": {
       "psn_id": "yukyusoubi",
       "reason": "missing_encrypted_payload",
-      "last_attempt_at": "2026-08-23T21:02:25.068097+00:00"
+      "last_attempt_at": "2026-08-24T06:15:10.511884+00:00"
     },
     "not_the_iceman": {
       "psn_id": "Not_THE_Iceman",
@@ -69128,7 +68859,7 @@
     "colmac1973": {
       "psn_id": "colmac1973",
       "reason": "missing_encrypted_payload",
-      "last_attempt_at": "2026-08-23T21:02:58.609223+00:00"
+      "last_attempt_at": "2026-08-24T06:11:20.378932+00:00"
     },
     "lunchandmilk": {
       "psn_id": "Lunchandmilk",
@@ -69388,7 +69119,7 @@
     "cinco15": {
       "psn_id": "cinco15",
       "reason": "missing_encrypted_payload",
-      "last_attempt_at": "2026-08-23T21:04:49.346534+00:00"
+      "last_attempt_at": "2026-08-24T06:11:52.251824+00:00"
     },
     "ak-47_j_": {
       "psn_id": "Ak-47_J_",
@@ -69403,7 +69134,7 @@
     "temp-7941151": {
       "psn_id": "temp-7941151",
       "reason": "missing_encrypted_payload",
-      "last_attempt_at": "2026-08-23T21:04:58.164653+00:00"
+      "last_attempt_at": "2026-08-24T06:11:52.872922+00:00"
     },
     "nd_irish1980": {
       "psn_id": "ND_Irish1980",
@@ -71013,7 +70744,7 @@
     "smithy2511": {
       "psn_id": "Smithy2511",
       "reason": "missing_encrypted_payload",
-      "last_attempt_at": "2026-08-23T21:14:21.490886+00:00"
+      "last_attempt_at": "2026-08-24T06:14:46.894520+00:00"
     },
     "socialclubstce": {
       "psn_id": "socialclubstce",
@@ -71068,7 +70799,7 @@
     "macani_": {
       "psn_id": "MaCaNi_",
       "reason": "missing_encrypted_payload",
-      "last_attempt_at": "2026-08-23T21:14:42.251121+00:00"
+      "last_attempt_at": "2026-08-24T06:17:00.178814+00:00"
     },
     "aggiesalltheway3": {
       "psn_id": "aggiesalltheway3",
@@ -71852,8 +71583,8 @@
     },
     "galore_ackee2": {
       "psn_id": "galore_ackee2",
-      "reason": "missing_encrypted_payload",
-      "last_attempt_at": "2026-08-23T21:20:47.609534+00:00"
+      "reason": "missing_daily_stats",
+      "last_attempt_at": "2026-08-24T06:16:53.290976+00:00"
     },
     "ak_eleven_": {
       "psn_id": "ak_eleven_",
@@ -72768,7 +72499,7 @@
     "mighty_mikes494": {
       "psn_id": "Mighty_Mikes494",
       "reason": "missing_encrypted_payload",
-      "last_attempt_at": "2026-08-24T00:23:38.447918+00:00"
+      "last_attempt_at": "2026-08-24T06:11:28.398136+00:00"
     },
     "superboecke": {
       "psn_id": "superboecke",
@@ -73123,7 +72854,7 @@
     "garomang": {
       "psn_id": "GaRomanG",
       "reason": "missing_encrypted_payload",
-      "last_attempt_at": "2026-08-24T00:26:20.138836+00:00"
+      "last_attempt_at": "2026-08-24T06:14:59.411122+00:00"
     },
     "jubileudias666": {
       "psn_id": "jubileudias666",
@@ -73477,8 +73208,8 @@
     },
     "elnahu_05": {
       "psn_id": "ELNAHU_05",
-      "reason": "missing_daily_stats",
-      "last_attempt_at": "2026-08-24T00:29:03.080196+00:00"
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:16:37.264844+00:00"
     },
     "avgindiangamer": {
       "psn_id": "AvgIndianGamer",
@@ -73498,7 +73229,7 @@
     "xedos2809": {
       "psn_id": "xedos2809",
       "reason": "missing_encrypted_payload",
-      "last_attempt_at": "2026-08-24T00:29:08.016880+00:00"
+      "last_attempt_at": "2026-08-24T06:16:39.132898+00:00"
     },
     "shanxrayly": {
       "psn_id": "shanxrayly",
@@ -73528,7 +73259,7 @@
     "retiredeggroll": {
       "psn_id": "RetiredEggroll",
       "reason": "missing_encrypted_payload",
-      "last_attempt_at": "2026-08-24T00:29:18.882868+00:00"
+      "last_attempt_at": "2026-08-24T06:16:46.095851+00:00"
     },
     "hungerford1": {
       "psn_id": "hungerford1",
@@ -73538,7 +73269,7 @@
     "kolonial-jury": {
       "psn_id": "kolonial-jury",
       "reason": "missing_encrypted_payload",
-      "last_attempt_at": "2026-08-24T00:29:30.588427+00:00"
+      "last_attempt_at": "2026-08-24T06:16:47.653600+00:00"
     },
     "vwdriver": {
       "psn_id": "VWdriver",
@@ -73639,6 +73370,2036 @@
       "psn_id": "MAFIA-_-yt43",
       "reason": "missing_daily_stats",
       "last_attempt_at": "2026-08-24T00:30:12.817459+00:00"
+    },
+    "lfcben_1892": {
+      "psn_id": "lfcben_1892",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:10:55.129227+00:00"
+    },
+    "flipperelf91417": {
+      "psn_id": "FlipperElf91417",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:10:55.440431+00:00"
+    },
+    "joker_4_aces": {
+      "psn_id": "Joker_4_Aces",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:10:55.750892+00:00"
+    },
+    "pesu0_77": {
+      "psn_id": "Pesu0_77",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:10:56.061365+00:00"
+    },
+    "speed16980": {
+      "psn_id": "Speed16980",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:10:56.372108+00:00"
+    },
+    "homy_homeless": {
+      "psn_id": "homy_homeless",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:10:56.683208+00:00"
+    },
+    "vqs_epsilon": {
+      "psn_id": "VQS_Epsilon",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:10:56.993108+00:00"
+    },
+    "yt-jamie-995": {
+      "psn_id": "YT-jamie-995",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:10:57.303342+00:00"
+    },
+    "baalsaurus": {
+      "psn_id": "Baalsaurus",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:10:57.613362+00:00"
+    },
+    "monks2317": {
+      "psn_id": "monks2317",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:10:57.925109+00:00"
+    },
+    "dappahjord": {
+      "psn_id": "DappahJord",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:10:58.235571+00:00"
+    },
+    "gtarg_germanoff": {
+      "psn_id": "GTARG_Germanoff",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:10:58.546375+00:00"
+    },
+    "lance2490": {
+      "psn_id": "lance2490",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:10:58.857114+00:00"
+    },
+    "ramm_steinar": {
+      "psn_id": "Ramm_Steinar",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:11:06.722561+00:00"
+    },
+    "cusith84": {
+      "psn_id": "Cusith84",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:11:07.033855+00:00"
+    },
+    "deforsy": {
+      "psn_id": "deforsy",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:11:07.345147+00:00"
+    },
+    "nindjah": {
+      "psn_id": "nindjah",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:11:07.657202+00:00"
+    },
+    "benjamin28557": {
+      "psn_id": "benjamin28557",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:11:07.971560+00:00"
+    },
+    "austre_gtz": {
+      "psn_id": "Austre_Gtz",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:11:08.284615+00:00"
+    },
+    "g10va058": {
+      "psn_id": "G10VA058",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:11:09.218728+00:00"
+    },
+    "xmisterandi600x": {
+      "psn_id": "xMisterAndi600x",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:11:09.529139+00:00"
+    },
+    "syl_45_": {
+      "psn_id": "SYL_45_",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:11:09.839707+00:00"
+    },
+    "m3rdina_": {
+      "psn_id": "M3rdina_",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:11:16.036525+00:00"
+    },
+    "kshsworker": {
+      "psn_id": "kshsworker",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:11:16.355444+00:00"
+    },
+    "pendragon_187": {
+      "psn_id": "pendragon_187",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:11:16.988711+00:00"
+    },
+    "albertino2000": {
+      "psn_id": "albertino2000",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:11:17.296902+00:00"
+    },
+    "d_garage46": {
+      "psn_id": "d_garage46",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:11:17.604895+00:00"
+    },
+    "colbreakz1221": {
+      "psn_id": "ColBreakz1221",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:11:17.912141+00:00"
+    },
+    "j_b_g28": {
+      "psn_id": "J_B_G28",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:11:18.529657+00:00"
+    },
+    "waseemjafx": {
+      "psn_id": "waseemjafx",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:11:18.837467+00:00"
+    },
+    "daveyrav476": {
+      "psn_id": "daveyrav476",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:11:19.145710+00:00"
+    },
+    "gripandgo23": {
+      "psn_id": "GripAndGo23",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:11:19.452923+00:00"
+    },
+    "chinans78": {
+      "psn_id": "ChinaNS78",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:11:19.760422+00:00"
+    },
+    "flvco_69": {
+      "psn_id": "flvco_69",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:11:20.686267+00:00"
+    },
+    "joeh8887": {
+      "psn_id": "Joeh8887",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:11:20.993000+00:00"
+    },
+    "hansa123456": {
+      "psn_id": "hansa123456",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:11:27.164160+00:00"
+    },
+    "ebd": {
+      "psn_id": "EBD",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:11:27.472428+00:00"
+    },
+    "diogofurious": {
+      "psn_id": "DiogoFurious",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:11:27.781447+00:00"
+    },
+    "mrk0211newbreed": {
+      "psn_id": "mrk0211newbreed",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:11:28.089939+00:00"
+    },
+    "daveder768": {
+      "psn_id": "daveder768",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:11:28.709920+00:00"
+    },
+    "bongtodd": {
+      "psn_id": "Bongtodd",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:11:29.017472+00:00"
+    },
+    "sazabi73": {
+      "psn_id": "sazabi73",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:11:29.325182+00:00"
+    },
+    "drshocrates": {
+      "psn_id": "drShocrates",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:11:29.632784+00:00"
+    },
+    "histandard91": {
+      "psn_id": "histandard91",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:11:29.940404+00:00"
+    },
+    "rigadog427": {
+      "psn_id": "rigadog427",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:11:30.247887+00:00"
+    },
+    "carpe-diem834": {
+      "psn_id": "Carpe-Diem834",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:11:30.555700+00:00"
+    },
+    "drag3nfly_": {
+      "psn_id": "Drag3nfly_",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:11:30.863722+00:00"
+    },
+    "mao_rdz": {
+      "psn_id": "Mao_RDZ",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:11:31.170949+00:00"
+    },
+    "redi1991": {
+      "psn_id": "Redi1991",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:11:31.478531+00:00"
+    },
+    "elxomano": {
+      "psn_id": "elxomano",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:11:31.786134+00:00"
+    },
+    "wondering_tuna": {
+      "psn_id": "wondering_tuna",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:11:38.168511+00:00"
+    },
+    "uncleleno": {
+      "psn_id": "Uncleleno",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:11:38.476470+00:00"
+    },
+    "m4a1x": {
+      "psn_id": "M4A1X",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:11:38.784035+00:00"
+    },
+    "darth_porco": {
+      "psn_id": "Darth_Porco",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:11:39.091703+00:00"
+    },
+    "gorgnol": {
+      "psn_id": "gorgnol",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:11:39.399720+00:00"
+    },
+    "jordanswainy": {
+      "psn_id": "JordanSwainy",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:11:39.707055+00:00"
+    },
+    "kikisport46": {
+      "psn_id": "Kikisport46",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:11:40.013655+00:00"
+    },
+    "seregasvch": {
+      "psn_id": "SeregaSVCH",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:11:40.321948+00:00"
+    },
+    "gagouldu12": {
+      "psn_id": "gagouldu12",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:11:40.631144+00:00"
+    },
+    "lowprofile-007": {
+      "psn_id": "Lowprofile-007",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:11:40.938439+00:00"
+    },
+    "mmann22": {
+      "psn_id": "mmann22",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:11:41.246990+00:00"
+    },
+    "oldman7732": {
+      "psn_id": "oldman7732",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:11:41.555686+00:00"
+    },
+    "dwpy_alex34": {
+      "psn_id": "DwPy_Alex34",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:11:41.863033+00:00"
+    },
+    "seated-plank2": {
+      "psn_id": "seated-plank2",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:11:42.170933+00:00"
+    },
+    "snowtiger-42019": {
+      "psn_id": "snowtiger-42019",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:11:42.766899+00:00"
+    },
+    "elbeardoguitar": {
+      "psn_id": "ElbeardoGuitar",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:11:50.384760+00:00"
+    },
+    "gringusbringus": {
+      "psn_id": "GringusBringus",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:11:50.697622+00:00"
+    },
+    "karlmadi": {
+      "psn_id": "karlmadi",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:11:51.008851+00:00"
+    },
+    "kylesmallsgaming": {
+      "psn_id": "KyleSmallsGaming",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:11:51.630403+00:00"
+    },
+    "malicious-wire09": {
+      "psn_id": "malicious-wire09",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:11:51.940967+00:00"
+    },
+    "blue_sheep777": {
+      "psn_id": "Blue_Sheep777",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:11:52.562569+00:00"
+    },
+    "issarishavader45": {
+      "psn_id": "issarishavader45",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:11:53.187933+00:00"
+    },
+    "gyuressz79": {
+      "psn_id": "Gyuressz79",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:11:53.498500+00:00"
+    },
+    "alejandro0582021": {
+      "psn_id": "alejandro0582021",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:11:53.813583+00:00"
+    },
+    "ericvania": {
+      "psn_id": "ericvania",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:12:00.989410+00:00"
+    },
+    "radusurdu_2211": {
+      "psn_id": "radusurdu_2211",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:12:01.300716+00:00"
+    },
+    "cicciocapu11_": {
+      "psn_id": "Cicciocapu11_",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:12:01.612185+00:00"
+    },
+    "deathtothenormal": {
+      "psn_id": "DeathToTheNormal",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:12:01.924003+00:00"
+    },
+    "im4a5taftr": {
+      "psn_id": "Im4A5Taftr",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:12:02.236514+00:00"
+    },
+    "moide2172": {
+      "psn_id": "moide2172",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:12:02.547781+00:00"
+    },
+    "zlix_world": {
+      "psn_id": "zlix_world",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:12:02.859513+00:00"
+    },
+    "cedcla69": {
+      "psn_id": "cedcla69",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:12:03.170376+00:00"
+    },
+    "tatsuo_34": {
+      "psn_id": "Tatsuo_34",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:12:03.795488+00:00"
+    },
+    "miansamo": {
+      "psn_id": "Miansamo",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:12:04.106745+00:00"
+    },
+    "whozmydaddy": {
+      "psn_id": "WhozMyDaddy",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:12:04.418274+00:00"
+    },
+    "yutoamg": {
+      "psn_id": "yutoamg",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:12:04.730822+00:00"
+    },
+    "ytcrixzly": {
+      "psn_id": "YTCrixzly",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:12:05.041745+00:00"
+    },
+    "lrad1um": {
+      "psn_id": "LRad1um",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:12:11.847955+00:00"
+    },
+    "alesys_sb9": {
+      "psn_id": "Alesys_sb9",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:12:12.158890+00:00"
+    },
+    "gritschi94": {
+      "psn_id": "Gritschi94",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:12:12.473744+00:00"
+    },
+    "rolojr28": {
+      "psn_id": "rolojr28",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:12:12.784585+00:00"
+    },
+    "death_row6090": {
+      "psn_id": "death_row6090",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:12:13.095522+00:00"
+    },
+    "fullturtle": {
+      "psn_id": "Fullturtle",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:12:13.406004+00:00"
+    },
+    "tallesrs": {
+      "psn_id": "tallesRs",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:12:13.717360+00:00"
+    },
+    "empereurkebab": {
+      "psn_id": "Empereurkebab",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:12:14.027979+00:00"
+    },
+    "jankeza-128": {
+      "psn_id": "Jankeza-128",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:12:14.651725+00:00"
+    },
+    "tich_mister": {
+      "psn_id": "tich_mister",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:12:14.962902+00:00"
+    },
+    "tarmacoterror": {
+      "psn_id": "TarmacoTerror",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:12:15.274207+00:00"
+    },
+    "phil4146": {
+      "psn_id": "phil4146",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:12:15.585716+00:00"
+    },
+    "mcsongor05": {
+      "psn_id": "MCsongor05",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:12:15.899272+00:00"
+    },
+    "big_chicken012": {
+      "psn_id": "Big_chicken012",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:12:23.624154+00:00"
+    },
+    "moonstrifer69": {
+      "psn_id": "Moonstrifer69",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:12:23.932129+00:00"
+    },
+    "sarloc81": {
+      "psn_id": "sarloc81",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:12:24.239641+00:00"
+    },
+    "hankho707": {
+      "psn_id": "hankho707",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:12:24.547132+00:00"
+    },
+    "nobztiagogamer": {
+      "psn_id": "nobztiagogamer",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:12:24.855667+00:00"
+    },
+    "dicas737": {
+      "psn_id": "DiCas737",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:12:25.163428+00:00"
+    },
+    "sir8ght": {
+      "psn_id": "Sir8ght",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:12:25.471475+00:00"
+    },
+    "trt_balosu": {
+      "psn_id": "TRT_balosu",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:12:25.779408+00:00"
+    },
+    "ricardo_pro95": {
+      "psn_id": "ricardo_pro95",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:12:26.089074+00:00"
+    },
+    "lol_ruffles_lol": {
+      "psn_id": "lol_Ruffles_lol",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:12:26.396452+00:00"
+    },
+    "dasku99": {
+      "psn_id": "dasku99",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:12:26.703434+00:00"
+    },
+    "ghost75539": {
+      "psn_id": "Ghost75539",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:12:27.010918+00:00"
+    },
+    "ashfrohead": {
+      "psn_id": "AshfroHead",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:12:33.811868+00:00"
+    },
+    "bvb_fuxy": {
+      "psn_id": "bvb_fuxy",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:12:34.120937+00:00"
+    },
+    "cuul2219": {
+      "psn_id": "Cuul2219",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:12:34.428894+00:00"
+    },
+    "f0reng1337": {
+      "psn_id": "f0reng1337",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:12:34.737164+00:00"
+    },
+    "frank181_": {
+      "psn_id": "frank181_",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:12:35.361672+00:00"
+    },
+    "zasso2493": {
+      "psn_id": "Zasso2493",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:12:35.668822+00:00"
+    },
+    "cheerful-eagle30": {
+      "psn_id": "cheerful-eagle30",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:12:35.976625+00:00"
+    },
+    "taiter100": {
+      "psn_id": "Taiter100",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:12:36.284703+00:00"
+    },
+    "bigolinha_01": {
+      "psn_id": "Bigolinha_01",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:12:36.592148+00:00"
+    },
+    "tacio_dantas": {
+      "psn_id": "tacio_dantas",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:12:36.900373+00:00"
+    },
+    "onelvlup23": {
+      "psn_id": "onelvlup23",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:12:37.208792+00:00"
+    },
+    "reell_pol": {
+      "psn_id": "reell_Pol",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:12:37.515822+00:00"
+    },
+    "s51_busted": {
+      "psn_id": "s51_busted",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:12:37.823414+00:00"
+    },
+    "hantu891": {
+      "psn_id": "hantu891",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:12:44.997868+00:00"
+    },
+    "miguelbp": {
+      "psn_id": "miguelbp",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:12:45.304829+00:00"
+    },
+    "fatbb531221": {
+      "psn_id": "fatbb531221",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:12:45.611997+00:00"
+    },
+    "phipsi_the_king": {
+      "psn_id": "Phipsi_the_King",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:12:45.918930+00:00"
+    },
+    "ayoub_idda": {
+      "psn_id": "ayoub_idda",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:12:46.226869+00:00"
+    },
+    "jason_kipper43": {
+      "psn_id": "Jason_kipper43",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:12:46.534003+00:00"
+    },
+    "maximegc37": {
+      "psn_id": "maximegc37",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:12:46.841622+00:00"
+    },
+    "obilane": {
+      "psn_id": "Obilane",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:12:47.148957+00:00"
+    },
+    "torcidaknin": {
+      "psn_id": "TorcidaKnin",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:12:47.456750+00:00"
+    },
+    "door794kind": {
+      "psn_id": "door794kind",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:12:47.764333+00:00"
+    },
+    "theverminrite": {
+      "psn_id": "TheVerminRite",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:12:48.074412+00:00"
+    },
+    "ting19860403": {
+      "psn_id": "Ting19860403",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:12:48.381931+00:00"
+    },
+    "dimasml24": {
+      "psn_id": "DimasML24",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:12:48.689899+00:00"
+    },
+    "camperd78": {
+      "psn_id": "camperD78",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:12:48.997708+00:00"
+    },
+    "mitykki": {
+      "psn_id": "MiTykki",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:12:56.400798+00:00"
+    },
+    "illuminated13-37": {
+      "psn_id": "illuminated13-37",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:12:56.711341+00:00"
+    },
+    "p3p3-leo11": {
+      "psn_id": "p3p3-leo11",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:12:57.022750+00:00"
+    },
+    "de_kyal": {
+      "psn_id": "de_kyal",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:12:57.336623+00:00"
+    },
+    "atp_franj162004": {
+      "psn_id": "ATP_franj162004",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:12:57.647994+00:00"
+    },
+    "m1l4d_": {
+      "psn_id": "M1L4D_",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:12:57.958859+00:00"
+    },
+    "johnpmc59": {
+      "psn_id": "johnpmc59",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:12:58.269590+00:00"
+    },
+    "darth_of_lore4": {
+      "psn_id": "DARTH_of_lore4",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:12:58.580174+00:00"
+    },
+    "stylisheagle284": {
+      "psn_id": "StylishEagle284",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:12:58.891586+00:00"
+    },
+    "maverickzone_aus": {
+      "psn_id": "MaverickZone_AUS",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:12:59.202737+00:00"
+    },
+    "dchm28": {
+      "psn_id": "DCHm28",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:12:59.513275+00:00"
+    },
+    "x__psykong__x": {
+      "psn_id": "x__PsyKong__x",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:12:59.824998+00:00"
+    },
+    "mrsmoke2much": {
+      "psn_id": "MrSmoke2much",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:13:07.266501+00:00"
+    },
+    "gts_forged": {
+      "psn_id": "gts_forged",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:13:07.576660+00:00"
+    },
+    "holy_shik666": {
+      "psn_id": "Holy_Shik666",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:13:07.886987+00:00"
+    },
+    "ruthlessgainz": {
+      "psn_id": "RuthlessGainz",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:13:08.197586+00:00"
+    },
+    "jara7979": {
+      "psn_id": "Jara7979",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:13:08.508949+00:00"
+    },
+    "ranzy82": {
+      "psn_id": "Ranzy82",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:13:08.820079+00:00"
+    },
+    "dr_havard": {
+      "psn_id": "Dr_Havard",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:13:09.130222+00:00"
+    },
+    "joe100011101011": {
+      "psn_id": "joe100011101011",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:13:09.441556+00:00"
+    },
+    "adak1982": {
+      "psn_id": "adak1982",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:13:09.751941+00:00"
+    },
+    "dramatic_open33": {
+      "psn_id": "dramatic_open33",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:13:10.062976+00:00"
+    },
+    "d-d-t-33": {
+      "psn_id": "D-D-T-33",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:13:10.373961+00:00"
+    },
+    "ferrety-phone7": {
+      "psn_id": "ferrety-phone7",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:13:10.687545+00:00"
+    },
+    "kubasoumic": {
+      "psn_id": "kubasoumic",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:13:10.999604+00:00"
+    },
+    "ars5384": {
+      "psn_id": "ars5384",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:13:18.331772+00:00"
+    },
+    "egyed22": {
+      "psn_id": "egyed22",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:13:18.642821+00:00"
+    },
+    "aslev100": {
+      "psn_id": "aslev100",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:13:18.953739+00:00"
+    },
+    "valun12": {
+      "psn_id": "valun12",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:13:19.264526+00:00"
+    },
+    "lionsfanatlab": {
+      "psn_id": "LIONSFANatLAB",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:13:19.576054+00:00"
+    },
+    "lightningwolf154": {
+      "psn_id": "lightningwolf154",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:13:19.892736+00:00"
+    },
+    "yosoyvix007": {
+      "psn_id": "YosoyVix007",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:13:20.214654+00:00"
+    },
+    "patdomali": {
+      "psn_id": "patdomali",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:13:20.530417+00:00"
+    },
+    "th3hunt3rru": {
+      "psn_id": "TH3HUNT3RRU",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:13:20.841504+00:00"
+    },
+    "matrix-003": {
+      "psn_id": "MATRIX-003",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:13:21.152564+00:00"
+    },
+    "calibraenzo": {
+      "psn_id": "Calibraenzo",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:13:21.773934+00:00"
+    },
+    "eazy_fin82": {
+      "psn_id": "Eazy_fin82",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:13:28.471653+00:00"
+    },
+    "edu_lunarino": {
+      "psn_id": "Edu_lunarino",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:13:28.783831+00:00"
+    },
+    "burexvt": {
+      "psn_id": "burexvt",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:13:29.766478+00:00"
+    },
+    "gforrow69": {
+      "psn_id": "gforrow69",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:13:30.074516+00:00"
+    },
+    "f1ingpro": {
+      "psn_id": "F1INGPRO",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:13:30.382572+00:00"
+    },
+    "riva-corretta": {
+      "psn_id": "riva-corretta",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:13:30.690199+00:00"
+    },
+    "coloro46": {
+      "psn_id": "Coloro46",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:13:30.997726+00:00"
+    },
+    "slickricky101": {
+      "psn_id": "slickricky101",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:13:31.613458+00:00"
+    },
+    "swampg8r007": {
+      "psn_id": "SwampG8r007",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:13:31.921164+00:00"
+    },
+    "todayidiedagain": {
+      "psn_id": "TodayIDiedAgain",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:13:32.228951+00:00"
+    },
+    "b1gguy82": {
+      "psn_id": "b1gguy82",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:13:32.537191+00:00"
+    },
+    "xx_patonini_xx": {
+      "psn_id": "Xx_patonini_xX",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:13:32.845203+00:00"
+    },
+    "stinky_p1nky_0": {
+      "psn_id": "stinky_p1nky_0",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:13:39.668995+00:00"
+    },
+    "cipollinobolt90": {
+      "psn_id": "CipollinoBolt90",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:13:39.976155+00:00"
+    },
+    "sporteezz1": {
+      "psn_id": "Sporteezz1",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:13:40.283541+00:00"
+    },
+    "nathmax78480": {
+      "psn_id": "NathMax78480",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:13:40.591490+00:00"
+    },
+    "pitstop1212": {
+      "psn_id": "Pitstop1212",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:13:40.898885+00:00"
+    },
+    "aware-referral0": {
+      "psn_id": "aware-referral0",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:13:41.206934+00:00"
+    },
+    "der_skyline": {
+      "psn_id": "Der_Skyline",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:13:41.515259+00:00"
+    },
+    "danigt09": {
+      "psn_id": "danigt09",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:13:41.822725+00:00"
+    },
+    "hung-41": {
+      "psn_id": "Hung-41",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:13:42.132527+00:00"
+    },
+    "vynko1": {
+      "psn_id": "Vynko1",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:13:42.440353+00:00"
+    },
+    "robertthelirium": {
+      "psn_id": "RobertTheLirium",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:13:42.747930+00:00"
+    },
+    "prez_jfk": {
+      "psn_id": "Prez_JFK",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:13:43.362956+00:00"
+    },
+    "oscarrc94": {
+      "psn_id": "OscarRc94",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:13:43.670571+00:00"
+    },
+    "splashzone": {
+      "psn_id": "splashzone",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:13:43.978001+00:00"
+    },
+    "nzsperx": {
+      "psn_id": "NZsPerX",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:13:51.979811+00:00"
+    },
+    "d1eg0_fern4ndez_": {
+      "psn_id": "D1eg0_Fern4ndez_",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:13:52.289268+00:00"
+    },
+    "cortz_api": {
+      "psn_id": "Cortz_API",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:13:52.597180+00:00"
+    },
+    "ilyanis73isb": {
+      "psn_id": "ilyanis73isb",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:13:52.905198+00:00"
+    },
+    "essexwarrior1975": {
+      "psn_id": "ESSEXWARRIOR1975",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:13:53.213476+00:00"
+    },
+    "astro_vincente10": {
+      "psn_id": "astro_vincente10",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:13:53.521259+00:00"
+    },
+    "olhodebo1": {
+      "psn_id": "olhodebo1",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:13:53.828747+00:00"
+    },
+    "galy-gatorseb": {
+      "psn_id": "Galy-GatorSeb",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:13:54.445181+00:00"
+    },
+    "ochoniplace": {
+      "psn_id": "ochoniplace",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:13:54.753490+00:00"
+    },
+    "meister5470": {
+      "psn_id": "MEISTER5470",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:14:01.898717+00:00"
+    },
+    "lostlastaccountj": {
+      "psn_id": "lostlastaccountj",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:14:02.207456+00:00"
+    },
+    "tepredator811": {
+      "psn_id": "TEPredator811",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:14:02.514701+00:00"
+    },
+    "kar7": {
+      "psn_id": "kar7",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:14:02.822421+00:00"
+    },
+    "supreme_parent": {
+      "psn_id": "supreme_parent",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:14:03.131578+00:00"
+    },
+    "costanilo88": {
+      "psn_id": "costanilo88",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:14:03.730367+00:00"
+    },
+    "camshaft4335": {
+      "psn_id": "camshaft4335",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:14:04.461745+00:00"
+    },
+    "e-a-s-n0sx": {
+      "psn_id": "E-A-S-n0SX",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:14:05.083595+00:00"
+    },
+    "rubenyzfr46": {
+      "psn_id": "rubenyzfr46",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:14:05.395235+00:00"
+    },
+    "chirpy_dirpy": {
+      "psn_id": "Chirpy_Dirpy",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:14:06.020868+00:00"
+    },
+    "salchichax": {
+      "psn_id": "salchichax",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:14:12.257427+00:00"
+    },
+    "misterbine-rs": {
+      "psn_id": "misterbine-RS",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:14:12.568808+00:00"
+    },
+    "takoyaki_oic89": {
+      "psn_id": "Takoyaki_oic89",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:14:12.880593+00:00"
+    },
+    "mklausss": {
+      "psn_id": "mklausss",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:14:13.192166+00:00"
+    },
+    "phasecastro": {
+      "psn_id": "PhaseCastro",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:14:13.502891+00:00"
+    },
+    "goody1980": {
+      "psn_id": "goody1980",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:14:13.814077+00:00"
+    },
+    "tommy27swift": {
+      "psn_id": "Tommy27swift",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:14:14.439078+00:00"
+    },
+    "shaggysan83": {
+      "psn_id": "shaggysan83",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:14:14.750560+00:00"
+    },
+    "almoco-criptico": {
+      "psn_id": "almoco-criptico",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:14:15.061616+00:00"
+    },
+    "lapiz_reposado8": {
+      "psn_id": "lapiz_reposado8",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:14:15.372877+00:00"
+    },
+    "retrman": {
+      "psn_id": "retrman",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:14:15.684328+00:00"
+    },
+    "franciscomach365": {
+      "psn_id": "franciscomach365",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:14:15.995498+00:00"
+    },
+    "gj301": {
+      "psn_id": "GJ301",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:14:16.307376+00:00"
+    },
+    "man35400": {
+      "psn_id": "man35400",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:14:16.618394+00:00"
+    },
+    "bradygsxr": {
+      "psn_id": "BradyGSXR",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:14:16.930629+00:00"
+    },
+    "crooze318": {
+      "psn_id": "Crooze318",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:14:22.905624+00:00"
+    },
+    "favi_gigbs5": {
+      "psn_id": "favi_gigbs5",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:14:23.216572+00:00"
+    },
+    "hanni-92-": {
+      "psn_id": "Hanni-92-",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:14:23.527269+00:00"
+    },
+    "guccibaang": {
+      "psn_id": "GucciBaang",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:14:23.838060+00:00"
+    },
+    "mdkr_anonymous91": {
+      "psn_id": "MDKR_anonymous91",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:14:24.148489+00:00"
+    },
+    "tresor_fissible8": {
+      "psn_id": "tresor_fissible8",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:14:24.459352+00:00"
+    },
+    "clube-lembrado": {
+      "psn_id": "clube-lembrado",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:14:24.770228+00:00"
+    },
+    "polarelmo": {
+      "psn_id": "PolarElmo",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:14:25.080906+00:00"
+    },
+    "dunkanderson": {
+      "psn_id": "dunkanderson",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:14:25.393730+00:00"
+    },
+    "leshred777": {
+      "psn_id": "leshred777",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:14:26.017946+00:00"
+    },
+    "emilio_andrad115": {
+      "psn_id": "emilio_andrad115",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:14:26.328421+00:00"
+    },
+    "opdsneto": {
+      "psn_id": "opdsneto",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:14:26.639479+00:00"
+    },
+    "stooj2112": {
+      "psn_id": "stooj2112",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:14:26.950843+00:00"
+    },
+    "mck4t4": {
+      "psn_id": "McK4t4",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:14:27.261515+00:00"
+    },
+    "gusboc": {
+      "psn_id": "gusboc",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:14:27.572780+00:00"
+    },
+    "snootchpounder": {
+      "psn_id": "SnootchPounder",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:14:27.883704+00:00"
+    },
+    "legless_leggit": {
+      "psn_id": "LeGLeSS_LeGGiT",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:14:33.478481+00:00"
+    },
+    "antonio_feliipe5": {
+      "psn_id": "Antonio_Feliipe5",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:14:34.148443+00:00"
+    },
+    "brenaomadafaka": {
+      "psn_id": "BrenaoMadafaka",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:14:34.455903+00:00"
+    },
+    "xfernandoluizz_": {
+      "psn_id": "xfernandoluizz_",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:14:34.763185+00:00"
+    },
+    "champ-wood": {
+      "psn_id": "Champ-Wood",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:14:35.072138+00:00"
+    },
+    "osococacola": {
+      "psn_id": "osococacola",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:14:35.379480+00:00"
+    },
+    "mrpenguin_play": {
+      "psn_id": "MrPenguin_Play",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:14:35.687947+00:00"
+    },
+    "luigi13-14": {
+      "psn_id": "Luigi13-14",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:14:35.995915+00:00"
+    },
+    "vcp_masterlio": {
+      "psn_id": "VCP_MASTERLIO",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:14:36.303041+00:00"
+    },
+    "girl_be44": {
+      "psn_id": "Girl_be44",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:14:36.917945+00:00"
+    },
+    "ezombiec86": {
+      "psn_id": "ezombiec86",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:14:37.225554+00:00"
+    },
+    "three-sixty-18": {
+      "psn_id": "THREE-SIXTY-18",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:14:37.536696+00:00"
+    },
+    "eric_mbappe77": {
+      "psn_id": "eric_mbappe77",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:14:38.152700+00:00"
+    },
+    "destynyti23_call": {
+      "psn_id": "Destynyti23_call",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:14:38.766999+00:00"
+    },
+    "qwertzz116": {
+      "psn_id": "QwerTzz116",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:14:45.046232+00:00"
+    },
+    "muhlaci53": {
+      "psn_id": "muhlaci53",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:14:45.353730+00:00"
+    },
+    "bad2mell2": {
+      "psn_id": "bad2mell2",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:14:45.661939+00:00"
+    },
+    "roaring_rapport6": {
+      "psn_id": "roaring_rapport6",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:14:45.971481+00:00"
+    },
+    "mac1rob": {
+      "psn_id": "mac1rob",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:14:46.278548+00:00"
+    },
+    "savagegeeese": {
+      "psn_id": "SavageGeeese",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:14:46.585719+00:00"
+    },
+    "medusa_204": {
+      "psn_id": "Medusa_204",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:14:47.201920+00:00"
+    },
+    "creaky_nova58": {
+      "psn_id": "creaky_nova58",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:14:47.509732+00:00"
+    },
+    "olga2008jose": {
+      "psn_id": "olga2008jose",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:14:47.816753+00:00"
+    },
+    "mattys2411": {
+      "psn_id": "Mattys2411",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:14:48.126238+00:00"
+    },
+    "nerf_waffles": {
+      "psn_id": "nerf_waffles",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:14:48.433465+00:00"
+    },
+    "miniwarrior10": {
+      "psn_id": "miniwarrior10",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:14:48.740957+00:00"
+    },
+    "homar2k": {
+      "psn_id": "HOMAR2K",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:14:49.047819+00:00"
+    },
+    "mickyrider": {
+      "psn_id": "mickyrider",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:14:49.357479+00:00"
+    },
+    "neputeviyss": {
+      "psn_id": "NeputeviySS",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:14:49.664461+00:00"
+    },
+    "zerdex9405": {
+      "psn_id": "Zerdex9405",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:14:49.971573+00:00"
+    },
+    "colchete-longevo": {
+      "psn_id": "colchete-longevo",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:14:56.635936+00:00"
+    },
+    "ljeffll": {
+      "psn_id": "lJeFFll",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:14:56.943859+00:00"
+    },
+    "matipaez14": {
+      "psn_id": "Matipaez14",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:14:57.251722+00:00"
+    },
+    "saintlouis53": {
+      "psn_id": "saintlouis53",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:14:57.560050+00:00"
+    },
+    "gazuila82": {
+      "psn_id": "GAZUILA82",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:14:57.867400+00:00"
+    },
+    "fujiwarwara": {
+      "psn_id": "fujiwarwara",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:14:58.175785+00:00"
+    },
+    "bobby_enigma": {
+      "psn_id": "BOBBY_ENIGMA",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:14:58.486061+00:00"
+    },
+    "slippy_mall1": {
+      "psn_id": "slippy_mall1",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:14:58.794456+00:00"
+    },
+    "gabriiel-coringa": {
+      "psn_id": "GABRIIEL-CORINGA",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:14:59.103465+00:00"
+    },
+    "velho-guerreiro2": {
+      "psn_id": "velho-guerreiro2",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:15:00.287511+00:00"
+    },
+    "ryanhill84": {
+      "psn_id": "Ryanhill84",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:15:00.707368+00:00"
+    },
+    "skipper_skap": {
+      "psn_id": "Skipper_skap",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:15:01.018272+00:00"
+    },
+    "notto_read": {
+      "psn_id": "notto_read",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:15:08.956368+00:00"
+    },
+    "axn_tito": {
+      "psn_id": "AXN_Tito",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:15:09.267164+00:00"
+    },
+    "isaacwilcox24": {
+      "psn_id": "IsaacWilcox24",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:15:09.578505+00:00"
+    },
+    "dumdaway_42": {
+      "psn_id": "Dumdaway_42",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:15:09.889811+00:00"
+    },
+    "weisserriese80": {
+      "psn_id": "weisserriese80",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:15:10.200864+00:00"
+    },
+    "junkedout86": {
+      "psn_id": "junkedout86",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:15:10.823212+00:00"
+    },
+    "pglewis13": {
+      "psn_id": "pglewis13",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:15:11.134340+00:00"
+    },
+    "sideways-fool": {
+      "psn_id": "Sideways-Fool",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:15:11.758053+00:00"
+    },
+    "hill_billy75": {
+      "psn_id": "hill_billy75",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:15:21.336788+00:00"
+    },
+    "duplessisvdm": {
+      "psn_id": "duplessisvdm",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:15:21.647599+00:00"
+    },
+    "district0045": {
+      "psn_id": "district0045",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:15:21.960340+00:00"
+    },
+    "cyrilanka040": {
+      "psn_id": "cyrilanka040",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:15:22.582552+00:00"
+    },
+    "iga_1005": {
+      "psn_id": "IGA_1005",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:15:29.776880+00:00"
+    },
+    "jton08": {
+      "psn_id": "jton08",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:15:30.088418+00:00"
+    },
+    "bologsi": {
+      "psn_id": "bologsi",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:15:30.398946+00:00"
+    },
+    "rwa60": {
+      "psn_id": "RWA60",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:15:30.710093+00:00"
+    },
+    "rich_r27": {
+      "psn_id": "Rich_R27",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:15:31.021088+00:00"
+    },
+    "makunahatata_22": {
+      "psn_id": "MakunaHatata_22",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:15:31.331831+00:00"
+    },
+    "franland": {
+      "psn_id": "franland",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:15:31.642392+00:00"
+    },
+    "samirtuda": {
+      "psn_id": "SamirTuda",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:15:31.953516+00:00"
+    },
+    "pythagoras3457": {
+      "psn_id": "Pythagoras3457",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:15:32.264917+00:00"
+    },
+    "wgp_pipe_morning": {
+      "psn_id": "WGP_Pipe_Morning",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:15:32.575901+00:00"
+    },
+    "fin_h0ndura": {
+      "psn_id": "FIN_H0ndura",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:15:32.889580+00:00"
+    },
+    "bubnem": {
+      "psn_id": "BUBNEM",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:15:33.512416+00:00"
+    },
+    "micmicmic59": {
+      "psn_id": "micmicmic59",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:15:33.826812+00:00"
+    },
+    "akxl_10": {
+      "psn_id": "Akxl_10",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:15:40.974592+00:00"
+    },
+    "mj_gass": {
+      "psn_id": "mj_gass",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:15:41.285727+00:00"
+    },
+    "ornate_peroxide5": {
+      "psn_id": "ornate_peroxide5",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:15:41.918203+00:00"
+    },
+    "tcr_bobbieb_y_t": {
+      "psn_id": "TCR_BobbieB_Y_T",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:15:43.784211+00:00"
+    },
+    "gregjarvez": {
+      "psn_id": "Gregjarvez",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:15:44.091724+00:00"
+    },
+    "xtreme90_pitta": {
+      "psn_id": "Xtreme90_Pitta",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:15:44.400577+00:00"
+    },
+    "perfolg": {
+      "psn_id": "perfolg",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:15:44.707922+00:00"
+    },
+    "tarantulatown": {
+      "psn_id": "TarantulaTown",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:15:45.015430+00:00"
+    },
+    "drymocha": {
+      "psn_id": "DryMocha",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:15:52.560117+00:00"
+    },
+    "ted_37-8": {
+      "psn_id": "Ted_37-8",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:15:52.867463+00:00"
+    },
+    "r2__nl": {
+      "psn_id": "R2__nl",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:15:53.174966+00:00"
+    },
+    "facuruiz-22": {
+      "psn_id": "Facuruiz-22",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:15:53.483219+00:00"
+    },
+    "guicasali": {
+      "psn_id": "GuiCasali",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:15:53.790781+00:00"
+    },
+    "agt_grimlock213": {
+      "psn_id": "AGT_Grimlock213",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:15:55.020155+00:00"
+    },
+    "square-body-74": {
+      "psn_id": "Square-body-74",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:15:55.327970+00:00"
+    },
+    "siwashlegend": {
+      "psn_id": "SiwashLegend",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:15:55.637987+00:00"
+    },
+    "ridervince": {
+      "psn_id": "RiderVince",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:16:03.244469+00:00"
+    },
+    "leovianario": {
+      "psn_id": "leovianario",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:16:03.552940+00:00"
+    },
+    "mojopro80": {
+      "psn_id": "Mojopro80",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:16:03.860346+00:00"
+    },
+    "lugaru-7": {
+      "psn_id": "LUGARU-7",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:16:04.168560+00:00"
+    },
+    "delmcramsey": {
+      "psn_id": "DelMcRamsey",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:16:04.476695+00:00"
+    },
+    "barefootdad71": {
+      "psn_id": "barefootDad71",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:16:04.784528+00:00"
+    },
+    "am1905009": {
+      "psn_id": "Am1905009",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:16:05.094550+00:00"
+    },
+    "tarkers": {
+      "psn_id": "Tarkers",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:16:05.402772+00:00"
+    },
+    "badass1888": {
+      "psn_id": "BADASS1888",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:16:05.710469+00:00"
+    },
+    "yavegtrr32": {
+      "psn_id": "Yavegtrr32",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:16:06.018483+00:00"
+    },
+    "fernando_140910": {
+      "psn_id": "fernando_140910",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:16:06.633722+00:00"
+    },
+    "beamboy_335": {
+      "psn_id": "Beamboy_335",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:16:06.941135+00:00"
+    },
+    "chilacorsario": {
+      "psn_id": "chilacorsario",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:16:13.544786+00:00"
+    },
+    "steelpure": {
+      "psn_id": "steelpure",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:16:13.854175+00:00"
+    },
+    "hecalla": {
+      "psn_id": "Hecalla",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:16:14.161692+00:00"
+    },
+    "leeozera_98": {
+      "psn_id": "Leeozera_98",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:16:14.469223+00:00"
+    },
+    "soenarium": {
+      "psn_id": "Soenarium",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:16:14.776521+00:00"
+    },
+    "wizardinho_-": {
+      "psn_id": "WizarDinhO_-",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:16:15.084654+00:00"
+    },
+    "duke68964": {
+      "psn_id": "duke68964",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:16:15.727345+00:00"
+    },
+    "madouuchi": {
+      "psn_id": "MadouUchi",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:16:16.456138+00:00"
+    },
+    "zoidberg_the_md": {
+      "psn_id": "Zoidberg_The_MD",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:16:16.766584+00:00"
+    },
+    "guimarques04": {
+      "psn_id": "guimarques04",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:16:17.077350+00:00"
+    },
+    "braetther1": {
+      "psn_id": "BRAETTHER1",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:16:17.387806+00:00"
+    },
+    "radimkij12": {
+      "psn_id": "Radimkij12",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:16:18.012338+00:00"
+    },
+    "th100759": {
+      "psn_id": "th100759",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:16:25.075538+00:00"
+    },
+    "bison-jiro": {
+      "psn_id": "Bison-Jiro",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:16:25.386073+00:00"
+    },
+    "trippkush888": {
+      "psn_id": "trippkush888",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:16:25.697377+00:00"
+    },
+    "buck-_-420": {
+      "psn_id": "Buck-_-420",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:16:26.008238+00:00"
+    },
+    "xangelito10x": {
+      "psn_id": "XAngelito10X",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:16:26.630003+00:00"
+    },
+    "adri29_l": {
+      "psn_id": "adri29_l",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:16:27.254469+00:00"
+    },
+    "agamenon54": {
+      "psn_id": "agamenon54",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:16:28.187128+00:00"
+    },
+    "totto180869": {
+      "psn_id": "Totto180869",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:16:28.497806+00:00"
+    },
+    "hankkux": {
+      "psn_id": "HankkuX",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:16:28.809760+00:00"
+    },
+    "thiagofalencar": {
+      "psn_id": "thiagofalencar",
+      "reason": "missing_daily_stats",
+      "last_attempt_at": "2026-08-24T06:16:31.037391+00:00"
+    },
+    "daromosca0702": {
+      "psn_id": "DaroMosca0702",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:16:36.017912+00:00"
+    },
+    "volgin_pt": {
+      "psn_id": "Volgin_pt",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:16:36.329468+00:00"
+    },
+    "dralekiller": {
+      "psn_id": "dralekiller",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:16:36.953951+00:00"
+    },
+    "pickledpancake": {
+      "psn_id": "PickledPancake",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:16:37.576407+00:00"
+    },
+    "pavone-astuto": {
+      "psn_id": "pavone-astuto",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:16:37.887948+00:00"
+    },
+    "kani5seven": {
+      "psn_id": "Kani5Seven",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:16:38.199673+00:00"
+    },
+    "di105033": {
+      "psn_id": "di105033",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:16:38.510447+00:00"
+    },
+    "leficeslide": {
+      "psn_id": "LeficeSlide",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:16:39.443841+00:00"
+    },
+    "barrykeen": {
+      "psn_id": "BarrYkeEn",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:16:39.754965+00:00"
+    },
+    "ps_acmaciel": {
+      "psn_id": "Ps_ACMaciel",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:16:45.784682+00:00"
+    },
+    "augusto_lev": {
+      "psn_id": "Augusto_Lev",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:16:46.407544+00:00"
+    },
+    "kge1973": {
+      "psn_id": "kge1973",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:16:46.718633+00:00"
+    },
+    "zakoubinou97": {
+      "psn_id": "zakoubinou97",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:16:47.029795+00:00"
+    },
+    "chumi__22": {
+      "psn_id": "Chumi__22",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:16:47.341523+00:00"
+    },
+    "taupe_premiere": {
+      "psn_id": "taupe_premiere",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:16:47.964856+00:00"
+    },
+    "vincentvega013": {
+      "psn_id": "VincentVega013",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:16:48.720338+00:00"
+    },
+    "turn2racing": {
+      "psn_id": "turn2racing",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:16:49.029852+00:00"
+    },
+    "ebed-uprm": {
+      "psn_id": "Ebed-UPRM",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:16:49.337151+00:00"
+    },
+    "am1-warrior": {
+      "psn_id": "am1-warrior",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:16:49.646180+00:00"
+    },
+    "h0us3rr2p": {
+      "psn_id": "h0uS3rR2P",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:16:50.260922+00:00"
+    },
+    "fleurythegreat": {
+      "psn_id": "fleurythegreat",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:16:50.568561+00:00"
+    },
+    "edelbrock-hemi": {
+      "psn_id": "EDELBROCK-HEMI",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:16:58.332573+00:00"
+    },
+    "limoxxztv": {
+      "psn_id": "LimoxXzTV",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:16:58.642175+00:00"
+    },
+    "panadero-fiscal9": {
+      "psn_id": "panadero-fiscal9",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:16:58.948979+00:00"
+    },
+    "elpela2908": {
+      "psn_id": "ElPela2908",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:16:59.256016+00:00"
+    },
+    "stan3750": {
+      "psn_id": "Stan3750",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:16:59.563720+00:00"
+    },
+    "spatzenbrain": {
+      "psn_id": "spatzenbrain",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:16:59.871214+00:00"
+    },
+    "educornella": {
+      "psn_id": "educornella",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:17:00.486283+00:00"
+    },
+    "platina_yukky": {
+      "psn_id": "platina_yukky",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:17:00.793574+00:00"
+    },
+    "jwfoto1990": {
+      "psn_id": "JWFOTO1990",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:17:01.409831+00:00"
+    },
+    "rockerfb": {
+      "psn_id": "RockerFB",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:17:02.028578+00:00"
+    },
+    "cursed_mike_02": {
+      "psn_id": "cursed_mike_02",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:17:09.036274+00:00"
+    },
+    "doofdo-fsg": {
+      "psn_id": "Doofdo-FSG",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:17:09.343212+00:00"
+    },
+    "thequinis": {
+      "psn_id": "thequinis",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:17:09.650632+00:00"
+    },
+    "tema_roma2018": {
+      "psn_id": "Tema_Roma2018",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:17:09.958281+00:00"
+    },
+    "carloshenaobob": {
+      "psn_id": "carloshenaobob",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:17:10.265376+00:00"
+    },
+    "d260592r": {
+      "psn_id": "D260592R",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:17:10.573349+00:00"
+    },
+    "awpossum17066": {
+      "psn_id": "awpossum17066",
+      "reason": "missing_encrypted_payload",
+      "last_attempt_at": "2026-08-24T06:17:11.190810+00:00"
     }
   },
   "filtered": {
@@ -75625,7 +77386,7 @@
     "dr_dead_26": {
       "psn_id": "DR_DEAD_26",
       "reason": "below_min_races",
-      "last_attempt_at": "2026-08-23T21:14:08.469879+00:00"
+      "last_attempt_at": "2026-08-24T06:16:45.366728+00:00"
     },
     "maruyasu1227": {
       "psn_id": "maruyasu1227",
@@ -75921,8 +77682,88 @@
       "psn_id": "awpossum17066",
       "reason": "below_min_races",
       "last_attempt_at": "2026-08-24T00:30:22.902902+00:00"
+    },
+    "mtz_daum": {
+      "psn_id": "Mtz_Daum",
+      "reason": "below_min_races",
+      "last_attempt_at": "2026-08-24T06:12:07.180210+00:00"
+    },
+    "demiteijli": {
+      "psn_id": "Demiteijli",
+      "reason": "below_min_races",
+      "last_attempt_at": "2026-08-24T06:14:08.349609+00:00"
+    },
+    "pooldead2005": {
+      "psn_id": "pooldead2005",
+      "reason": "below_min_races",
+      "last_attempt_at": "2026-08-24T06:14:19.056224+00:00"
+    },
+    "mosche157": {
+      "psn_id": "Mosche157",
+      "reason": "below_min_races",
+      "last_attempt_at": "2026-08-24T06:14:30.977377+00:00"
+    },
+    "paxulaco": {
+      "psn_id": "Paxulaco",
+      "reason": "below_min_races",
+      "last_attempt_at": "2026-08-24T06:14:42.458202+00:00"
+    },
+    "tyler_the_typhoo": {
+      "psn_id": "tyler_the_typhoo",
+      "reason": "below_min_races",
+      "last_attempt_at": "2026-08-24T06:14:44.739153+00:00"
+    },
+    "olgreg87": {
+      "psn_id": "olgreg87",
+      "reason": "below_min_races",
+      "last_attempt_at": "2026-08-24T06:14:54.258456+00:00"
+    },
+    "mister_gt_f": {
+      "psn_id": "Mister_GT_F",
+      "reason": "below_min_races",
+      "last_attempt_at": "2026-08-24T06:15:14.080144+00:00"
+    },
+    "mrjefferson83": {
+      "psn_id": "MrJefferson83",
+      "reason": "below_min_races",
+      "last_attempt_at": "2026-08-24T06:15:47.317982+00:00"
+    },
+    "jovus-01": {
+      "psn_id": "JOVUS-01",
+      "reason": "below_min_races",
+      "last_attempt_at": "2026-08-24T06:16:01.025535+00:00"
+    },
+    "amce01": {
+      "psn_id": "amce01",
+      "reason": "below_min_races",
+      "last_attempt_at": "2026-08-24T06:16:22.740765+00:00"
+    },
+    "progamer_lou-_-": {
+      "psn_id": "ProGamer_Lou-_-",
+      "reason": "below_min_races",
+      "last_attempt_at": "2026-08-24T06:16:24.764647+00:00"
+    },
+    "jessebangbang420": {
+      "psn_id": "JesseBangBang420",
+      "reason": "below_min_races,average_finish_out_of_range",
+      "last_attempt_at": "2026-08-24T06:16:33.375627+00:00"
+    },
+    "ryybels": {
+      "psn_id": "Ryybels",
+      "reason": "below_min_races",
+      "last_attempt_at": "2026-08-24T06:16:41.842818+00:00"
+    },
+    "jimr21perfect": {
+      "psn_id": "jimr21perfect",
+      "reason": "below_min_races",
+      "last_attempt_at": "2026-08-24T06:16:57.715922+00:00"
+    },
+    "ruiferreira__": {
+      "psn_id": "Ruiferreira__",
+      "reason": "below_min_races",
+      "last_attempt_at": "2026-08-24T06:17:04.353383+00:00"
     }
   },
-  "maintenance_pruned_at": "2026-08-24T00:14:30.920198+00:00",
+  "maintenance_pruned_at": "2026-08-24T06:06:49.918352+00:00",
   "maintenance_profiles_removed": 100
 }
