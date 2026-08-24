@@ -62,7 +62,12 @@ def main():
     trend=weekly_trend()
     if trend:
         trend_rows="".join([
-            f"<tr>{td('Career Rating')}{td(signed(trend.get('overall')))}</tr>",f"<tr>{td('Qualifying Pace')}{td(signed(trend.get('qualifying')))}</tr>",f"<tr>{td('Finishing Performance')}{td(signed(trend.get('race_performance')))}</tr>",f"<tr>{td('Position Conversion')}{td(signed(trend.get('racecraft')))}</tr>",f"<tr>{td('Results')}{td(signed(trend.get('results')))}</tr>",f"<tr>{td('DR points')}{td(signed(trend.get('dr_points'),0))}</tr>"])
+            f"<tr>{td('Career Rating')}{td(signed(trend.get('overall')))}</tr>",
+            f"<tr>{td('Qualifying Pace')}{td(signed(trend.get('qualifying')))}</tr>",
+            f"<tr>{td('Finishing Performance')}{td(signed(trend.get('race_performance')))}</tr>",
+            f"<tr>{td('Position Conversion')}{td(signed(trend.get('racecraft')))}</tr>",
+            f"<tr>{td('Results')}{td(signed(trend.get('results')))}</tr>",
+            f"<tr>{td('DR points')}{td(signed(trend.get('dr_points'),0))}</tr>"])
         trend_block=f'<h2 style="font-size:18px;margin:28px 0 8px">Last 7 days</h2><table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="border-collapse:collapse;background:#fff;border:1px solid #ddd"><tr style="background:#f4f4f4">{td("Metric",True)}{td("Change",True)}</tr>{trend_rows}</table>'
     else:
         trend_block='<h2 style="font-size:18px;margin:28px 0 8px">Last 7 days</h2><p style="margin:0;color:#666">Not enough calibrated history yet for a reliable weekly comparison.</p>'
@@ -73,10 +78,13 @@ def main():
 {trend_block}
 <h2 style="font-size:18px;margin:28px 0 8px">Reference population</h2><table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="border-collapse:collapse;background:#fff;border:1px solid #ddd"><tr>{td('Valid profiles')}{td(cal.get('valid_profiles','n/a'))}</tr><tr>{td('Effective peers')}{td(eff_text)}</tr><tr>{td('Method')}{td('Continuous cross-DR weighting')}</tr></table>
 <p style="font-size:12px;line-height:1.5;color:#777;margin:28px 0 0">Ratings use a nonlinear 0–10 presentation scale. Cross-DR percentiles remain the underlying statistical benchmark. Position Conversion is the presentation name for the historical racecraft field.</p></div></div></body></html>'''
-    plain=f"GT7 Career Tracker — Weekly Summary\n\nDR: {rating['dr_label']} — {rating['dr_points']} points\n\n"+"\n".join(f"{n}: {grade(float(p[k])):.1f}/10 (P{float(p[k]):.1f})" for n,k,_ in metrics)
-    msg=EmailMessage(); msg["Subject"]="GT7 Career Tracker — Weekly Summary"; msg["From"]=EMAIL_USERNAME; msg["To"]=EMAIL_TO; msg.set_content(plain); msg.add_alternative(body,subtype="html")
+    msg=EmailMessage()
+    msg["Subject"]="GT7 Career Tracker — HTML TEST"
+    msg["From"]=EMAIL_USERNAME
+    msg["To"]=EMAIL_TO
+    msg.set_content(body, subtype="html")
     with smtplib.SMTP_SSL("smtp.gmail.com",465) as smtp:
         smtp.login(EMAIL_USERNAME,EMAIL_APP_PASSWORD); smtp.send_message(msg)
-    print("Weekly GT7 Career Tracker HTML email sent successfully.")
+    print("Weekly GT7 Career Tracker HTML-only email sent successfully.")
 
 if __name__=="__main__":main()
