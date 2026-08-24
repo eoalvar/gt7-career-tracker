@@ -41,6 +41,9 @@ jobs:
           GT7_PSN_ID: crazy_rooster74
         run: python src/collect_rating.py
 
+      - name: Record calibrated performance history
+        run: python src/record_performance_history.py
+
       - name: Generate career report
         run: python src/generate_report.py
 
