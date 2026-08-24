@@ -19,7 +19,8 @@ EMAIL_TO = os.environ["EMAIL_TO"]
 def clamp(x, lo=0.0, hi=100.0): return max(lo, min(hi, x))
 
 def grade(percentile):
-    p=clamp(float(percentile)); anchors=((0,0.0),(5,1.5),(10,2.2),(25,3.5),(50,5.0),(75,7.0),(90,8.3),(95,8.9),(99,9.6),(100,10.0))
+    p=clamp(float(percentile))
+    anchors=((0,0.0),(5,1.5),(10,2.2),(25,3.5),(50,5.0),(75,7.0),(90,8.3),(95,8.9),(99,9.6),(100,10.0))
     for (p0,g0),(p1,g1) in zip(anchors,anchors[1:]):
         if p<=p1:return g0+(p-p0)*(g1-g0)/(p1-p0)
     return 10.0
@@ -42,49 +43,88 @@ def weekly_trend():
         with sqlite3.connect(DB) as conn:
             conn.row_factory=sqlite3.Row
             rows=conn.execute("SELECT captured_at,dr_points,qualifying,race_performance,racecraft,results,overall FROM performance_history WHERE captured_at>=? ORDER BY captured_at",(cutoff,)).fetchall()
-    except sqlite3.OperationalError:return None
+    except sqlite3.OperationalError:
+        return None
     if len(rows)<2:return None
     a,b=rows[0],rows[-1]
     return {k:(b[k]-a[k]) for k in ("dr_points","qualifying","race_performance","racecraft","results","overall") if a[k] is not None and b[k] is not None}
 
-def td(x, bold=False):
-    tag="strong" if bold else "span"
-    return f'<td style="padding:10px 8px;border-bottom:1px solid #e6e6e6;vertical-align:top"><{tag}>{html.escape(str(x))}</{tag}></td>'
+def line(label, value):
+    return f'<div style="padding:7px 0;border-bottom:1px solid #eeeeee"><span style="color:#666">{html.escape(str(label))}:</span> <strong>{html.escape(str(value))}</strong></div>'
+
+def metric(name, percentile, description):
+    g=grade(percentile)
+    return f'''<div style="padding:14px 0;border-bottom:1px solid #e8e8e8">
+<div style="font-size:17px;font-weight:700;margin-bottom:3px">{html.escape(name)} — {g:.1f}/10</div>
+<div style="font-size:14px;color:#555;margin-bottom:4px">{html.escape(assessment(g))} · P{percentile:.1f}</div>
+<div style="font-size:14px;line-height:1.45;color:#333">{html.escape(description)}</div>
+</div>'''
 
 def main():
-    rating=json.loads(RATING.read_text(encoding="utf-8")); career=json.loads(CAREER.read_text(encoding="utf-8")); cal=json.loads(CALIBRATION.read_text(encoding="utf-8"))
+    rating=json.loads(RATING.read_text(encoding="utf-8"))
+    career=json.loads(CAREER.read_text(encoding="utf-8"))
+    cal=json.loads(CALIBRATION.read_text(encoding="utf-8"))
     p=cal.get("user_percentiles_dr_adjusted") or cal.get("user_percentiles",{})
-    metrics=(("Career Rating","overall","Combined competitive standing"),("Qualifying Pace","qualifying","Starting-position strength versus comparable drivers"),("Finishing Performance","race_performance","Finishing-position strength versus comparable drivers"),("Position Conversion","racecraft","Conversion of similar grid positions into finishing positions"),("Results","results","Wins and strong finishing outcomes versus comparable drivers"))
-    rows=[]
-    for name,key,desc in metrics:
-        pct=float(p[key]); g=grade(pct); rows.append(f"<tr>{td(name,True)}{td(f'{g:.1f} / 10',True)}{td(assessment(g))}{td(f'P{pct:.1f} — {desc}')}</tr>")
     daily=next((r for r in career.get("sport_types",[]) if r.get("sport_type")==1),{})
+    meta=cal.get("dr_adjustment") or {}
+    eff=meta.get("effective_peer_count")
+    eff_text=f"{eff:.0f}" if isinstance(eff,(int,float)) else "n/a"
+
+    metric_html="".join([
+        metric("Career Rating",float(p["overall"]),"Combined competitive standing across the four career dimensions."),
+        metric("Qualifying Pace",float(p["qualifying"]),"How strong your average starting position is versus competitively comparable drivers."),
+        metric("Finishing Performance",float(p["race_performance"]),"How strong your average finishing position is versus competitively comparable drivers."),
+        metric("Position Conversion",float(p["racecraft"]),"How effectively you convert similar starting positions into finishing positions versus comparable drivers."),
+        metric("Results",float(p["results"]),"How your wins and strong finishing outcomes compare with competitively similar drivers."),
+    ])
+
     trend=weekly_trend()
     if trend:
-        trend_rows="".join([
-            f"<tr>{td('Career Rating')}{td(signed(trend.get('overall')))}</tr>",
-            f"<tr>{td('Qualifying Pace')}{td(signed(trend.get('qualifying')))}</tr>",
-            f"<tr>{td('Finishing Performance')}{td(signed(trend.get('race_performance')))}</tr>",
-            f"<tr>{td('Position Conversion')}{td(signed(trend.get('racecraft')))}</tr>",
-            f"<tr>{td('Results')}{td(signed(trend.get('results')))}</tr>",
-            f"<tr>{td('DR points')}{td(signed(trend.get('dr_points'),0))}</tr>"])
-        trend_block=f'<h2 style="font-size:18px;margin:28px 0 8px">Last 7 days</h2><table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="border-collapse:collapse;background:#fff;border:1px solid #ddd"><tr style="background:#f4f4f4">{td("Metric",True)}{td("Change",True)}</tr>{trend_rows}</table>'
+        trend_html="".join([
+            line("Career Rating percentile",signed(trend.get("overall"))),
+            line("Qualifying Pace percentile",signed(trend.get("qualifying"))),
+            line("Finishing Performance percentile",signed(trend.get("race_performance"))),
+            line("Position Conversion percentile",signed(trend.get("racecraft"))),
+            line("Results percentile",signed(trend.get("results"))),
+            line("DR points",signed(trend.get("dr_points"),0)),
+        ])
     else:
-        trend_block='<h2 style="font-size:18px;margin:28px 0 8px">Last 7 days</h2><p style="margin:0;color:#666">Not enough calibrated history yet for a reliable weekly comparison.</p>'
-    meta=cal.get("dr_adjustment") or {}; eff=meta.get("effective_peer_count"); eff_text=f"{eff:.0f}" if isinstance(eff,(int,float)) else "n/a"
-    body=f'''<!doctype html><html><body style="margin:0;padding:0;background:#f3f4f6;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;color:#171717"><div style="max-width:720px;margin:0 auto;padding:24px 12px"><div style="background:#ffffff;border:1px solid #dedede;border-radius:12px;padding:24px"><div style="font-size:12px;letter-spacing:.08em;color:#666;text-transform:uppercase">Gran Turismo 7 · Sport Mode</div><h1 style="font-size:26px;margin:5px 0 4px">Weekly Career Summary</h1><p style="margin:0 0 22px;color:#666">{html.escape(rating['psn_id'])} · {datetime.now().strftime('%d %b %Y')}</p>
-<table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="border-collapse:collapse;background:#fafafa;border:1px solid #ddd"><tr>{td('Driver Rating',True)}{td(f"{rating['dr_label']} — {rating['dr_points']:,} pts",True)}</tr><tr>{td('Daily Races')}{td(daily.get('races','n/a'))}</tr><tr>{td('Average Grid')}{td(f"{daily.get('average_grid',0):.2f}" if daily.get('average_grid') is not None else 'n/a')}</tr><tr>{td('Average Finish')}{td(f"{daily.get('average_finish',0):.2f}" if daily.get('average_finish') is not None else 'n/a')}</tr></table>
-<h2 style="font-size:18px;margin:28px 0 8px">Competitive ratings</h2><table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="border-collapse:collapse;background:#fff;border:1px solid #ddd"><tr style="background:#f4f4f4">{td('Dimension',True)}{td('Rating',True)}{td('Assessment',True)}{td('Context',True)}</tr>{''.join(rows)}</table>
-{trend_block}
-<h2 style="font-size:18px;margin:28px 0 8px">Reference population</h2><table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="border-collapse:collapse;background:#fff;border:1px solid #ddd"><tr>{td('Valid profiles')}{td(cal.get('valid_profiles','n/a'))}</tr><tr>{td('Effective peers')}{td(eff_text)}</tr><tr>{td('Method')}{td('Continuous cross-DR weighting')}</tr></table>
-<p style="font-size:12px;line-height:1.5;color:#777;margin:28px 0 0">Ratings use a nonlinear 0–10 presentation scale. Cross-DR percentiles remain the underlying statistical benchmark. Position Conversion is the presentation name for the historical racecraft field.</p></div></div></body></html>'''
+        trend_html='<div style="font-size:14px;color:#666">Not enough calibrated history yet for a reliable 7-day comparison.</div>'
+
+    body=f'''<!doctype html><html><body style="margin:0;padding:0;background:#ffffff;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;color:#171717">
+<div style="max-width:620px;margin:0 auto;padding:22px 18px">
+<div style="font-size:12px;color:#777;text-transform:uppercase;letter-spacing:.08em">Gran Turismo 7 · Sport Mode</div>
+<div style="font-size:25px;font-weight:800;margin:4px 0 2px">Weekly Career Summary</div>
+<div style="font-size:14px;color:#666;margin-bottom:22px">{html.escape(rating['psn_id'])} · {datetime.now().strftime('%d %b %Y')}</div>
+
+<div style="font-size:18px;font-weight:700;margin:0 0 7px">Current status</div>
+{line('Driver Rating',f"{rating['dr_label']} — {rating['dr_points']:,} pts")}
+{line('Daily Races',daily.get('races','n/a'))}
+{line('Average Grid',f"{daily.get('average_grid'):.2f}" if daily.get('average_grid') is not None else 'n/a')}
+{line('Average Finish',f"{daily.get('average_finish'):.2f}" if daily.get('average_finish') is not None else 'n/a')}
+
+<div style="font-size:18px;font-weight:700;margin:26px 0 2px">Competitive ratings</div>
+{metric_html}
+
+<div style="font-size:18px;font-weight:700;margin:26px 0 7px">Last 7 days</div>
+{trend_html}
+
+<div style="font-size:18px;font-weight:700;margin:26px 0 7px">Reference population</div>
+{line('Valid profiles',cal.get('valid_profiles','n/a'))}
+{line('Effective peers',eff_text)}
+{line('Method','Continuous cross-DR weighting')}
+
+<div style="font-size:12px;line-height:1.45;color:#777;margin-top:25px">The 0–10 ratings are a nonlinear presentation layer. Cross-DR percentiles remain the underlying statistical benchmark.</div>
+</div></body></html>'''
+
     msg=EmailMessage()
-    msg["Subject"]="GT7 Career Tracker — HTML TEST"
+    msg["Subject"]="GT7 Career Tracker — Weekly Summary"
     msg["From"]=EMAIL_USERNAME
     msg["To"]=EMAIL_TO
     msg.set_content(body, subtype="html")
     with smtplib.SMTP_SSL("smtp.gmail.com",465) as smtp:
-        smtp.login(EMAIL_USERNAME,EMAIL_APP_PASSWORD); smtp.send_message(msg)
-    print("Weekly GT7 Career Tracker HTML-only email sent successfully.")
+        smtp.login(EMAIL_USERNAME,EMAIL_APP_PASSWORD)
+        smtp.send_message(msg)
+    print("Weekly GT7 Career Tracker mobile email sent successfully.")
 
 if __name__=="__main__":main()
