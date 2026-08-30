@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-08-30T21:12:06.989526+00:00",
+  "captured_at": "2026-08-30T23:34:16.158801+00:00",
   "psn_id": "crazy_rooster74",
   "top_level_keys": [
     "data_source",
@@ -62,7 +62,7 @@
     "sport.result[1].top_match": 0,
     "sport.result[1].type": 2,
     "sport.result[1].win": 0,
-    "sport_type1_history.__count__": 16,
+    "sport_type1_history.__count__": 17,
     "sport_type1_history[0].date": "2026-08-15",
     "sport_type1_history[0].sport_type1.average_qualify_rank": 6.02093023255814,
     "sport_type1_history[0].sport_type1.average_rank": 5.497674418604651,
@@ -99,7 +99,7 @@
     "sport_type1_history[2].sport_type1.top_match": 0,
     "sport_type1_history[2].sport_type1.type": 1,
     "sport_type1_history[2].sport_type1.win": 13,
-    "sport_type2_history.__count__": 16,
+    "sport_type2_history.__count__": 17,
     "sport_type2_history[0].date": "2026-08-15",
     "sport_type2_history[0].sport_type2.average_qualify_rank": 7.45,
     "sport_type2_history[0].sport_type2.average_rank": 5.45,
