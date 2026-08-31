@@ -1,7 +1,7 @@
 # GT7 Sport Career Report
 
 PSN: **crazy_rooster74**  
-Updated: 2026-08-31T05:43:49.555872+00:00  
+Updated: 2026-08-31T14:01:03.005798+00:00  
 DR: **B** — 20626 points — 53% toward next DR  
 SR: **6**
 
@@ -9,15 +9,15 @@ SR: **6**
 
 | Dimension | Rating | Assessment | Statistical context |
 |---|---:|---|---|
-| **Qualifying Pace** | **7.4/10** | Strong | P80.0: starting-position performance versus competitively comparable drivers. |
-| **Finishing Performance** | **5.6/10** | Competitive / average | P57.7: finishing-position performance versus competitively comparable drivers. |
-| **Position Conversion** | **4.1/10** | Below average | P35.3: ability to convert similar grid positions into finishing positions versus comparable drivers. |
-| **Results** | **4.4/10** | Below average | P39.4: concrete race outcomes such as wins and Top-5 results versus comparable drivers. |
-| **Career Rating** | **5.6/10** | Competitive / average | P57.2: combined competitive standing across the four career dimensions. |
+| **Qualifying Pace** | **7.4/10** | Strong | P79.9: starting-position performance versus competitively comparable drivers. |
+| **Finishing Performance** | **5.6/10** | Competitive / average | P57.8: finishing-position performance versus competitively comparable drivers. |
+| **Position Conversion** | **4.0/10** | Below average | P33.3: ability to convert similar grid positions into finishing positions versus comparable drivers. |
+| **Results** | **4.3/10** | Below average | P38.7: concrete race outcomes such as wins and Top-5 results versus comparable drivers. |
+| **Career Rating** | **5.5/10** | Competitive / average | P56.7: combined competitive standing across the four career dimensions. |
 
 > Ratings are the presentation layer; the underlying cross-DR percentiles remain the statistical benchmark. The nonlinear 0–10 scale is anchored at 5.0 for the median (P50), ~7.0 for P75, ~8.3 for P90, ~8.9 for P95 and ~9.6 for P99.
 
-> Cross-DR peer reference: 697 effective. Calibration sample: 2197 valid profiles. Global percentiles remain available as population context.
+> Cross-DR peer reference: 834 effective. Calibration sample: 2528 valid profiles. Global percentiles remain available as population context.
 
 ## Sport career
 
@@ -37,16 +37,16 @@ Best rank: **1393** · Median rank: **18831** · Average rank: **26247.42** · W
 ## Performance trend
 
 ### Last 7 days
-Overall percentile: 57.2 → 57.2 (+0.0) · DR points -393 · 41 snapshots
-- Qualifying +0.0 · Finishing Performance +0.0 · Position Conversion +0.0 · Results +0.0
+Overall percentile: 57.2 → 56.7 (-0.5) · DR points -393 · 34 snapshots
+- Qualifying -0.1 · Finishing Performance +0.1 · Position Conversion -2.0 · Results -0.6
 
 ### Last 30 days
-Overall percentile: 56.6 → 57.2 (+0.5) · DR points -393 · 48 snapshots · partial coverage: 7 days
-- Qualifying -0.1 · Finishing Performance +0.7 · Position Conversion +1.4 · Results +0.5
+Overall percentile: 56.6 → 56.7 (+0.1) · DR points -393 · 49 snapshots · partial coverage: 7 days
+- Qualifying -0.2 · Finishing Performance +0.8 · Position Conversion -0.6 · Results -0.1
 
 ### Last 90 days
-Overall percentile: 56.6 → 57.2 (+0.5) · DR points -393 · 48 snapshots · partial coverage: 7 days
-- Qualifying -0.1 · Finishing Performance +0.7 · Position Conversion +1.4 · Results +0.5
+Overall percentile: 56.6 → 56.7 (+0.1) · DR points -393 · 49 snapshots · partial coverage: 7 days
+- Qualifying -0.2 · Finishing Performance +0.8 · Position Conversion -0.6 · Results -0.1
 
 ## Activity trends
 
