@@ -3,8 +3,7 @@ name: GT7 Career Weekly Email
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 6 * * 1"
-      timezone: "America/Sao_Paulo"
+    - cron: "0 9 * * 1"
 
 permissions:
   contents: read
