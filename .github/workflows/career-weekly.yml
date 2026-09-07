@@ -4,12 +4,16 @@ on:
   workflow_dispatch:
   schedule:
     - cron: "0 9 * * 1"
+  push:
+    paths:
+      - ".github/workflows/career-weekly.yml"
 
 permissions:
   contents: read
 
 jobs:
   send-weekly-career-email:
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event_name == 'schedule' }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
