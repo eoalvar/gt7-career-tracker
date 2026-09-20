@@ -1,7 +1,7 @@
 # GT7 Sport Career Report
 
 PSN: **crazy_rooster74**  
-Updated: 2026-09-20T11:32:10.840637+00:00  
+Updated: 2026-09-20T16:12:56.604249+00:00  
 DR: **B** — 26804 points — 84% toward next DR  
 SR: **6**
 
@@ -41,11 +41,11 @@ Overall percentile: 57.4 → 56.4 (-1.0) · DR points +504 · 33 snapshots
 - Qualifying -1.2 · Finishing Performance +0.4 · Position Conversion -1.8 · Results -2.7
 
 ### Last 30 days
-Overall percentile: 56.6 → 56.4 (-0.2) · DR points +5785 · 146 snapshots
+Overall percentile: 56.6 → 56.4 (-0.2) · DR points +5785 · 147 snapshots
 - Qualifying -1.1 · Finishing Performance +2.2 · Position Conversion -1.8 · Results -2.2
 
 ### Last 90 days
-Overall percentile: 56.6 → 56.4 (-0.2) · DR points +5785 · 146 snapshots · partial coverage: 27 days
+Overall percentile: 56.6 → 56.4 (-0.2) · DR points +5785 · 147 snapshots · partial coverage: 27 days
 - Qualifying -1.1 · Finishing Performance +2.2 · Position Conversion -1.8 · Results -2.2
 
 ## Activity trends
