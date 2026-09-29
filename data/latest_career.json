@@ -1,21 +1,21 @@
 {
-  "captured_at": "2026-09-28T21:16:21.470273+00:00",
+  "captured_at": "2026-09-29T01:03:36.326297+00:00",
   "psn_id": "crazy_rooster74",
   "sport_types": [
     {
       "sport_type": 1,
-      "races": 499,
-      "wins": 15,
-      "top5": 262,
-      "poles": 21,
-      "laps": 4523,
-      "lead_laps": 187,
-      "average_grid": 5.963927855711423,
-      "average_finish": 5.501002004008016,
-      "positions_gained_avg": 0.4629258517034067,
-      "win_rate": 0.03006012024048096,
-      "top5_rate": 0.5250501002004008,
-      "pole_rate": 0.04208416833667335
+      "races": 502,
+      "wins": 16,
+      "top5": 263,
+      "poles": 22,
+      "laps": 4559,
+      "lead_laps": 203,
+      "average_grid": 5.950199203187251,
+      "average_finish": 5.50996015936255,
+      "positions_gained_avg": 0.44023904382470036,
+      "win_rate": 0.03187250996015936,
+      "top5_rate": 0.5239043824701195,
+      "pole_rate": 0.043824701195219126
     },
     {
       "sport_type": 2,
@@ -34,11 +34,11 @@
     }
   ],
   "sports_mode": {
-    "race_count": 425,
-    "win_count": 15,
-    "pole_position_count": 22,
+    "race_count": 428,
+    "win_count": 16,
+    "pole_position_count": 23,
     "fastest_lap_count": 9,
-    "clean_race_count": 83
+    "clean_race_count": 84
   },
   "qualifying_performance": {
     "best_rank": 1393,
