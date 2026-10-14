@@ -1,7 +1,7 @@
 # GT7 Sport Career Report
 
 PSN: **crazy_rooster74**  
-Updated: 2026-10-13T22:51:22.606414+00:00  
+Updated: 2026-10-14T05:00:53.570326+00:00  
 DR: **A** — 32790 points — 13% toward next DR  
 SR: **6**
 
@@ -37,7 +37,7 @@ Best rank: **1393** · Median rank: **17570** · Average rank: **24655.28** · W
 ## Performance trend
 
 ### Last 7 days
-Overall percentile: 54.3 → 54.5 (+0.2) · DR points +210 · 21 snapshots
+Overall percentile: 54.3 → 54.5 (+0.2) · DR points +210 · 22 snapshots
 - Qualifying -0.3 · Finishing Performance +0.3 · Position Conversion +0.7 · Results +0.1
 
 ### Last 30 days
@@ -45,7 +45,7 @@ Overall percentile: 57.4 → 54.5 (-2.9) · DR points +6490 · 112 snapshots
 - Qualifying -7.7 · Finishing Performance -2.5 · Position Conversion +6.4 · Results -6.4
 
 ### Last 90 days
-Overall percentile: 56.6 → 54.5 (-2.1) · DR points +11771 · 228 snapshots · partial coverage: 50 days
+Overall percentile: 56.6 → 54.5 (-2.1) · DR points +11771 · 229 snapshots · partial coverage: 51 days
 - Qualifying -7.5 · Finishing Performance -0.7 · Position Conversion +6.4 · Results -5.9
 
 ## Activity trends
@@ -57,11 +57,11 @@ DR: A → A · points +210 · progress +1.0 pp
 
 ### Last 30 days
 DR: B → A · points +6490 · progress -68.0 pp
-- Daily Races: 44 races · 4 wins · 19 Top 5 · 4 poles · win rate 9.09% · Top-5 rate 43.18% · avg grid change -0.05 · avg finish change +0.07
+- Daily Races: 42 races · 4 wins · 19 Top 5 · 4 poles · win rate 9.52% · Top-5 rate 45.24% · avg grid change -0.05 · avg finish change +0.05
 - Championships: 0 races · 0 wins · 0 Top 5 · 0 poles · win rate n/a · Top-5 rate n/a · avg grid change +0.00 · avg finish change +0.00
 
 ### Last 90 days
-DR: B → A · points +11711 · progress -42.0 pp · partial coverage: 51 days
+DR: B → A · points +11711 · progress -42.0 pp · partial coverage: 52 days
 - Daily Races: 89 races · 6 wins · 42 Top 5 · 8 poles · win rate 6.74% · Top-5 rate 47.19% · avg grid change -0.12 · avg finish change +0.02 · partial coverage: 59 days
 - Championships: 0 races · 0 wins · 0 Top 5 · 0 poles · win rate n/a · Top-5 rate n/a · avg grid change +0.00 · avg finish change +0.00 · partial coverage: 59 days
 
