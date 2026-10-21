@@ -1,6 +1,6 @@
 # DR versus race activity audit
 
-Generated UTC: 2026-10-21T04:57:39.395474+00:00
+Generated UTC: 2026-10-21T11:58:50.446115+00:00
 
 Daily history values are cumulative snapshots, not individual race results.
 
@@ -164,4 +164,5 @@ captured_at | dr_label | dr_points | dr_percentage
 2026-10-20T19:20:22.546584+00:00 | A | 37085.0 | 35.0
 2026-10-20T23:56:36.445826+00:00 | A | 37085.0 | 35.0
 2026-10-21T04:57:39.273079+00:00 | A | 37296.0 | 36.0
+2026-10-21T11:58:50.277349+00:00 | A | 37296.0 | 36.0
 

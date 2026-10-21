@@ -1,7 +1,7 @@
 # GT7 Sport Career Report
 
 PSN: **crazy_rooster74**  
-Updated: 2026-10-21T04:57:39.273079+00:00  
+Updated: 2026-10-21T11:58:50.277349+00:00  
 DR: **A** — 37296 points — 36% toward next DR  
 SR: **6**
 
@@ -23,8 +23,6 @@ SR: **6**
 
 | Category | Races | Wins | Top 5 | Poles | Avg grid | Avg finish | Avg positions gained | Win rate | Top-5 rate | Pole rate |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| Daily Races | 543 | 19 | 283 | 24 | 6.00 | 5.55 | 0.45 | 3.50% | 52.12% | 4.42% |
-| Championships | 20 | 0 | 10 | 1 | 7.45 | 5.45 | 2.00 | 0.00% | 50.00% | 5.00% |
 
 ## Sports Mode counters
 
@@ -41,11 +39,11 @@ Overall percentile: 54.5 → 53.4 (-1.1) · DR points +4506 · 32 snapshots
 - Qualifying -3.1 · Finishing Performance -0.7 · Position Conversion +2.3 · Results -2.7
 
 ### Last 30 days
-Overall percentile: 56.4 → 53.4 (-3.0) · DR points +10492 · 111 snapshots
-- Qualifying -9.6 · Finishing Performance -3.6 · Position Conversion +10.5 · Results -6.4
+Overall percentile: 54.6 → 53.4 (-1.2) · DR points +10492 · 111 snapshots
+- Qualifying -9.3 · Finishing Performance -0.3 · Position Conversion +12.4 · Results -5.0
 
 ### Last 90 days
-Overall percentile: 56.6 → 53.4 (-3.2) · DR points +16277 · 260 snapshots · partial coverage: 58 days
+Overall percentile: 56.6 → 53.4 (-3.2) · DR points +16277 · 261 snapshots · partial coverage: 58 days
 - Qualifying -10.7 · Finishing Performance -1.4 · Position Conversion +8.7 · Results -8.6
 
 ## Activity trends
@@ -67,8 +65,6 @@ DR: B → A · points +16217 · progress -19.0 pp · partial coverage: 59 days
 
 ## Interpretation
 
-- Daily Races: on average gains **0.45 positions per race** from qualifying/grid position to finish.
-- Championships: on average gains **2.00 positions per race** from qualifying/grid position to finish.
 - Cross-DR percentiles remain the underlying longitudinal benchmark because matchmaking difficulty rises with DR.
 - The 0–10 ratings are a nonlinear presentation layer designed for intuitive interpretation.
 - Position Conversion is the presentation name for the historical racecraft field; the database field is retained for compatibility.
