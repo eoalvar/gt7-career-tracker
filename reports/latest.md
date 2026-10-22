@@ -1,8 +1,8 @@
 # GT7 Sport Career Report
 
 PSN: **crazy_rooster74**  
-Updated: 2026-10-22T17:16:30.766332+00:00  
-DR: **A** — 37398 points — 36% toward next DR  
+Updated: 2026-10-22T21:42:21.320588+00:00  
+DR: **A** — 36930 points — 34% toward next DR  
 SR: **6**
 
 ## Competitive ratings
@@ -23,12 +23,12 @@ SR: **6**
 
 | Category | Races | Wins | Top 5 | Poles | Avg grid | Avg finish | Avg positions gained | Win rate | Top-5 rate | Pole rate |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| Daily Races | 549 | 19 | 285 | 24 | 6.02 | 5.56 | 0.46 | 3.46% | 51.91% | 4.37% |
+| Daily Races | 550 | 19 | 285 | 24 | 6.03 | 5.57 | 0.45 | 3.45% | 51.82% | 4.36% |
 | Championships | 20 | 0 | 10 | 1 | 7.45 | 5.45 | 2.00 | 0.00% | 50.00% | 5.00% |
 
 ## Sports Mode counters
 
-Races: **475** · Wins: **19** · Poles: **25** · Fastest laps: **11** · Clean races: **93**
+Races: **476** · Wins: **19** · Poles: **25** · Fastest laps: **11** · Clean races: **93**
 
 ## Qualifying performance
 
@@ -37,37 +37,37 @@ Best rank: **1393** · Median rank: **17320** · Average rank: **24027.64** · W
 ## Performance trend
 
 ### Last 7 days
-Overall percentile: 54.5 → 53.4 (-1.1) · DR points +4608 · 30 snapshots
+Overall percentile: 54.5 → 53.4 (-1.1) · DR points +4140 · 30 snapshots
 - Qualifying -3.1 · Finishing Performance -0.7 · Position Conversion +2.3 · Results -2.7
 
 ### Last 30 days
-Overall percentile: 54.6 → 53.4 (-1.2) · DR points +10594 · 110 snapshots
+Overall percentile: 54.6 → 53.4 (-1.2) · DR points +10126 · 110 snapshots
 - Qualifying -9.3 · Finishing Performance -0.3 · Position Conversion +12.4 · Results -5.0
 
 ### Last 90 days
-Overall percentile: 56.6 → 53.4 (-3.2) · DR points +16379 · 266 snapshots · partial coverage: 59 days
+Overall percentile: 56.6 → 53.4 (-3.2) · DR points +15911 · 267 snapshots · partial coverage: 59 days
 - Qualifying -10.7 · Finishing Performance -1.4 · Position Conversion +8.7 · Results -8.6
 
 ## Activity trends
 
 ### Last 7 days
-DR: A → A · points +4608 · progress +23.0 pp
-- Daily Races: 15 races · 0 wins · 4 Top 5 · 0 poles · win rate 0.00% · Top-5 rate 26.67% · avg grid change +0.08 · avg finish change +0.04
+DR: A → A · points +4140 · progress +21.0 pp
+- Daily Races: 16 races · 0 wins · 4 Top 5 · 0 poles · win rate 0.00% · Top-5 rate 25.00% · avg grid change +0.08 · avg finish change +0.04
 - Championships: 0 races · 0 wins · 0 Top 5 · 0 poles · win rate n/a · Top-5 rate n/a · avg grid change +0.00 · avg finish change +0.00
 
 ### Last 30 days
-DR: B → A · points +10594 · progress -48.0 pp
-- Daily Races: 59 races · 4 wins · 26 Top 5 · 3 poles · win rate 6.78% · Top-5 rate 44.07% · avg grid change +0.09 · avg finish change +0.08
+DR: B → A · points +10126 · progress -50.0 pp
+- Daily Races: 60 races · 4 wins · 26 Top 5 · 3 poles · win rate 6.67% · Top-5 rate 43.33% · avg grid change +0.09 · avg finish change +0.08
 - Championships: 0 races · 0 wins · 0 Top 5 · 0 poles · win rate n/a · Top-5 rate n/a · avg grid change +0.00 · avg finish change +0.00
 
 ### Last 90 days
-DR: B → A · points +16319 · progress -19.0 pp · partial coverage: 60 days
-- Daily Races: 118 races · 6 wins · 54 Top 5 · 8 poles · win rate 5.08% · Top-5 rate 45.76% · avg grid change -0.00 · avg finish change +0.06 · partial coverage: 68 days
+DR: B → A · points +15851 · progress -21.0 pp · partial coverage: 60 days
+- Daily Races: 119 races · 6 wins · 54 Top 5 · 8 poles · win rate 5.04% · Top-5 rate 45.38% · avg grid change -0.00 · avg finish change +0.07 · partial coverage: 68 days
 - Championships: 0 races · 0 wins · 0 Top 5 · 0 poles · win rate n/a · Top-5 rate n/a · avg grid change +0.00 · avg finish change +0.00 · partial coverage: 68 days
 
 ## Interpretation
 
-- Daily Races: on average gains **0.46 positions per race** from qualifying/grid position to finish.
+- Daily Races: on average gains **0.45 positions per race** from qualifying/grid position to finish.
 - Championships: on average gains **2.00 positions per race** from qualifying/grid position to finish.
 - Cross-DR percentiles remain the underlying longitudinal benchmark because matchmaking difficulty rises with DR.
 - The 0–10 ratings are a nonlinear presentation layer designed for intuitive interpretation.
