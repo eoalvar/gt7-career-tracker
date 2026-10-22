@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-10-21T21:47:38.133477+00:00",
+  "captured_at": "2026-10-22T04:58:22.879315+00:00",
   "psn_id": "crazy_rooster74",
   "sport_types": [
     {
@@ -42,14 +42,14 @@
   },
   "qualifying_performance": {
     "best_rank": 1393,
-    "average_rank": 24005.81,
-    "median_rank": 16893.5,
+    "average_rank": 24027.64,
+    "median_rank": 17320,
     "worst_rank": 122020,
-    "rank_stddev": 22676.5,
+    "rank_stddev": 22692.67,
     "rank_distribution": {
       "podiums": 0,
       "top10": 0,
-      "top10_percent": 10,
+      "top10_percent": 11,
       "top25_percent": 53,
       "top50_percent": 80,
       "wins": 0
