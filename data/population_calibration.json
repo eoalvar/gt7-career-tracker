@@ -1,11 +1,11 @@
 {
-  "captured_at": "2026-10-19T11:11:49.197878+00:00",
+  "captured_at": "2026-10-26T11:30:07.362963+00:00",
   "method": "cumulative_multi_event_cross_dr_adjusted_reference",
   "reference_population": "active/recent Daily Race leaderboard participants with at least 20 career Daily Races and physically valid career metrics",
   "target_valid_profiles": 2200,
-  "valid_profiles": 2301,
+  "valid_profiles": 2201,
   "target_reached": true,
-  "progress_to_target": 1.045909090909091,
+  "progress_to_target": 1.0004545454545455,
   "new_valid_profiles_this_run": 0,
   "events_used": [],
   "unique_uncached_psns_attempted": 0,
@@ -32,122 +32,122 @@
   "user_rating": {
     "driver_rating": 5,
     "dr_label": "A",
-    "dr_points": 36923,
-    "dr_percentage": 34
+    "dr_points": 38025,
+    "dr_percentage": 40
   },
   "user_percentiles_global": {
-    "average_grid": 83.6592785745328,
-    "average_finish": 54.019991308126905,
-    "positions_gained_avg": 15.993046501521079,
-    "win_rate": 40.98218166014776,
-    "top5_rate": 55.193394176445025,
-    "results": 48.08778791829639,
-    "qualifying": 83.6592785745328,
-    "race_performance": 54.019991308126905,
-    "racecraft_unconditioned": 15.993046501521079,
-    "racecraft": 29.830917874396135,
+    "average_grid": 82.50795093139482,
+    "average_finish": 52.83961835529305,
+    "positions_gained_avg": 16.583371194911404,
+    "win_rate": 41.84461608359837,
+    "top5_rate": 53.24852339845525,
+    "results": 47.54656974102681,
+    "qualifying": 82.50795093139482,
+    "race_performance": 52.83961835529305,
+    "racecraft_unconditioned": 16.583371194911404,
+    "racecraft": 29.76629766297663,
     "racecraft_conditioning": {
-      "peer_count": 828,
+      "peer_count": 813,
       "grid_window": 1.5,
-      "grid_min": 4.464814814814815,
-      "grid_max": 7.464814814814815,
-      "user_average_grid": 5.964814814814815,
-      "user_positions_gained_avg": 0.43333333333333357
+      "grid_min": 4.526978417266187,
+      "grid_max": 7.526978417266187,
+      "user_average_grid": 6.026978417266187,
+      "user_positions_gained_avg": 0.4568345323741001
     },
-    "overall": 57.18413229282794
+    "overall": 56.33149669752036
   },
   "user_percentiles_dr_adjusted": {
-    "average_grid": 69.43843799523391,
-    "average_finish": 55.678650783275764,
-    "positions_gained_avg": 32.37511783147314,
-    "win_rate": 12.024406763515781,
-    "top5_rate": 48.54226545522394,
-    "results": 30.283336109369863,
-    "qualifying": 69.43843799523391,
-    "race_performance": 55.678650783275764,
-    "racecraft_unconditioned": 32.37511783147314,
-    "racecraft": 42.66494064694591,
+    "average_grid": 65.84105361088014,
+    "average_finish": 55.01838376132376,
+    "positions_gained_avg": 34.09110291263247,
+    "win_rate": 12.141297285637044,
+    "top5_rate": 46.481027203394405,
+    "results": 29.311162244515724,
+    "qualifying": 65.84105361088014,
+    "race_performance": 55.01838376132376,
+    "racecraft_unconditioned": 34.09110291263247,
+    "racecraft": 44.124236032515256,
     "racecraft_conditioning": {
-      "raw_peer_count": 828,
-      "weight_sum": 53.77743666928515,
-      "effective_peer_count": 115.79288793741952,
+      "raw_peer_count": 813,
+      "weight_sum": 47.24566565999565,
+      "effective_peer_count": 110.8141882001977,
       "grid_window": 1.5,
-      "grid_min": 4.464814814814815,
-      "grid_max": 7.464814814814815,
-      "user_average_grid": 5.964814814814815,
-      "user_positions_gained_avg": 0.43333333333333357
+      "grid_min": 4.526978417266187,
+      "grid_max": 7.526978417266187,
+      "user_average_grid": 6.026978417266187,
+      "user_positions_gained_avg": 0.4568345323741001
     },
-    "overall": 53.394547718511355
+    "overall": 52.23027194290777
   },
   "dr_adjustment": {
     "method": "cross_dr_continuous_exponential_weighting",
     "driver_rating": 5,
-    "user_dr_points": 36923,
-    "raw_peer_count": 2301,
-    "effective_peer_count": 218.6929740671524,
+    "user_dr_points": 38025,
+    "raw_peer_count": 2201,
+    "effective_peer_count": 204.33427936983006,
     "dr_weight_scale_points": 5000.0,
     "dr_points_min": 2.0,
     "dr_points_max": 84195.0,
     "weight_contribution_by_dr": {
       "C": {
-        "raw_peer_count": 661,
-        "weight_sum": 1.6367985813143902
-      },
-      "B": {
-        "raw_peer_count": 659,
-        "weight_sum": 23.5322454016756
+        "raw_peer_count": 625,
+        "weight_sum": 1.2446746025572686
       },
       "D": {
-        "raw_peer_count": 772,
-        "weight_sum": 0.637085419947486
-      },
-      "A": {
-        "raw_peer_count": 152,
-        "weight_sum": 71.5736353092624
+        "raw_peer_count": 736,
+        "weight_sum": 0.48784699306117046
       },
       "A+": {
-        "raw_peer_count": 57,
-        "weight_sum": 1.457684026984925
+        "raw_peer_count": 56,
+        "weight_sum": 1.808021206645341
+      },
+      "A": {
+        "raw_peer_count": 151,
+        "weight_sum": 64.66949878054847
+      },
+      "B": {
+        "raw_peer_count": 633,
+        "weight_sum": 18.16393993648737
       }
     },
-    "racecraft_raw_peer_count": 828,
-    "racecraft_effective_peer_count": 115.79288793741952,
+    "racecraft_raw_peer_count": 813,
+    "racecraft_effective_peer_count": 110.8141882001977,
     "racecraft_grid_window": 1.5,
     "metric_effective_peers": {
-      "average_grid": 218.69297406715273,
-      "average_finish": 218.69297406715273,
-      "positions_gained_avg": 218.69297406715273,
-      "win_rate": 218.69297406715273,
-      "top5_rate": 218.69297406715273
+      "average_grid": 204.33427936982903,
+      "average_finish": 204.33427936982903,
+      "positions_gained_avg": 204.33427936982903,
+      "win_rate": 204.33427936982903,
+      "top5_rate": 204.33427936982903
     }
   },
   "user_percentiles": {
-    "average_grid": 69.43843799523391,
-    "average_finish": 55.678650783275764,
-    "positions_gained_avg": 32.37511783147314,
-    "win_rate": 12.024406763515781,
-    "top5_rate": 48.54226545522394,
-    "results": 30.283336109369863,
-    "qualifying": 69.43843799523391,
-    "race_performance": 55.678650783275764,
-    "racecraft_unconditioned": 32.37511783147314,
-    "racecraft": 42.66494064694591,
+    "average_grid": 65.84105361088014,
+    "average_finish": 55.01838376132376,
+    "positions_gained_avg": 34.09110291263247,
+    "win_rate": 12.141297285637044,
+    "top5_rate": 46.481027203394405,
+    "results": 29.311162244515724,
+    "qualifying": 65.84105361088014,
+    "race_performance": 55.01838376132376,
+    "racecraft_unconditioned": 34.09110291263247,
+    "racecraft": 44.124236032515256,
     "racecraft_conditioning": {
-      "raw_peer_count": 828,
-      "weight_sum": 53.77743666928515,
-      "effective_peer_count": 115.79288793741952,
+      "raw_peer_count": 813,
+      "weight_sum": 47.24566565999565,
+      "effective_peer_count": 110.8141882001977,
       "grid_window": 1.5,
-      "grid_min": 4.464814814814815,
-      "grid_max": 7.464814814814815,
-      "user_average_grid": 5.964814814814815,
-      "user_positions_gained_avg": 0.43333333333333357
+      "grid_min": 4.526978417266187,
+      "grid_max": 7.526978417266187,
+      "user_average_grid": 6.026978417266187,
+      "user_positions_gained_avg": 0.4568345323741001
     },
-    "overall": 53.394547718511355
+    "overall": 52.23027194290777
   },
   "sample_summary": {
     "average_grid": {
       "min": 1.0357142857142858,
-      "median": 7.923255813953489,
+      "median": 7.920398009950249,
       "max": 14.964285714285714
     },
     "average_finish": {
@@ -157,12 +157,12 @@
     },
     "positions_gained_avg": {
       "min": -4.525423728813559,
-      "median": 2.1709401709401703,
+      "median": 2.17755991285403,
       "max": 9.739130434782608
     },
     "win_rate": {
       "min": 0.0,
-      "median": 0.045454545454545456,
+      "median": 0.045576407506702415,
       "max": 0.7941176470588235
     },
     "top5_rate": {
