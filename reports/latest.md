@@ -1,8 +1,8 @@
 # GT7 Sport Career Report
 
 PSN: **crazy_rooster74**  
-Updated: 2026-10-27T22:21:08.133595+00:00  
-DR: **A** — 37551 points — 37% toward next DR  
+Updated: 2026-10-28T05:51:42.775823+00:00  
+DR: **A** — 37554 points — 37% toward next DR  
 SR: **6**
 
 ## Competitive ratings
@@ -23,46 +23,46 @@ SR: **6**
 
 | Category | Races | Wins | Top 5 | Poles | Avg grid | Avg finish | Avg positions gained | Win rate | Top-5 rate | Pole rate |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| Daily Races | 559 | 20 | 287 | 24 | 6.05 | 5.60 | 0.45 | 3.58% | 51.34% | 4.29% |
+| Daily Races | 560 | 20 | 287 | 24 | 6.05 | 5.60 | 0.45 | 3.57% | 51.25% | 4.29% |
 | Championships | 20 | 0 | 10 | 1 | 7.45 | 5.45 | 2.00 | 0.00% | 50.00% | 5.00% |
 
 ## Sports Mode counters
 
-Races: **485** · Wins: **20** · Poles: **25** · Fastest laps: **11** · Clean races: **94**
+Races: **486** · Wins: **20** · Poles: **25** · Fastest laps: **11** · Clean races: **94**
 
 ## Qualifying performance
 
-Best rank: **1393** · Median rank: **16893.5** · Average rank: **23826.62** · Worst rank: **122020** · Rank standard deviation: **22531.54**
+Best rank: **1393** · Median rank: **16893.5** · Average rank: **23851.28** · Worst rank: **122020** · Rank standard deviation: **22533.08**
 
 ## Performance trend
 
 ### Last 7 days
-Overall percentile: 53.4 → 52.2 (-1.2) · DR points +466 · 30 snapshots
+Overall percentile: 53.4 → 52.2 (-1.2) · DR points +258 · 29 snapshots
 - Qualifying -3.6 · Finishing Performance -0.7 · Position Conversion +1.5 · Results -1.0
 
 ### Last 30 days
-Overall percentile: 54.6 → 52.2 (-2.4) · DR points +10611 · 111 snapshots
+Overall percentile: 54.6 → 52.2 (-2.4) · DR points +10398 · 111 snapshots
 - Qualifying -12.9 · Finishing Performance -1.0 · Position Conversion +13.8 · Results -6.0
 
 ### Last 90 days
-Overall percentile: 56.6 → 52.2 (-4.4) · DR points +16532 · 288 snapshots · partial coverage: 64 days
+Overall percentile: 56.6 → 52.2 (-4.4) · DR points +16535 · 289 snapshots · partial coverage: 65 days
 - Qualifying -14.3 · Finishing Performance -2.1 · Position Conversion +10.2 · Results -9.6
 
 ## Activity trends
 
 ### Last 7 days
-DR: A → A · points +466 · progress +2.0 pp
-- Daily Races: 17 races · 1 wins · 4 Top 5 · 0 poles · win rate 5.88% · Top-5 rate 23.53% · avg grid change +0.06 · avg finish change +0.06
+DR: A → A · points +258 · progress +1.0 pp
+- Daily Races: 13 races · 1 wins · 3 Top 5 · 0 poles · win rate 7.69% · Top-5 rate 23.08% · avg grid change +0.03 · avg finish change +0.05
 - Championships: 0 races · 0 wins · 0 Top 5 · 0 poles · win rate n/a · Top-5 rate n/a · avg grid change +0.00 · avg finish change +0.00
 
 ### Last 30 days
-DR: B → A · points +10611 · progress -47.0 pp
-- Daily Races: 60 races · 5 wins · 25 Top 5 · 3 poles · win rate 8.33% · Top-5 rate 41.67% · avg grid change +0.07 · avg finish change +0.09
+DR: B → A · points +10398 · progress -48.0 pp
+- Daily Races: 56 races · 4 wins · 24 Top 5 · 2 poles · win rate 7.14% · Top-5 rate 42.86% · avg grid change +0.09 · avg finish change +0.08
 - Championships: 0 races · 0 wins · 0 Top 5 · 0 poles · win rate n/a · Top-5 rate n/a · avg grid change +0.00 · avg finish change +0.00
 
 ### Last 90 days
-DR: B → A · points +16472 · progress -18.0 pp · partial coverage: 65 days
-- Daily Races: 128 races · 7 wins · 56 Top 5 · 8 poles · win rate 5.47% · Top-5 rate 43.75% · avg grid change +0.01 · avg finish change +0.09
+DR: B → A · points +16475 · progress -18.0 pp · partial coverage: 66 days
+- Daily Races: 129 races · 7 wins · 56 Top 5 · 8 poles · win rate 5.43% · Top-5 rate 43.41% · avg grid change +0.03 · avg finish change +0.10
 - Championships: 0 races · 0 wins · 0 Top 5 · 0 poles · win rate n/a · Top-5 rate n/a · avg grid change +0.00 · avg finish change +0.00
 
 ## Interpretation
