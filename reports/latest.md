@@ -1,7 +1,7 @@
 # GT7 Sport Career Report
 
 PSN: **crazy_rooster74**  
-Updated: 2026-10-28T05:51:42.775823+00:00  
+Updated: 2026-10-28T13:06:51.625971+00:00  
 DR: **A** — 37554 points — 37% toward next DR  
 SR: **6**
 
@@ -37,32 +37,32 @@ Best rank: **1393** · Median rank: **16893.5** · Average rank: **23851.28** ·
 ## Performance trend
 
 ### Last 7 days
-Overall percentile: 53.4 → 52.2 (-1.2) · DR points +258 · 29 snapshots
+Overall percentile: 53.4 → 52.2 (-1.2) · DR points -26 · 29 snapshots
 - Qualifying -3.6 · Finishing Performance -0.7 · Position Conversion +1.5 · Results -1.0
 
 ### Last 30 days
-Overall percentile: 54.6 → 52.2 (-2.4) · DR points +10398 · 111 snapshots
+Overall percentile: 54.6 → 52.2 (-2.4) · DR points +10398 · 112 snapshots
 - Qualifying -12.9 · Finishing Performance -1.0 · Position Conversion +13.8 · Results -6.0
 
 ### Last 90 days
-Overall percentile: 56.6 → 52.2 (-4.4) · DR points +16535 · 289 snapshots · partial coverage: 65 days
+Overall percentile: 56.6 → 52.2 (-4.4) · DR points +16535 · 290 snapshots · partial coverage: 65 days
 - Qualifying -14.3 · Finishing Performance -2.1 · Position Conversion +10.2 · Results -9.6
 
 ## Activity trends
 
 ### Last 7 days
-DR: A → A · points +258 · progress +1.0 pp
-- Daily Races: 13 races · 1 wins · 3 Top 5 · 0 poles · win rate 7.69% · Top-5 rate 23.08% · avg grid change +0.03 · avg finish change +0.05
+DR: A → A · points -26 · progress +0.0 pp
+- Daily Races: 14 races · 1 wins · 3 Top 5 · 0 poles · win rate 7.14% · Top-5 rate 21.43% · avg grid change +0.04 · avg finish change +0.05
 - Championships: 0 races · 0 wins · 0 Top 5 · 0 poles · win rate n/a · Top-5 rate n/a · avg grid change +0.00 · avg finish change +0.00
 
 ### Last 30 days
 DR: B → A · points +10398 · progress -48.0 pp
-- Daily Races: 56 races · 4 wins · 24 Top 5 · 2 poles · win rate 7.14% · Top-5 rate 42.86% · avg grid change +0.09 · avg finish change +0.08
+- Daily Races: 57 races · 4 wins · 24 Top 5 · 2 poles · win rate 7.02% · Top-5 rate 42.11% · avg grid change +0.10 · avg finish change +0.08
 - Championships: 0 races · 0 wins · 0 Top 5 · 0 poles · win rate n/a · Top-5 rate n/a · avg grid change +0.00 · avg finish change +0.00
 
 ### Last 90 days
 DR: B → A · points +16475 · progress -18.0 pp · partial coverage: 66 days
-- Daily Races: 129 races · 7 wins · 56 Top 5 · 8 poles · win rate 5.43% · Top-5 rate 43.41% · avg grid change +0.03 · avg finish change +0.10
+- Daily Races: 130 races · 7 wins · 56 Top 5 · 8 poles · win rate 5.38% · Top-5 rate 43.08% · avg grid change +0.03 · avg finish change +0.11
 - Championships: 0 races · 0 wins · 0 Top 5 · 0 poles · win rate n/a · Top-5 rate n/a · avg grid change +0.00 · avg finish change +0.00
 
 ## Interpretation
