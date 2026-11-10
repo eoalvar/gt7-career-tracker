@@ -1,6 +1,6 @@
 # DR versus race activity audit
 
-Generated UTC: 2026-11-10T07:26:40.685931+00:00
+Generated UTC: 2026-11-10T17:06:11.136709+00:00
 
 Daily history values are cumulative snapshots, not individual race results.
 
@@ -72,6 +72,8 @@ date | sport_type | races | wins | top5 | poles
 2026-11-08 | 2 | 22 | 0 | 11 | 1
 2026-11-09 | 1 | 579 | 20 | 292 | 24
 2026-11-09 | 2 | 22 | 0 | 11 | 1
+2026-11-10 | 1 | 580 | 20 | 293 | 24
+2026-11-10 | 2 | 22 | 0 | 11 | 1
 
 ## sport_career_snapshot
 
@@ -410,4 +412,5 @@ captured_at | dr_label | dr_points | dr_percentage
 2026-11-09T11:44:17.294105+00:00 | A | 34191.0 | 20.0
 2026-11-09T22:28:05.366774+00:00 | A | 34479.0 | 22.0
 2026-11-10T07:26:40.580759+00:00 | A | 33732.0 | 18.0
+2026-11-10T17:06:10.987699+00:00 | A | 32912.0 | 14.0
 
