@@ -1,7 +1,7 @@
 # GT7 Sport Career Report
 
 PSN: **crazy_rooster74**  
-Updated: 2026-11-14T18:13:21.172277+00:00  
+Updated: 2026-11-14T22:32:18.772970+00:00  
 DR: **A** — 30755 points — 3% toward next DR  
 SR: **6**
 
@@ -37,7 +37,7 @@ Best rank: **1393** · Median rank: **16717** · Average rank: **23467.42** · W
 ## Performance trend
 
 ### Last 7 days
-Overall percentile: 51.3 → 50.3 (-1.0) · DR points -2801 · 21 snapshots
+Overall percentile: 51.3 → 50.3 (-1.0) · DR points -3436 · 21 snapshots
 - Qualifying +1.4 · Finishing Performance -2.3 · Position Conversion -3.3 · Results +0.4
 
 ### Last 30 days
@@ -45,13 +45,13 @@ Overall percentile: 54.5 → 50.3 (-4.2) · DR points -2035 · 107 snapshots
 - Qualifying -7.8 · Finishing Performance -5.0 · Position Conversion +2.8 · Results -4.2
 
 ### Last 90 days
-Overall percentile: 56.6 → 50.3 (-6.3) · DR points +9736 · 343 snapshots
+Overall percentile: 56.6 → 50.3 (-6.3) · DR points +9736 · 344 snapshots
 - Qualifying -15.4 · Finishing Performance -5.7 · Position Conversion +9.2 · Results -10.2
 
 ## Activity trends
 
 ### Last 7 days
-DR: A → A · points -2801 · progress -14.0 pp
+DR: A → A · points -3436 · progress -17.0 pp
 - Daily Races: 14 races · 0 wins · 6 Top 5 · 0 poles · win rate 0.00% · Top-5 rate 42.86% · avg grid change +0.08 · avg finish change -0.00
 - Championships: 1 races · 0 wins · 1 Top 5 · 0 poles · win rate 0.00% · Top-5 rate 100.00% · avg grid change -0.13 · avg finish change -0.07
 
