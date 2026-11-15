@@ -1,8 +1,8 @@
 # GT7 Sport Career Report
 
 PSN: **crazy_rooster74**  
-Updated: 2026-11-14T22:32:18.772970+00:00  
-DR: **A** — 30755 points — 3% toward next DR  
+Updated: 2026-11-15T06:44:11.308202+00:00  
+DR: **B** — 28188 points — 90% toward next DR  
 SR: **6**
 
 ## Competitive ratings
@@ -24,7 +24,7 @@ SR: **6**
 | Category | Races | Wins | Top 5 | Poles | Avg grid | Avg finish | Avg positions gained | Win rate | Top-5 rate | Pole rate |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | Daily Races | 592 | 20 | 298 | 24 | 6.31 | 5.69 | 0.62 | 3.38% | 50.34% | 4.05% |
-| Championships | 22 | 0 | 11 | 1 | 7.64 | 5.50 | 2.14 | 0.00% | 50.00% | 4.55% |
+| Championships | 23 | 0 | 12 | 1 | 7.87 | 5.26 | 2.61 | 0.00% | 52.17% | 4.35% |
 
 ## Sports Mode counters
 
@@ -32,43 +32,43 @@ Races: **512** · Wins: **20** · Poles: **25** · Fastest laps: **11** · Clean
 
 ## Qualifying performance
 
-Best rank: **1393** · Median rank: **16717** · Average rank: **23467.42** · Worst rank: **122020** · Rank standard deviation: **22395.68**
+Best rank: **1393** · Median rank: **16717** · Average rank: **23519.31** · Worst rank: **122020** · Rank standard deviation: **22408.69**
 
 ## Performance trend
 
 ### Last 7 days
-Overall percentile: 51.3 → 50.3 (-1.0) · DR points -3436 · 21 snapshots
+Overall percentile: 51.3 → 50.3 (-1.0) · DR points -6003 · 21 snapshots
 - Qualifying +1.4 · Finishing Performance -2.3 · Position Conversion -3.3 · Results +0.4
 
 ### Last 30 days
-Overall percentile: 54.5 → 50.3 (-4.2) · DR points -2035 · 107 snapshots
+Overall percentile: 54.5 → 50.3 (-4.2) · DR points -4602 · 107 snapshots
 - Qualifying -7.8 · Finishing Performance -5.0 · Position Conversion +2.8 · Results -4.2
 
 ### Last 90 days
-Overall percentile: 56.6 → 50.3 (-6.3) · DR points +9736 · 344 snapshots
+Overall percentile: 56.6 → 50.3 (-6.3) · DR points +7169 · 345 snapshots
 - Qualifying -15.4 · Finishing Performance -5.7 · Position Conversion +9.2 · Results -10.2
 
 ## Activity trends
 
 ### Last 7 days
-DR: A → A · points -3436 · progress -17.0 pp
+DR: A → B · points -6003 · progress +70.0 pp
 - Daily Races: 14 races · 0 wins · 6 Top 5 · 0 poles · win rate 0.00% · Top-5 rate 42.86% · avg grid change +0.08 · avg finish change -0.00
-- Championships: 1 races · 0 wins · 1 Top 5 · 0 poles · win rate 0.00% · Top-5 rate 100.00% · avg grid change -0.13 · avg finish change -0.07
+- Championships: 0 races · 0 wins · 0 Top 5 · 0 poles · win rate n/a · Top-5 rate n/a · avg grid change +0.00 · avg finish change +0.00
 
 ### Last 30 days
-DR: A → A · points -2035 · progress -10.0 pp
-- Daily Races: 59 races · 1 wins · 17 Top 5 · 0 poles · win rate 1.69% · Top-5 rate 28.81% · avg grid change +0.37 · avg finish change +0.17
+DR: A → B · points -4602 · progress +77.0 pp
+- Daily Races: 54 races · 1 wins · 15 Top 5 · 0 poles · win rate 1.85% · Top-5 rate 27.78% · avg grid change +0.37 · avg finish change +0.17
 - Championships: 2 races · 0 wins · 1 Top 5 · 0 poles · win rate 0.00% · Top-5 rate 50.00% · avg grid change +0.19 · avg finish change +0.05
 
 ### Last 90 days
-DR: B → A · points +9676 · progress -52.0 pp
+DR: B → B · points +7109 · progress +35.0 pp
 - Daily Races: 162 races · 7 wins · 67 Top 5 · 8 poles · win rate 4.32% · Top-5 rate 41.36% · avg grid change +0.29 · avg finish change +0.19
 - Championships: 2 races · 0 wins · 1 Top 5 · 0 poles · win rate 0.00% · Top-5 rate 50.00% · avg grid change +0.19 · avg finish change +0.05
 
 ## Interpretation
 
 - Daily Races: on average gains **0.62 positions per race** from qualifying/grid position to finish.
-- Championships: on average gains **2.14 positions per race** from qualifying/grid position to finish.
+- Championships: on average gains **2.61 positions per race** from qualifying/grid position to finish.
 - Cross-DR percentiles remain the underlying longitudinal benchmark because matchmaking difficulty rises with DR.
 - The 0–10 ratings are a nonlinear presentation layer designed for intuitive interpretation.
 - Position Conversion is the presentation name for the historical racecraft field; the database field is retained for compatibility.
