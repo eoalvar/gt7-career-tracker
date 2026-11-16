@@ -1,7 +1,7 @@
 # GT7 Sport Career Report
 
 PSN: **crazy_rooster74**  
-Updated: 2026-11-16T06:42:26.033017+00:00  
+Updated: 2026-11-16T19:40:17.414409+00:00  
 DR: **B** — 28188 points — 90% toward next DR  
 SR: **6**
 
@@ -9,15 +9,15 @@ SR: **6**
 
 | Dimension | Rating | Assessment | Statistical context |
 |---|---:|---|---|
-| **Qualifying Pace** | **6.2/10** | Above average | P64.8: starting-position performance versus competitively comparable drivers. |
-| **Finishing Performance** | **5.1/10** | Competitive / average | P51.3: finishing-position performance versus competitively comparable drivers. |
-| **Position Conversion** | **4.6/10** | Competitive / average | P43.2: ability to convert similar grid positions into finishing positions versus comparable drivers. |
-| **Results** | **3.7/10** | Below average | P28.7: concrete race outcomes such as wins and Top-5 results versus comparable drivers. |
-| **Career Rating** | **5.0/10** | Competitive / average | P50.3: combined competitive standing across the four career dimensions. |
+| **Qualifying Pace** | **6.4/10** | Above average | P67.0: starting-position performance versus competitively comparable drivers. |
+| **Finishing Performance** | **5.2/10** | Competitive / average | P52.3: finishing-position performance versus competitively comparable drivers. |
+| **Position Conversion** | **4.4/10** | Below average | P40.3: ability to convert similar grid positions into finishing positions versus comparable drivers. |
+| **Results** | **4.0/10** | Below average | P32.6: concrete race outcomes such as wins and Top-5 results versus comparable drivers. |
+| **Career Rating** | **5.1/10** | Competitive / average | P51.4: combined competitive standing across the four career dimensions. |
 
 > Ratings are the presentation layer; the underlying cross-DR percentiles remain the statistical benchmark. The nonlinear 0–10 scale is anchored at 5.0 for the median (P50), ~7.0 for P75, ~8.3 for P90, ~8.9 for P95 and ~9.6 for P99.
 
-> Cross-DR peer reference: 258 effective. Calibration sample: 2175 valid profiles. Global percentiles remain available as population context.
+> Cross-DR peer reference: 375 effective. Calibration sample: 2075 valid profiles. Global percentiles remain available as population context.
 
 ## Sport career
 
@@ -37,21 +37,21 @@ Best rank: **1393** · Median rank: **16717** · Average rank: **23556.99** · W
 ## Performance trend
 
 ### Last 7 days
-Overall percentile: 51.3 → 50.3 (-1.0) · DR points -6003 · 21 snapshots
-- Qualifying +1.4 · Finishing Performance -2.3 · Position Conversion -3.3 · Results +0.4
+Overall percentile: 50.3 → 51.4 (+1.0) · DR points -6291 · 21 snapshots
+- Qualifying +2.2 · Finishing Performance +1.0 · Position Conversion -2.8 · Results +3.9
 
 ### Last 30 days
-Overall percentile: 54.5 → 50.3 (-4.2) · DR points -4602 · 106 snapshots
-- Qualifying -7.8 · Finishing Performance -5.0 · Position Conversion +2.8 · Results -4.2
+Overall percentile: 54.5 → 51.4 (-3.2) · DR points -4602 · 105 snapshots
+- Qualifying -5.6 · Finishing Performance -4.0 · Position Conversion -0.1 · Results -0.4
 
 ### Last 90 days
-Overall percentile: 56.6 → 50.3 (-6.3) · DR points +7169 · 348 snapshots
-- Qualifying -15.4 · Finishing Performance -5.7 · Position Conversion +9.2 · Results -10.2
+Overall percentile: 56.6 → 51.4 (-5.3) · DR points +7169 · 349 snapshots
+- Qualifying -13.1 · Finishing Performance -4.8 · Position Conversion +6.4 · Results -6.3
 
 ## Activity trends
 
 ### Last 7 days
-DR: A → B · points -6003 · progress +70.0 pp
+DR: A → B · points -6291 · progress +68.0 pp
 - Daily Races: 13 races · 0 wins · 6 Top 5 · 0 poles · win rate 0.00% · Top-5 rate 46.15% · avg grid change +0.07 · avg finish change -0.00
 - Championships: 1 races · 0 wins · 1 Top 5 · 0 poles · win rate 0.00% · Top-5 rate 100.00% · avg grid change +0.23 · avg finish change -0.24
 
